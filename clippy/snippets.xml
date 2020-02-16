@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<folders>
+	<folder>
+		<title>mail</title>
+		<snippets>
+			<snippet>
+				<title>kenta.kanno@4digit.jp</title>
+				<content>kenta.kanno@4digit.jp</content>
+			</snippet>
+			<snippet>
+				<title>headphonicghost@gmail.com</title>
+				<content>headphonicghost@gmail.com</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>dammy</title>
+		<snippets>
+			<snippet>
+				<title>1行</title>
+				<content>この文章はダミーです。</content>
+			</snippet>
+			<snippet>
+				<title>2行</title>
+				<content>この文章はダミーです。
+この文章はダミーです。</content>
+			</snippet>
+			<snippet>
+				<title>1行長</title>
+				<content>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</content>
+			</snippet>
+			<snippet>
+				<title>2行長</title>
+				<content>この文章はダミーです。
+文字の大きさ、量、字間、行間等を確認するために入れています。</content>
+			</snippet>
+			<snippet>
+				<title>長 流し</title>
+				<content>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</content>
+			</snippet>
+			<snippet>
+				<title>200文字</title>
+				<content>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>pass</title>
+		<snippets>
+			<snippet>
+				<title>svn</title>
+				<content>/Users/kenta_kanno/Documents/SVN/</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>work</title>
+		<snippets>
+			<snippet>
+				<title>#アップ</title>
+				<content>修正しましたので確認お願いします。
+
+## アップ
+
+## psd</content>
+			</snippet>
+			<snippet>
+				<title>commit comment</title>
+				<content>top : 修正
+&gt; テキストを差し替え</content>
+			</snippet>
+			<snippet>
+				<title>スクロールバー削除</title>
+				<content>body::-webkit-scrollbar {display: none;}</content>
+			</snippet>
+		</snippets>
+	</folder>
+</folders>

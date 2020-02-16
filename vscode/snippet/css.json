@@ -1,0 +1,11 @@
+{
+	"media query sp": {
+		"prefix": "mqs",
+		"body": [
+			"@media screen and (max-width: 599px) {",
+				"$1",
+			"}"
+		],
+		"description": "For Loop"
+	}
+}

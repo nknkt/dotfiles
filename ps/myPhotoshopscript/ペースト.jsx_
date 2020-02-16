@@ -1,0 +1,183 @@
+﻿//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+//pasteee.jsx
+//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+// コピーまたはペースト用スクリプトと一緒に使う
+
+//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+//ペースト　コピーとカットは別ファイル
+//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+app.activeDocument.suspendHistory('疑似ペースト', 'jsx_fnc()');
+function jsx_fnc(){
+	try {
+			main_fnc()
+		} catch(e){
+			//
+		}
+}
+
+function main_fnc(){
+	//------------------------------------------------------------
+	//初期化
+	//------------------------------------------------------------
+	//アクティブドキュメントを変数に
+	var first_actDoc = activeDocument;
+	//現在のアクティブなタブのidを保存(安易な数字ではないので注意)
+	var firstActDoc_id = first_actDoc.id
+	//alert(firstActDoc_id);
+
+	//あとで算出
+	var select_relativeId = 0;
+
+	//臨時複製したドキュメントの名前(共通)
+	var temp_cbDocName = "vCB";
+	
+	//削除時に使うドキュメント格納
+	var temp_doc_del =[];
+
+
+
+
+	//------------------------------------------------------------
+	//実行
+	//------------------------------------------------------------
+	pasteDocSearch(temp_cbDocName);
+
+
+
+	//------------------------------------------------------------
+	//関数
+	//------------------------------------------------------------
+	//ドキュメントの名前で判断して実行
+	function pasteDocSearch(arg_docName){
+		//------------------------------
+		 //初期化
+		//------------------------------
+		var flag = false; 
+
+		
+		//------------------------------
+		//調査と実行
+		//------------------------------
+		var l_num = app.documents.length;  //開いているドキュメントの総数
+		for(var for_i1=0; for_i1 < l_num; for_i1++) {
+			//------------------------------
+			var myObj = app.documents[for_i1];
+			
+			
+			//開いているタブの連番をid的に強引に格納、Photoshop側のidではないので注意
+			if( myObj.id == firstActDoc_id ){
+				//alert(for_i1);
+				var firstActDoc_id_for = for_i1;
+			}
+			
+
+			//それぞれのドキュメント名が各指定文字列イコールなら
+			if(myObj.name==arg_docName){  
+				//アクティブにする
+				activeDocument = documents[for_i1]; 
+				
+				//最後で削除する際に使用
+				temp_doc_del.push(documents[for_i1]); 
+				
+				//タブ移動の相対値を算出
+				select_relativeId = firstActDoc_id_for - for_i1;
+				//alert(select_relativeId);
+					
+				//関数実行
+				paste();
+				flag = true; 
+			} 
+			
+			//------------------------------
+		}
+		
+		
+		//------------------------------
+		//調査結果
+		//------------------------------
+		if(flag == true){ 
+			//ペースト実行が一回でもあれば、該当ドキュメントを削除
+			active_document();
+		}  else {
+			//なにもなければアラート出して停止
+			alert("コピーしてないよ");
+			return 0;
+		}
+		
+		
+		//------------------------------
+	}
+	//------------------------------------------------------------
+
+
+	//------------------------------------------------------------
+	//選択→複製→閉じる→アクティブまとめ
+	//------------------------------------------------------------
+	function paste(){
+		//------------------------------
+		//背景を解除
+		//------------------------------
+		try {
+			//背景レイヤーを指定(無いとエラー)
+			bgObj = activeDocument.backgroundLayer;
+
+			//アクティブレイヤーを変数に
+			docObj = activeDocument.artLayers;
+
+			//opacityに値を設定すると自動的に背景からレイヤーに
+			docObj[docObj.length-1].opacity = 100;
+			docObj[docObj.length-1].name = "背景";
+			docObj[docObj.length-1].allLocked = true;
+
+		} catch(e){
+
+		}
+		//------------------------------
+		//背景以外全レイヤー選択
+		//------------------------------
+		var idselectAllLayers = stringIDToTypeID( "selectAllLayers" );
+		var desc75 = new ActionDescriptor();
+		var idnull = charIDToTypeID( "null" );
+		var ref62 = new ActionReference();
+		var idLyr = charIDToTypeID( "Lyr " );
+		var idOrdn = charIDToTypeID( "Ordn" );
+		var idTrgt = charIDToTypeID( "Trgt" );
+		ref62.putEnumerated( idLyr, idOrdn, idTrgt );
+		desc75.putReference( idnull, ref62 );
+		executeAction( idselectAllLayers, desc75, DialogModes.NO );
+
+
+		//------------------------------
+		//選択レイヤー・グループを上記指定ドキュメント名で複製
+		//------------------------------
+		var idDplc = charIDToTypeID( "Dplc" );
+		var desc37 = new ActionDescriptor();
+		var idnull = charIDToTypeID( "null" );
+		var ref12 = new ActionReference();
+		var idLyr = charIDToTypeID( "Lyr " );
+		var idOrdn = charIDToTypeID( "Ordn" );
+		var idTrgt = charIDToTypeID( "Trgt" );
+		ref12.putEnumerated( idLyr, idOrdn, idTrgt );
+		desc37.putReference( idnull, ref12 );
+		var idT = charIDToTypeID( "T   " );
+		var ref13 = new ActionReference();
+		var idDcmn = charIDToTypeID( "Dcmn" );
+		// ref13.putOffset( idDcmn, -1 );						   //移動相対値
+		ref13.putOffset( idDcmn, select_relativeId );   //移動相対値
+		desc37.putReference( idT, ref13 );
+		var idVrsn = charIDToTypeID( "Vrsn" );
+		desc37.putInteger( idVrsn, 5 );
+		executeAction( idDplc, desc37, DialogModes.NO );
+	}
+
+
+
+	//------------------------------------------------------------
+	//元のドキュメントをアクティブにする
+	//------------------------------------------------------------
+	function active_document(){
+		activeDocument = first_actDoc;
+	}
+	//------------------------------------------------------------
+}
+//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

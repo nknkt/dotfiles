@@ -1,0 +1,81 @@
+﻿//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+//coppyyy.jsx
+//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+//ペースト用スクリプトと一緒に使う
+
+//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+//【共通】コピー、カット(コピーはこれだけ)
+//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+app.activeDocument.suspendHistory('疑似コピー', 'jsx_fnc()');
+function jsx_fnc(){
+	try {
+			main_fnc()
+		} catch(e){
+			//
+		}
+}
+
+function main_fnc(){
+	//ここに書く
+	//------------------------------------------------------------
+	//初期化
+	//------------------------------------------------------------
+	//アクティブドキュメントを変数に
+	var first_actDoc = activeDocument;
+
+	//臨時複製したドキュメントの名前(共通)
+	var temp_cbDocName = "vCB";
+
+
+	//------------------------------
+	//コピペ用の臨時置き場Docを削除
+	//------------------------------
+	var l_num = app.documents.length;  //開いているドキュメントの総数
+	for(var for_i1=0; for_i1 < l_num; for_i1++) {
+		//------------------------------
+		var myObj = app.documents[for_i1];
+		//それぞれのドキュメント名が各指定文字列イコールなら
+		if(myObj.name==temp_cbDocName){  
+			//閉じる
+			documents[for_i1].close(SaveOptions.DONOTSAVECHANGES);   
+			break;
+		} 
+		
+		//------------------------------
+	}
+		
+		
+	//------------------------------------------------------------
+	//選択レイヤー・グループを上記指定ドキュメント名で複製
+	//------------------------------------------------------------
+	var idMk = charIDToTypeID( "Mk  " );
+		var desc5 = new ActionDescriptor();
+		var idnull = charIDToTypeID( "null" );
+			var ref7 = new ActionReference();
+			var idDcmn = charIDToTypeID( "Dcmn" );
+			ref7.putClass( idDcmn );
+		desc5.putReference( idnull, ref7 );
+		var idNm = charIDToTypeID( "Nm  " );
+		desc5.putString( idNm, temp_cbDocName );        //ここ
+		var idUsng = charIDToTypeID( "Usng" );
+			var ref8 = new ActionReference();
+			var idLyr = charIDToTypeID( "Lyr " );
+			var idOrdn = charIDToTypeID( "Ordn" );
+			var idTrgt = charIDToTypeID( "Trgt" );
+			ref8.putEnumerated( idLyr, idOrdn, idTrgt );
+		desc5.putReference( idUsng, ref8 );
+		var idVrsn = charIDToTypeID( "Vrsn" );
+		desc5.putInteger( idVrsn, 5 );
+	executeAction( idMk, desc5, DialogModes.NO );
+
+
+	//------------------------------------------------------------
+	//元のドキュメントをアクティブにする
+	//------------------------------------------------------------
+	activeDocument = first_actDoc;
+
+
+	//------------------------------------------------------------
+}
+	
+//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

@@ -1,0 +1,26 @@
+{
+	"header内aos読み込み": {
+		"prefix": "aos",
+		"body": [
+            "<!--「aos」CSSの読込-->",
+            "\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../common/css/aos.css\" media=\"only screen and (min-width: 960px)\" />",
+            "<!--「aos」JSの読込-->",
+            "\t<script src=\"//cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js\"></script>"
+        ],
+		"description": "header内aos読み込み"
+	},
+	"fadeup aos": {
+		"prefix": "aos",
+		"body": [
+			"data-aos=\"fade-up\""
+		],
+		"description": "fadeで現れる"
+	},
+	"divコメント付": {
+        "prefix": "div",
+        "body": [
+            "<div>$1</div><!-- $2 -->"
+        ],
+        "description": "divの閉じタグにコメントつける"
+    }
+}
