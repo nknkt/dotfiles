@@ -1,28 +1,40 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <photoshop-keyboard-shortcuts version="4" filename="$$$/FileName/Presets/KeyboardCustomization/knn=knn" modified="0" multi-undo="1">
-	<command kind="dynamic" name="Script_配置">
-		<shortcut>Opt+Cmd+M</shortcut>
+	<command kind="dynamic" name="Workspaces_note">
+		<shortcut>Control+Cmd+N</shortcut>
 	</command>
-	<command kind="dynamic" name="Script_書き出し">
-		<shortcut>Opt+Shift+Cmd+R</shortcut>
+	<command kind="dynamic" name="Workspaces_wide">
+		<shortcut>Control+Cmd+W</shortcut>
 	</command>
-	<command kind="dynamic" name="Script_ぶっこぬき">
+	<command kind="dynamic" name="Workspaces_knn">
+		<shortcut>Control+Cmd+K</shortcut>
+	</command>
+	<command kind="dynamic" name="Workspaces_minimal">
+		<shortcut>Control+Cmd+M</shortcut>
+	</command>
+	<command kind="dynamic" name="Workspaces_coding">
+		<shortcut>Control+Cmd+C</shortcut>
+	</command>
+	<command kind="dynamic" name="Script_選択レイヤーのみ別psbに抜き出す">
 		<shortcut>Opt+Shift+Cmd+E</shortcut>
 	</command>
-	<command kind="dynamic" name="Script_rename">
-		<shortcut>Opt+Cmd+R</shortcut>
+	<command kind="dynamic" name="Script_指定marginで等間隔配置">
+		<shortcut>Opt+Cmd+M</shortcut>
 	</command>
-	<command kind="dynamic" name="Script_Dearps_グループ化してグループ名を変更">
+	<command kind="dynamic" name="Script_レイヤー名からグループ化">
 		<shortcut>Cmd+G</shortcut>
 	</command>
-	<command kind="dynamic" name="Script_colorPicker">
-		<shortcut>F2</shortcut>
+	<command kind="dynamic" name="Script_まとめてリネーム">
+		<shortcut>Shift+Cmd+R</shortcut>
 	</command>
-	<command kind="dynamic" name="Script_activeTextCopy">
+	<command kind="dynamic" name="Script_テキストレイヤーをクリップボードにコピー">
 		<shortcut>F1</shortcut>
 	</command>
-	<command kind="dynamic" name="Script_□リネーム">
-		<shortcut>Shift+Cmd+R</shortcut>
+	<command kind="dynamic" name="Script_カラーをまとめて変更">
+		<shortcut>F2</shortcut>
+	</command>
+	<command kind="dynamic" name="Script_2倍書き出しリネーム">
+		<shortcut>Opt+Shift+Cmd+R</shortcut>
 	</command>
 	<command kind="dynamic" name="Script_a0754df2-9c60-4b64-a940-6a2bb1102652">
 		<shortcut>Shift+Cmd+D</shortcut>
@@ -55,7 +67,7 @@
 	<command kind="static" id="37" name="すべてを閉じる">
 		<shortcut>Opt+Cmd+W</shortcut>
 	</command>
-	<command kind="static" id="101" name="取り消し">
+	<command kind="static" id="101" name="カンバスサイズの取り消し">
 		<shortcut>Cmd+Z</shortcut>
 	</command>
 	<command kind="static" id="103" name="カット">
@@ -89,7 +101,7 @@
 	<command kind="static" id="1018" name="選択範囲を反転">
 		<shortcut>Shift+F7</shortcut>
 	</command>
-	<command kind="static" id="1019" name="フィルターの再実行">
+	<command kind="static" id="1019" name="ぼかし (ガウス)">
 		<shortcut>Opt+Cmd+F</shortcut>
 	</command>
 	<command kind="static" id="1025" name="ブラシ設定">
@@ -172,14 +184,15 @@
 	<command kind="static" id="1339" name="レイヤースタイルを消去">
 		<shortcut>Opt+Shift+Cmd+X</shortcut>
 	</command>
+	<command kind="static" id="1520" name="Bridge で参照...">
+		<shortcut>Opt+Cmd+O</shortcut>
+		<shortcut>Shift+Cmd+O</shortcut>
+	</command>
 	<command kind="static" id="1530" name="閉じて Bridge を起動...">
 		<shortcut>Shift+Cmd+W</shortcut>
 	</command>
 	<command kind="static" id="1695" name="Web 用に保存 (従来)...">
 		<shortcut>Opt+Shift+Cmd+S</shortcut>
-	</command>
-	<command kind="static" id="1701" name="階調の反転">
-		<shortcut>Cmd+I</shortcut>
 	</command>
 	<command kind="static" id="1802" name="トーンカーブ...">
 		<shortcut>Cmd+M</shortcut>
@@ -259,7 +272,7 @@
 	<command kind="static" id="3090" name="リンクを配置...">
 		<shortcut>Shift+Cmd+T</shortcut>
 	</command>
-	<command kind="static" id="3382" name="テキストのシェイプタイプを変換">
+	<command kind="static" id="3382" name="ポイントテキストに変換">
 		<shortcut>Cmd+P</shortcut>
 	</command>
 	<command kind="static" id="3393" name="検索と置換...">
@@ -286,6 +299,9 @@
 	<command kind="static" id="3504" name="グリッド">
 		<shortcut>Cmd+@</shortcut>
 	</command>
+	<command kind="static" id="3555" name="ラスタライズ">
+		<shortcut>Cmd+I</shortcut>
+	</command>
 	<command kind="static" id="5217" name="レイヤーに基づく新規スライス">
 		<shortcut>Opt+Cmd+U</shortcut>
 	</command>
@@ -303,6 +319,7 @@
 	</command>
 	<tool name="移動ツール" type="1" key="1819113074">V</tool>
 	<tool name="アートボードツール" type="1" key="1098019924">V</tool>
+	<tool name="オブジェクト選択ツール" type="1" key="1835494497">V</tool>
 	<tool name="長方形選択ツール" type="1" key="1919380852">M</tool>
 	<tool name="楕円形選択ツール" type="1" key="1701604724"></tool>
 	<tool name="一行選択ツール" type="1" key="1936878964"></tool>
@@ -314,21 +331,21 @@
 	<tool name="自動選択ツール" type="1" key="2002873956">W</tool>
 	<tool name="スライスツール" type="1" key="1399612244">C</tool>
 	<tool name="スライス選択ツール" type="1" key="1399608148">C</tool>
-	<tool name="切り抜きツール" type="1" key="1668444016">C</tool>
+	<tool name="切り抜きツール" type="1" key="1668444016"></tool>
 	<tool name="遠近法の切り抜きツール" type="1" key="1885565552"></tool>
 	<tool name="フレームツール" type="1" key="1181773652">K</tool>
 	<tool name="スポイトツール" type="1" key="1702454628">I</tool>
+	<tool name="注釈ツール" type="1" key="1417180225">I</tool>
 	<tool name="3D マテリアルスポイトツール" type="1" key="860115789"></tool>
 	<tool name="カラーサンプラーツール" type="1" key="1668246643"></tool>
-	<tool name="ものさしツール" type="1" key="1835360596">I</tool>
-	<tool name="注釈ツール" type="1" key="1417180225"></tool>
-	<tool name="カウントツール" type="1" key="1668248942">I</tool>
+	<tool name="ものさしツール" type="1" key="1835360596"></tool>
+	<tool name="カウントツール" type="1" key="1668248942"></tool>
 	<tool name="スポット修復ブラシツール" type="1" key="1936746562"></tool>
 	<tool name="修復ブラシツール" type="1" key="1937010029"></tool>
 	<tool name="パッチツール" type="1" key="1886675816"></tool>
 	<tool name="コンテンツに応じた移動ツール" type="1" key="1919118704"></tool>
 	<tool name="赤目修正ツール" type="1" key="1919182201"></tool>
-	<tool name="ブラシツール" type="1" key="1886286946">B</tool>
+	<tool name="ブラシツール" type="1" key="1886286946"></tool>
 	<tool name="鉛筆ツール" type="1" key="1885695587"></tool>
 	<tool name="色の置き換えツール" type="1" key="1668440692"></tool>
 	<tool name="混合ブラシツール" type="1" key="2003137634"></tool>
@@ -369,7 +386,6 @@
 	<tool name="手のひらツール" type="1" key="1751215716">H</tool>
 	<tool name="回転ビューツール" type="1" key="1919906932"></tool>
 	<tool name="ズームツール" type="1" key="2054123373">Z</tool>
-	<tool name="オブジェクト選択ツール" type="1" key="1835494497">W</tool>
 	<tool name="ターゲット調整ツール" type="1" key="1952932196"></tool>
 	<tool name="初期設定の描画色と背景色" type="2">D</tool>
 	<tool name="描画色と背景色を入れ替え" type="3">X</tool>
@@ -398,7 +414,7 @@
 	<tool name="筆圧の切り替えで不透明度を調節" type="26"></tool>
 	<tool name="対称をオフ / 最後に切り替え" type="27"></tool>
 	<tool name="対称表示を切り替え" type="28"></tool>
-	<taskspace name="選択とマスク">
+	<taskspace name="Select and Mask">
 		<taskspace-tool name="Quick Selection Tool" type="1" key="1902867308">W</taskspace-tool>
 		<taskspace-tool name="Refine Edge Brush Tool" type="1" key="1397518949">R</taskspace-tool>
 		<taskspace-tool name="Brush Tool" type="1" key="1886286946">B</taskspace-tool>
@@ -423,7 +439,7 @@
 		<taskspace-property name="Smart Radius" type="1"></taskspace-property>
 		<taskspace-property name="Decontaminate Colors" type="1"></taskspace-property>
 	</taskspace>
-	<taskspace name="コンテンツに応じた塗りつぶし">
+	<taskspace name="Content-Aware Fill">
 		<taskspace-tool name="Sampling Brush Tool" type="1" key="1886217314">B</taskspace-tool>
 		<taskspace-tool name="Lasso Tool" type="1" key="1818325871">L</taskspace-tool>
 		<taskspace-tool name="Polygonal Lasso Tool" type="1" key="1885826926">L</taskspace-tool>
@@ -431,6 +447,7 @@
 		<taskspace-tool name="Zoom Tool" type="1" key="2054123373">Z</taskspace-tool>
 		<taskspace-property name="Cycle Tool Mode" type="1">E</taskspace-property>
 		<taskspace-property name="Show Sampling Area" type="1"></taskspace-property>
+		<taskspace-property name="Sample All Layers" type="1"></taskspace-property>
 		<taskspace-property name="Scale" type="1"></taskspace-property>
 		<taskspace-property name="Mirror" type="1"></taskspace-property>
 	</taskspace>
