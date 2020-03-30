@@ -67,7 +67,7 @@
 	<command kind="static" id="37" name="すべてを閉じる">
 		<shortcut>Opt+Cmd+W</shortcut>
 	</command>
-	<command kind="static" id="101" name="カンバスサイズの取り消し">
+	<command kind="static" id="101" name="2倍JPEGリネームの取り消し">
 		<shortcut>Cmd+Z</shortcut>
 	</command>
 	<command kind="static" id="103" name="カット">
@@ -101,7 +101,7 @@
 	<command kind="static" id="1018" name="選択範囲を反転">
 		<shortcut>Shift+F7</shortcut>
 	</command>
-	<command kind="static" id="1019" name="ぼかし (ガウス)">
+	<command kind="static" id="1019" name="フィルターの再実行">
 		<shortcut>Opt+Cmd+F</shortcut>
 	</command>
 	<command kind="static" id="1025" name="ブラシ設定">
@@ -134,7 +134,7 @@
 	<command kind="static" id="1106" name="色域外警告">
 		<shortcut>Shift+Cmd+Y</shortcut>
 	</command>
-	<command kind="static" id="1114" name="レイヤーを非表示">
+	<command kind="static" id="1114" name="レイヤーを表示">
 		<shortcut>Cmd+,</shortcut>
 	</command>
 	<command kind="static" id="1135" name="レイヤーを複製...">
@@ -272,14 +272,14 @@
 	<command kind="static" id="3090" name="リンクを配置...">
 		<shortcut>Shift+Cmd+T</shortcut>
 	</command>
-	<command kind="static" id="3382" name="ポイントテキストに変換">
+	<command kind="static" id="3382" name="段落テキストに変換">
 		<shortcut>Cmd+P</shortcut>
 	</command>
 	<command kind="static" id="3393" name="検索と置換...">
 		<shortcut>Shift+Cmd+F</shortcut>
 	</command>
 	<command kind="static" id="3443" name="書き出し形式...">
-		<shortcut>Opt+Shift+Cmd+W</shortcut>
+		<shortcut>Control+Opt+Shift+Cmd+W</shortcut>
 	</command>
 	<command kind="static" id="3446" name="PNG としてクイック書き出し">
 		<shortcut>Shift+Cmd+'</shortcut>
