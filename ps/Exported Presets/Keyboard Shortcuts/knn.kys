@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<photoshop-keyboard-shortcuts version="4" filename="$$$/FileName/Presets/KeyboardCustomization/knn=knn" modified="0" multi-undo="1">
+<photoshop-keyboard-shortcuts version="4" filename="$$$/FileName/Presets/KeyboardCustomization/knn=knn" modified="1" multi-undo="1">
 	<command kind="dynamic" name="Workspaces_note">
 		<shortcut>Control+Cmd+N</shortcut>
 	</command>
@@ -17,9 +17,6 @@
 	</command>
 	<command kind="dynamic" name="Script_選択レイヤーのみ別psbに抜き出す">
 		<shortcut>Opt+Shift+Cmd+E</shortcut>
-	</command>
-	<command kind="dynamic" name="Script_指定marginで等間隔配置">
-		<shortcut>Opt+Cmd+M</shortcut>
 	</command>
 	<command kind="dynamic" name="Script_レイヤー名からグループ化">
 		<shortcut>Cmd+G</shortcut>
@@ -64,10 +61,7 @@
 	<command kind="static" id="36" name="Photoshop を終了">
 		<shortcut>Cmd+Q</shortcut>
 	</command>
-	<command kind="static" id="37" name="すべてを閉じる">
-		<shortcut>Opt+Cmd+W</shortcut>
-	</command>
-	<command kind="static" id="101" name="2倍JPEGリネームの取り消し">
+	<command kind="static" id="101" name="水平方向中央揃えの取り消し">
 		<shortcut>Cmd+Z</shortcut>
 	</command>
 	<command kind="static" id="103" name="カット">
@@ -107,9 +101,6 @@
 	<command kind="static" id="1025" name="ブラシ設定">
 		<shortcut>F5</shortcut>
 	</command>
-	<command kind="static" id="1030" name="画像解像度...">
-		<shortcut>Opt+Cmd+I</shortcut>
-	</command>
 	<command kind="static" id="1031" name="カンバスサイズ...">
 		<shortcut>Shift+Cmd+C</shortcut>
 	</command>
@@ -134,14 +125,8 @@
 	<command kind="static" id="1106" name="色域外警告">
 		<shortcut>Shift+Cmd+Y</shortcut>
 	</command>
-	<command kind="static" id="1114" name="レイヤーを表示">
+	<command kind="static" id="1114" name="レイヤーを非表示">
 		<shortcut>Cmd+,</shortcut>
-	</command>
-	<command kind="static" id="1135" name="レイヤーを複製...">
-		<shortcut>Opt+Cmd+J</shortcut>
-	</command>
-	<command kind="static" id="1137" name="ファイル情報...">
-		<shortcut>Opt+Shift+Cmd+I</shortcut>
 	</command>
 	<command kind="static" id="1166" name="レイヤーを結合">
 		<shortcut>Cmd+E</shortcut>
@@ -188,9 +173,6 @@
 		<shortcut>Opt+Cmd+O</shortcut>
 		<shortcut>Shift+Cmd+O</shortcut>
 	</command>
-	<command kind="static" id="1530" name="閉じて Bridge を起動...">
-		<shortcut>Shift+Cmd+W</shortcut>
-	</command>
 	<command kind="static" id="1695" name="Web 用に保存 (従来)...">
 		<shortcut>Opt+Shift+Cmd+S</shortcut>
 	</command>
@@ -205,9 +187,6 @@
 	</command>
 	<command kind="static" id="1809" name="彩度を下げる">
 		<shortcut>Shift+Cmd+U</shortcut>
-	</command>
-	<command kind="static" id="1810" name="自動コントラスト">
-		<shortcut>Opt+Shift+Cmd+L</shortcut>
 	</command>
 	<command kind="static" id="1824" name="白黒...">
 		<shortcut>Opt+Shift+Cmd+B</shortcut>
@@ -310,9 +289,6 @@
 	</command>
 	<command kind="static" id="5957" name="検索">
 		<shortcut>Cmd+F</shortcut>
-	</command>
-	<command kind="static" id="5982" name="メニュー...">
-		<shortcut>Opt+Shift+Cmd+M</shortcut>
 	</command>
 	<command kind="static" id="9143" name="書式なしでペースト">
 		<shortcut>Opt+Cmd+V</shortcut>
