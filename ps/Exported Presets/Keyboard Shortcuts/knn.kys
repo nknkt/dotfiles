@@ -61,7 +61,7 @@
 	<command kind="static" id="36" name="Photoshop を終了">
 		<shortcut>Cmd+Q</shortcut>
 	</command>
-	<command kind="static" id="101" name="水平方向中央揃えの取り消し">
+	<command kind="static" id="101" name="選択を解除の取り消し">
 		<shortcut>Cmd+Z</shortcut>
 	</command>
 	<command kind="static" id="103" name="カット">
