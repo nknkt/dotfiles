@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<folders>
+	<folder>
+		<title>mail</title>
+		<snippets>
+			<snippet>
+				<title>kenta.kanno@4digit.jp</title>
+				<content>kenta.kanno@4digit.jp</content>
+			</snippet>
+			<snippet>
+				<title>headphonicghost@gmail.com</title>
+				<content>headphonicghost@gmail.com</content>
+			</snippet>
+			<snippet>
+				<title>osaka-test@4digit.jp</title>
+				<content>osaka-test@4digit.jp</content>
+			</snippet>
+			<snippet>
+				<title>natsuho.akamine@4digit.jp</title>
+				<content>natsuho.akamine@4digit.jp</content>
+			</snippet>
+			<snippet>
+				<title>yurie.yabe@4digit.jp</title>
+				<content>yurie.yabe@4digit.jp</content>
+			</snippet>
+			<snippet>
+				<title>masaya.hiromi@4digit.jp</title>
+				<content>masaya.hiromi@4digit.jp</content>
+			</snippet>
+			<snippet>
+				<title>satoshi.tajima@4digit.jp</title>
+				<content>satoshi.tajima@4digit.jp</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>dammy</title>
+		<snippets>
+			<snippet>
+				<title>1行</title>
+				<content>この文章はダミーです。</content>
+			</snippet>
+			<snippet>
+				<title>2行</title>
+				<content>この文章はダミーです。
+この文章はダミーです。</content>
+			</snippet>
+			<snippet>
+				<title>1行長</title>
+				<content>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</content>
+			</snippet>
+			<snippet>
+				<title>2行長</title>
+				<content>この文章はダミーです。
+文字の大きさ、量、字間、行間等を確認するために入れています。</content>
+			</snippet>
+			<snippet>
+				<title>長 流し</title>
+				<content>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</content>
+			</snippet>
+			<snippet>
+				<title>200文字</title>
+				<content>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れ</content>
+			</snippet>
+			<snippet>
+				<title>100文字</title>
+				<content>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>pass</title>
+		<snippets>
+			<snippet>
+				<title>svn</title>
+				<content>/Users/kenta_kanno/Documents/SVN/</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>work</title>
+		<snippets>
+			<snippet>
+				<title>#アップ</title>
+				<content>おねがいします
+
+## test
+
+
+## psd
+
+```
+```</content>
+			</snippet>
+			<snippet>
+				<title>commit comment</title>
+				<content>fix:MVキャプション変更 ftr注釈取り #top</content>
+			</snippet>
+			<snippet>
+				<title>スクロールバー削除</title>
+				<content>body::-webkit-scrollbar {display: none;}</content>
+			</snippet>
+			<snippet>
+				<title>案件wiki</title>
+				<content># 案件番号（社内用）
+``
+
+# サイト仕様書
+
+# 本アップ
+
+# テストアップ
+
+# デザインアップ
+
+# SHARE
+``
+
+# DATA
+``
+
+# PRE
+``</content>
+			</snippet>
+			<snippet>
+				<title>スケテンプレ</title>
+				<content>案件名｜内容｜担当</content>
+			</snippet>
+			<snippet>
+				<title>MTG議事録テンプレ</title>
+				<content>200000 MTG
+===========================================================================
+見出し
+----------------------------------------------------------------------------
+
+見出し
+----------------------------------------------------------------------------
+
+見出し
+----------------------------------------------------------------------------
+
+見出し
+----------------------------------------------------------------------------
+</content>
+			</snippet>
+			<snippet>
+				<title>社内チェック</title>
+				<content>@must-read
+案件名：日本株式会社
+
+URL：http://test2.4es.jp/000-000_japan/trunk/
+
+優先度：急ぎです（〜14時まで確認希望）
+
+備考：先方の赤入れを一緒に送ります
+@Morinobu</content>
+			</snippet>
+			<snippet>
+				<title>CD CARE</title>
+				<content>@channel おはようございます。本日大阪devアサイン状況、下記よりご確認ください。よろしくお願いいたします。
+https://4d-osaka.slack.com/archives/CRGJZVD19/p1593133589012000?thread_ts=1591755150.307600&amp;cid=CRGJZVD19</content>
+			</snippet>
+			<snippet>
+				<title>積水稼働時間</title>
+				<content>@坂田 健太 
+おはようございます、今日の稼働予定時間です
+本日もよろしくおねがいします:emo_roger:
+
+菅野  4.25h
+10:30~12:45
+15:00~16:00
+17:00~18:00
+
+赤嶺 5.25h
+10:00~12:45
+15:30~18:30
+
+矢部 2h
+17:00~19:00
+
+廣見 4h
+10:00~12:00
+17:00~19:00</content>
+			</snippet>
+			<snippet>
+				<title>指示出しテンプレ</title>
+				<content>#200701＜作業名＞
+
+##作業内容
+作業箇所
+
+①トップページ｜行動提起をチラシとあわせてください。
+
+###PSD
+/Volumes/4DES/SHARE_WEB02/547-リバー産業/547-004-リバーガーデン福島木洩れ日の丘/05-リニューアル/DESIGN/
+
+###HTML
+http://test2.4es.jp/547-004_sagisu/trunk/
+http://test2.4es.jp/547-004_sagisu/trunk/concept/
+
+###ゴール
+コード反映までお願いします。
+
+###PMT
+リバー産業
+リバー産業｜リバーガーデン福島 木漏れ日の丘｜7月分
+更新</content>
+			</snippet>
+			<snippet>
+				<title>工数超過報告</title>
+				<content>@五十嵐 由季
+———
+【工数超過報告】
+案件名：OP_ESTATE-6334 デュオアベニュー練馬石神井台
+追加工数：0.5h
+理由：要素新規追加で時間がかかったため
+———</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>font awesome</title>
+		<snippets>
+			<snippet>
+				<title>map f3c5</title>
+				<content></content>
+			</snippet>
+			<snippet>
+				<title>phone f095</title>
+				<content></content>
+			</snippet>
+			<snippet>
+				<title>mail f0e0</title>
+				<content></content>
+			</snippet>
+			<snippet>
+				<title>calendar f073</title>
+				<content></content>
+			</snippet>
+			<snippet>
+				<title>link f35d</title>
+				<content></content>
+			</snippet>
+		</snippets>
+	</folder>
+</folders>
