@@ -1,16 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <photoshop-keyboard-shortcuts version="4" filename="$$$/FileName/Presets/KeyboardCustomization/knn=knn" modified="1" multi-undo="1">
-	<command kind="dynamic" name="Workspaces_note">
-		<shortcut>Control+Cmd+N</shortcut>
-	</command>
-	<command kind="dynamic" name="Workspaces_wide">
-		<shortcut>Control+Cmd+W</shortcut>
-	</command>
 	<command kind="dynamic" name="Workspaces_knn">
 		<shortcut>Control+Cmd+K</shortcut>
-	</command>
-	<command kind="dynamic" name="Workspaces_minimal">
-		<shortcut>Control+Cmd+M</shortcut>
 	</command>
 	<command kind="dynamic" name="Workspaces_coding">
 		<shortcut>Control+Cmd+C</shortcut>
@@ -18,13 +9,13 @@
 	<command kind="dynamic" name="Script_選択レイヤーのみ別psbに抜き出す">
 		<shortcut>Opt+Shift+Cmd+E</shortcut>
 	</command>
-	<command kind="dynamic" name="Script_レイヤー名からグループ化">
+	<command kind="dynamic" name="Script_レイヤー名からグループ化">
 		<shortcut>Cmd+G</shortcut>
 	</command>
 	<command kind="dynamic" name="Script_まとめてリネーム">
 		<shortcut>Shift+Cmd+R</shortcut>
 	</command>
-	<command kind="dynamic" name="Script_テキストレイヤーをクリップボードにコピー">
+	<command kind="dynamic" name="Script_テキストレイヤーをクリップボードにコピー">
 		<shortcut>F1</shortcut>
 	</command>
 	<command kind="dynamic" name="Script_カラーをまとめて変更">
@@ -61,7 +52,7 @@
 	<command kind="static" id="36" name="Photoshop を終了">
 		<shortcut>Cmd+Q</shortcut>
 	</command>
-	<command kind="static" id="101" name="水平方向中央揃えの取り消し">
+	<command kind="static" id="101" name="アクションを移動の取り消し">
 		<shortcut>Cmd+Z</shortcut>
 	</command>
 	<command kind="static" id="103" name="カット">
@@ -251,7 +242,7 @@
 	<command kind="static" id="3090" name="リンクを配置...">
 		<shortcut>Shift+Cmd+T</shortcut>
 	</command>
-	<command kind="static" id="3382" name="段落テキストに変換">
+	<command kind="static" id="3382" name="テキストのシェイプタイプを変換">
 		<shortcut>Cmd+P</shortcut>
 	</command>
 	<command kind="static" id="3393" name="検索と置換...">
@@ -295,7 +286,6 @@
 	</command>
 	<tool name="移動ツール" type="1" key="1819113074">V</tool>
 	<tool name="アートボードツール" type="1" key="1098019924">V</tool>
-	<tool name="オブジェクト選択ツール" type="1" key="1835494497">V</tool>
 	<tool name="長方形選択ツール" type="1" key="1919380852">M</tool>
 	<tool name="楕円形選択ツール" type="1" key="1701604724"></tool>
 	<tool name="一行選択ツール" type="1" key="1936878964"></tool>
@@ -303,18 +293,19 @@
 	<tool name="なげなわツール" type="1" key="1818325871"></tool>
 	<tool name="多角形選択ツール" type="1" key="1885826926"></tool>
 	<tool name="マグネット選択ツール" type="1" key="1835819379"></tool>
+	<tool name="オブジェクト選択ツール" type="1" key="1835494497">V</tool>
 	<tool name="クイック選択ツール" type="1" key="1902867308">W</tool>
 	<tool name="自動選択ツール" type="1" key="2002873956">W</tool>
-	<tool name="スライスツール" type="1" key="1399612244">C</tool>
-	<tool name="スライス選択ツール" type="1" key="1399608148">C</tool>
 	<tool name="切り抜きツール" type="1" key="1668444016"></tool>
 	<tool name="遠近法の切り抜きツール" type="1" key="1885565552"></tool>
+	<tool name="スライスツール" type="1" key="1399612244">C</tool>
+	<tool name="スライス選択ツール" type="1" key="1399608148">C</tool>
 	<tool name="フレームツール" type="1" key="1181773652">K</tool>
 	<tool name="スポイトツール" type="1" key="1702454628">I</tool>
-	<tool name="注釈ツール" type="1" key="1417180225">I</tool>
 	<tool name="3D マテリアルスポイトツール" type="1" key="860115789"></tool>
 	<tool name="カラーサンプラーツール" type="1" key="1668246643"></tool>
 	<tool name="ものさしツール" type="1" key="1835360596"></tool>
+	<tool name="注釈ツール" type="1" key="1417180225">I</tool>
 	<tool name="カウントツール" type="1" key="1668248942"></tool>
 	<tool name="スポット修復ブラシツール" type="1" key="1936746562"></tool>
 	<tool name="修復ブラシツール" type="1" key="1937010029"></tool>
