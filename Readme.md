@@ -9,7 +9,7 @@
 ## Photoshop
 
 ### 環境設定
-/Users/kenta_kanno/Library/Preferences/Adobe Photoshop 2020 Settings/Adobe Photoshop 2020 Prefs.psp
+/Users/kenta_kanno/Library/Preferences/Adobe Photoshop 2021 Settings/Adobe Photoshop 2021 Prefs.psp
 
 ### キーボードショートカット
 /Users/kenta_kanno/Library/Preferences/Adobe Illustrator 24 Settings/ja_JP/knn_shortcut_key.kys
