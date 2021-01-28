@@ -52,7 +52,7 @@
 	<command kind="static" id="36" name="Photoshop を終了">
 		<shortcut>Cmd+Q</shortcut>
 	</command>
-	<command kind="static" id="101" name="レイヤーを削除の取り消し">
+	<command kind="static" id="101" name="アクションを移動の取り消し">
 		<shortcut>Cmd+Z</shortcut>
 	</command>
 	<command kind="static" id="103" name="カット">
@@ -86,7 +86,7 @@
 	<command kind="static" id="1018" name="選択範囲を反転">
 		<shortcut>Shift+F7</shortcut>
 	</command>
-	<command kind="static" id="1019" name="ぼかし (ガウス)">
+	<command kind="static" id="1019" name="フィルターの再実行">
 		<shortcut>Opt+Cmd+F</shortcut>
 	</command>
 	<command kind="static" id="1025" name="ブラシ設定">
@@ -116,7 +116,7 @@
 	<command kind="static" id="1106" name="色域外警告">
 		<shortcut>Shift+Cmd+Y</shortcut>
 	</command>
-	<command kind="static" id="1114" name="レイヤーを表示">
+	<command kind="static" id="1114" name="レイヤーを非表示">
 		<shortcut>Cmd+,</shortcut>
 	</command>
 	<command kind="static" id="1166" name="レイヤーを結合">
@@ -159,6 +159,10 @@
 	</command>
 	<command kind="static" id="1339" name="レイヤースタイルを消去">
 		<shortcut>Opt+Shift+Cmd+X</shortcut>
+	</command>
+	<command kind="static" id="1520" name="Bridge で参照...">
+		<shortcut>Opt+Cmd+O</shortcut>
+		<shortcut>Shift+Cmd+O</shortcut>
 	</command>
 	<command kind="static" id="1695" name="Web 用に保存 (従来)...">
 		<shortcut>Opt+Shift+Cmd+S</shortcut>
@@ -238,7 +242,7 @@
 	<command kind="static" id="3090" name="リンクを配置...">
 		<shortcut>Shift+Cmd+T</shortcut>
 	</command>
-	<command kind="static" id="3382" name="ポイントテキストに変換">
+	<command kind="static" id="3382" name="テキストのシェイプタイプを変換">
 		<shortcut>Cmd+P</shortcut>
 	</command>
 	<command kind="static" id="3393" name="検索と置換...">
