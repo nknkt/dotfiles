@@ -69,33 +69,8 @@
 		</snippets>
 	</folder>
 	<folder>
-		<title>pass</title>
-		<snippets>
-			<snippet>
-				<title>svn</title>
-				<content>/Users/kenta_kanno/Documents/SVN/</content>
-			</snippet>
-		</snippets>
-	</folder>
-	<folder>
 		<title>work</title>
 		<snippets>
-			<snippet>
-				<title>#アップ</title>
-				<content>おねがいします
-
-## test
-
-
-## psd
-
-```
-```</content>
-			</snippet>
-			<snippet>
-				<title>commit comment</title>
-				<content>fix:MVキャプション変更 ftr注釈取り #top</content>
-			</snippet>
 			<snippet>
 				<title>スクロールバー削除</title>
 				<content>body::-webkit-scrollbar {display: none;}</content>
@@ -128,59 +103,19 @@
 			</snippet>
 			<snippet>
 				<title>MTG議事録テンプレ</title>
-				<content>200000 MTG
-===========================================================================
-見出し
-----------------------------------------------------------------------------
+				<content>## 210000- MTG
 
-見出し
-----------------------------------------------------------------------------
+### 見出し
 
-見出し
-----------------------------------------------------------------------------
+### 見出し
 
-見出し
-----------------------------------------------------------------------------
-</content>
+### 見出し</content>
 			</snippet>
 			<snippet>
-				<title>社内チェック</title>
-				<content>@must-read
-案件名：日本株式会社
-
-URL：http://test2.4es.jp/000-000_japan/trunk/
-
-優先度：急ぎです（〜14時まで確認希望）
-
-備考：先方の赤入れを一緒に送ります
-@Morinobu</content>
-			</snippet>
-			<snippet>
-				<title>CD CARE</title>
-				<content>@channel おはようございます。本日大阪devアサイン状況、下記よりご確認ください。よろしくお願いいたします。
-https://4d-osaka.slack.com/archives/CRGJZVD19/p1593133589012000?thread_ts=1591755150.307600&amp;cid=CRGJZVD19</content>
-			</snippet>
-			<snippet>
-				<title>積水稼働時間</title>
-				<content>@坂田 健太 
-おはようございます、今日の稼働予定時間です
-本日もよろしくおねがいします:emo_roger:
-
-菅野  4.25h
-10:30~12:45
-15:00~16:00
-17:00~18:00
-
-赤嶺 5.25h
-10:00~12:45
-15:30~18:30
-
-矢部 2h
-17:00~19:00
-
-廣見 4h
-10:00~12:00
-17:00~19:00</content>
+				<title>CD 朝アサイン報告</title>
+				<content>@channel おはようございます
+本日大阪DEVアサイン状況、下記よりご確認お願いいたします。
+https://4dcd.slack.com/archives/CRGJZVD19/p1609808964389200?thread_ts=1591755150.307600&amp;cid=CRGJZVD19</content>
 			</snippet>
 			<snippet>
 				<title>指示出しテンプレ</title>
@@ -208,10 +143,10 @@ http://test2.4es.jp/547-004_sagisu/trunk/concept/
 			</snippet>
 			<snippet>
 				<title>工数超過報告</title>
-				<content>@五十嵐 由季
+				<content>@ああああ
 ———
 【工数超過報告】
-案件名：OP_ESTATE-6334 デュオアベニュー練馬石神井台
+案件名：OP_ESTATE-0000 ああああ
 追加工数：0.5h
 理由：要素新規追加で時間がかかったため
 ———</content>
@@ -240,6 +175,39 @@ http://test2.4es.jp/547-004_sagisu/trunk/concept/
 			<snippet>
 				<title>link f35d</title>
 				<content></content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>markdown</title>
+		<snippets>
+			<snippet>
+				<title>table</title>
+				<content>|  TH  |  TH  |
+| ---- | ---- |
+|  TD  |  TD  |
+|  TD  |  TD  |</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>@</title>
+		<snippets>
+			<snippet>
+				<title>大阪物件all</title>
+				<content>@t-mansion_promotion-dir-osk @t-mansion_promotion-des-osk @t-mansion_promotion-dev-osk </content>
+			</snippet>
+			<snippet>
+				<title>東京・大阪all</title>
+				<content>@t-mansion_promotion-dir-tky @t-mansion_promotion-des-tky @t-mansion_promotion-dev-tky @t-mansion_promotion-dir-osk @t-mansion_promotion-des-osk @t-mansion_promotion-dev-osk</content>
+			</snippet>
+			<snippet>
+				<title>des all</title>
+				<content>@t-mansion_promotion-des-tky @t-mansion_promotion-des-osk </content>
+			</snippet>
+			<snippet>
+				<title>dev all</title>
+				<content>@t-mansion_promotion-dev-tky @t-mansion_promotion-dev-osk </content>
 			</snippet>
 		</snippets>
 	</folder>
