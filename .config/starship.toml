@@ -7,8 +7,7 @@ add_newline = true
 ##########################
 
 # [character]
-# format = "[>](bold #84a0c6)[ε](bold #b4be82)[ε](bold #e2a478)[ε](bold #a093c7)[ ﾟ>](bold #89b8c2) "
-# success_symbol = "[>](bold #89b8c2) "
+# success_symbol = "[>](bold #84a0c6)[ε](bold #b4be82)[ε](bold #e2a478)[ε](bold #a093c7)[ ﾟ>](bold #89b8c2) "
 # error_symbol = "🥺"
 
 # [directory]
@@ -19,29 +18,47 @@ add_newline = true
 
 ##########################
 
-## menhera
+## forest
 
 ##########################
 
 [character]
-format = "[> ](bold #dda0dd)"
-style_success = "#ff69b4"
-symbol = "➜"
-error_symbol = "✗"
+success_symbol = "[>](bold #93dec0)[>](bold #b3fdb9)[>](bold #bbed84)"
+error_symbol = "🥺"
 use_symbol_for_status = true
 
 [directory]
 truncation_length = 100
 truncate_to_repo = false
-style = "#ba55d3"
+style = "#bbed84"
 home_symbol = "〜"
 
 [nodejs]
-style = "#ffc0cb"
+style = "#93dec0"
 
-[package]
-style = "#ffc0cb"
-symbol = " "
+##########################
+
+## menhera
+
+##########################
+
+# # [character]
+# success_symbol = "[>](bold #ba55d3)[>](bold #dda0dd)[>](bold #ffc0cb)"
+# error_symbol = "🥺"
+# use_symbol_for_status = true
+
+# [directory]
+# truncation_length = 100
+# truncate_to_repo = false
+# style = "#ba55d3"
+# home_symbol = "〜"
+
+# [nodejs]
+# style = "#b3fdb9"
+
+# [package]
+# style = "#ffc0cb"
+# symbol = "🎁 "
 
 ##########################
 
