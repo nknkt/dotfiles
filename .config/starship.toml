@@ -23,7 +23,7 @@ add_newline = true
 ##########################
 
 [character]
-success_symbol = "[>](bold #93dec0)[>](bold #b3fdb9)[>](bold #bbed84)"
+success_symbol = "[🦊 ⇒](bold #93dec0) "
 error_symbol = "🥺"
 use_symbol_for_status = true
 
@@ -42,8 +42,8 @@ style = "#93dec0"
 
 ##########################
 
-# # [character]
-# success_symbol = "[>](bold #ba55d3)[>](bold #dda0dd)[>](bold #ffc0cb)"
+# [character]
+# success_symbol = "[>](bold #ba55d3)[>](bold #dda0dd)[>](bold #ffc0cb) "
 # error_symbol = "🥺"
 # use_symbol_for_status = true
 
