@@ -1,0 +1,44 @@
+name: Go
+on:
+  push:
+    branches: [ master ]
+  pull_request: {}
+jobs:
+  build:
+    name: Build
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os:
+          - macos-latest
+          - ubuntu-latest
+          - windows-latest
+
+    steps:
+    - name: Set up Go
+      uses: actions/setup-go@v2.1.3
+      with:
+        go-version: 1.16
+      id: go
+
+    - name: Check out code into the Go module directory
+      uses: actions/checkout@v2.3.4
+
+    - name: Build
+      env:
+        GO111MODULE: on
+      run: go build -v .
+
+    - name: Test
+      env:
+        GO111MODULE: on
+      run: go test -v ./...
+
+    - name: Test Host bash
+      # FIXME: make this work on Windows as well
+      if: runner.os != 'Windows'
+      env:
+        GO111MODULE: on
+      run: make test-stdlib test-bash
+
