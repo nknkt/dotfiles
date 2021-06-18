@@ -83,11 +83,18 @@ conflicted = "🏳 "
 ahead = "🏎 💨"
 behind = "😰"
 diverged = "😵"
-untracked = "🤷<200d>"
+untracked = "🌚‍"
+stashed = "📦"
 modified = "📝"
-staged.value = "++"
-staged.style = "green"
-staged_count.enabled = true
-staged_count.style = "green"
-renamed = "👅"
-deleted = "🗑 "
+staged = '🔦'
+renamed = "🏷"
+deleted = "🗑"
+
+[[battery.display]]
+threshold = 100
+style = "bold blue"
+
+[battery]
+full_symbol = "🤗"
+charging_symbol = "😌"
+discharging_symbol = "😨"
