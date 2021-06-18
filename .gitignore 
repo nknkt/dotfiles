@@ -20,8 +20,6 @@
 !/.node-gyp/**
 !/.nodenv
 !/.nodenv/**
-!/.npm
-!/.npm/**
 !/.vscode
 !/.vscode/**
 !/direnv/
