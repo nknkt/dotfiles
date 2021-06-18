@@ -6,62 +6,31 @@
 
 # .gitignoreは上から解釈されていくので
 # 管理対象のファイルをホワイトリストのように追記します
+
+# !/.zfunc/
+# /.zfunc/**  # ディレクトリは管理したいけど中身はいらないときはこんな感じ
+
 ### not ignore ###
-!/.zshrc
-!/.zshenv
-!/.zfunc/
-/.zfunc/**  # ディレクトリは管理したいけど中身はいらないときはこんな感じ
-!/.zsh/
-!/.zsh/dircolors
-!/.zsh/rc/
-!/.zsh/rc/**
-!/.zsh/zkbd/
-!/.zsh/zkbd/**
-!/.zsh/zfunc/
-!/.zsh/zfunc/**
-!/.zsh/completion/
-/.zsh/completion/**
-!/.virc
-!/.vimrc
-!/.vim/
-!/.vim/*/
-!/.vim/rc/
-!/.vim/rc/**
-!/.vim/ftplugin/**
-!/.vim/ftdetect/**
-!/.vim/template/**
-!/.vim/snippets/**
-!/.vim/after/**
-!/.vim/init.vim
-!/.vim/coc-settings.json
-!/.bin/
-!/.bin/**
-!/.bin.local
-!/.tmux.conf
-!/.tmux/
-!/.tmux/conf/
-!/.tmux/conf/**
-!/.tmux/log/
-!/.gdbinit
-!/.conkycolors/
-!/.conkycolors/**
-!/.i3/
-!/.i3/**
-/.i3/config
-/.i3/config.local
-!/.github/**
-!/.ideavimrc
-!/.Xmodmap
-!/.Xresources
-!/.xinitrc
-!/.xprofile
-!/.xsessionrc
+!/.anyenv
+!/.anyenv/**
+!/.bash_profile
 !/.config/
 !/.config/**
+!/.node-gyp
+!/.node-gyp/**
+!/.nodenv
+!/.nodenv/**
+!/.npm
+!/.npm/**
+!/.vscode
+!/.vscode/**
+!/direnv/
+!/direnv/**
+!/.bash_profile
+!/.gitignore
 !/.gitignore_global
-!/.gitconfig_shared
-
+!/.yarnrc
+!/homebrew_install.sh
+!/install.sh
+!/open_with_mac.py
 !/README.md
-!/LICENSE
-!.gitignore
-!.gitkeep
