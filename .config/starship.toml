@@ -76,21 +76,21 @@ commit_hash_length = 30
 
 [git_state]
 progress_divider = " of "
-cherry_pick = "🍒 PICKING"
+cherry_pick = "🍒 pick "
 
 [git_status]
-conflicted = "🏳 "
-ahead = "🏎 💨"
-behind = "😰"
-diverged = "😵"
-untracked = "🌚‍"
-stashed = "📦"
-modified = "📝"
-staged = '🔦'
-renamed = "🏷"
-deleted = "🗑"
+conflicted = "🏳 conflicted "
+ahead = "🏎 💨 ahead "
+behind = "😰 behind "
+diverged = "😵 diverged "
+untracked = "🌚‍ untracked "
+stashed = "📦 stashed "
+modified = "📝 modified "
+staged = "🔦 staged "
+renamed = "🏷 renamed "
+deleted = "🗑 deleted "
 
-[[battery.display]]
+[battery.display]
 threshold = 100
 style = "bold blue"
 
