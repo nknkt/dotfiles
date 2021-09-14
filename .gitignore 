@@ -12,21 +12,13 @@
 
 ### not ignore ###
 !/.anyenv
-!/.anyenv/**
-!/.bash_profile
 !/.config/
-!/.config/**
 !/.node-gyp
-!/.node-gyp/**
 !/.nodenv
-!/.nodenv/**
 !/.vscode
-!/.vscode/**
 !/direnv/
-!/direnv/**
 !/.bash_profile
 !/.gitignore
-!/.gitignore_global
 !/.yarnrc
 !/homebrew_install.sh
 !/install.sh
