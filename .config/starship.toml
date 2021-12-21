@@ -79,16 +79,16 @@ progress_divider = " of "
 cherry_pick = "🍒 pick "
 
 [git_status]
-conflicted = "🏳 conflicted!!! "
-ahead = "🏎 💨 comitが先行してるよ "
-behind = "😰 pullできてないよ "
-diverged = "😵 こんがらがった "
-untracked = "🌚‍ 未追跡 "
-stashed = "📦 変更を退避 "
-modified = "📝 変更済み "
-staged = "🔦 ステージング "
-renamed = "🏷 renamed "
-deleted = "🗑 deleted "
+conflicted = "【conflicted!!!】🏳 "
+ahead = "【ahead】🏎 💨 comitが先行してるよ "
+behind = "【behind】😰 pullできてないよ "
+diverged = "【diverged】😵 こんがらがった "
+untracked = "【untracked】🌚‍ 未追跡 "
+stashed = "【stashed】📦 変更を退避 "
+modified = "【modified】📝 変更済み "
+staged = "【staged】🔦 ステージング "
+renamed = "【renamed】🏷 "
+deleted = "【deleted】🗑 "
 
 [battery.display]
 threshold = 100
