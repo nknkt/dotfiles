@@ -15,7 +15,7 @@
 !/.config/
 !/.node-gyp
 !/.nodenv
-!/.vscode
+!/.vscode/
 !/direnv/
 !/.bash_profile
 !/.gitignore
@@ -24,3 +24,5 @@
 !/install.sh
 !/open_with_mac.py
 !/README.md
+
+/.config/filezilla

@@ -14,7 +14,7 @@ SYNOPSIS
 DESCRIPTION
 -----------
 
-Outputs a bash script called the *stdlib*. The following commands are included in that script and loaded in the context of an `.envrc`. In addition, it also loads the file in `~/.direnvrc` if it exists.
+Outputs a bash script called the *stdlib*. The following commands are included in that script and loaded in the context of an `.envrc`. In addition, it also loads the file in `~/.config/direnv/direnvrc` if it exists.
 
 STDLIB
 ------
@@ -90,9 +90,30 @@ Example:
 
     source_env_if_exists .envrc.private
 
+### `env_vars_required <varname> [<varname> ...]`
+
+Logs error for every variable not present in the environment or having an empty value.  
+Typically this is used in combination with source_env and source_env_if_exists.
+
+Example:
+
+    # expect .envrc.private to provide tokens
+    source_env .envrc.private
+    # check presence of tokens
+    env_vars_required GITHUB_TOKEN OTHER_TOKEN
+
+
 ### `source_up [<filename>]`
 
-Loads another `.envrc` if found when searching from the parent directory up to /.
+Loads another `.envrc` if found with the find_up command. Returns 1 if no file
+is found.
+
+NOTE: the other `.envrc` is not checked by the security framework.
+
+### `source_up_if_exists [<filename>]`
+
+Loads another `.envrc` if found with the find_up command. If one is not
+found, nothing happens.
 
 NOTE: the other `.envrc` is not checked by the security framework.
 
@@ -228,6 +249,18 @@ Adds "$PWD/vendor/bin" to the PATH environment variable.
 
 Setup environment variables required by perl's local::lib See http://search.cpan.org/dist/local-lib/lib/local/lib.pm for more details.
 
+### `layout pipenv`
+
+Similar to `layout python`, but uses Pipenv to build a virtualenv from the `Pipfile` located in the same directory. The path can be overridden by the `PIPENV_PIPFILE` environment variable.
+
+Note that unlike invoking Pipenv manually, this does not load environment variables from a `.env` file automatically. You may want to add `dotenv .env` to copy that behavior.
+
+### `layout pyenv [<version> ...]`
+
+Similar to `layout python`, but uses pyenv to build a virtualenv with the specified Python interpreter version.
+
+Multiple versions may be specified separated by spaces; please refer to the pyenv documentation for more information.
+
 ### `layout python [<python_exe>]`
 
 Creates and loads a virtualenv environment under `$PWD/.direnv/python-$python_version`. This forces the installation of any egg into the project's sub-folder.
@@ -281,6 +314,17 @@ Load environment variables from `nix-shell`.
 If you have a `default.nix` or `shell.nix` these will be used by default, but you can also specify packages directly (e.g `use nix -p ocaml`).
 
 See http://nixos.org/nix/manual/#sec-nix-shell
+
+### `use flake [<installable>]`
+
+Load the build environment of a derivation similar to `nix develop`.
+
+By default it will load the current folder flake.nix devShell attribute. Or
+pass an "installable" like "nixpkgs#hello" to load all the build dependencies
+of the hello package from the latest nixpkgs.
+
+Note that the flakes feature is hidden behind an experimental flag, which you
+will have to enable on your own. Flakes is not considered stable yet.
 
 ### `use guix [...]`
 

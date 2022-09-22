@@ -57,17 +57,8 @@ ifneq ($(strip $(GO_LDFLAGS)),)
 	GO_BUILD_FLAGS = -ldflags '$(GO_LDFLAGS)'
 endif
 
-direnv: stdlib.go *.go
+direnv: *.go
 	$(GO) build $(GO_BUILD_FLAGS) -o $(exe)
-
-stdlib.go: stdlib.sh
-	cat $< | ./script/str2go main StdLib $< > $@
-
-version.go: version.txt
-	echo package main > $@
-	echo >> $@
-	echo "// Version is direnv's version"
-	echo 'const Version = "$(shell cat $<)"' >> $@
 
 ############################################################################
 # Format all the things
@@ -162,7 +153,8 @@ install: all
 .PHONY: dist
 dist:
 	@command -v gox >/dev/null || (echo "Could not generate dist because gox is missing. Run: go get -u github.com/mitchellh/gox"; false)
-	CGO_ENABLED=0 gox -output "$(DISTDIR)/direnv.{{.OS}}-{{.Arch}}" \
+	CGO_ENABLED=0 GOFLAGS="-trimpath" \
+		gox -output "$(DISTDIR)/direnv.{{.OS}}-{{.Arch}}" \
 		-osarch darwin/amd64 \
 		-osarch darwin/arm64 \
 		-osarch freebsd/386 \
@@ -177,6 +169,7 @@ dist:
 		-osarch linux/mips64le \
 		-osarch linux/mipsle \
 		-osarch linux/ppc64 \
+		-osarch linux/ppc64le \
 		-osarch linux/s390x \
 		-osarch netbsd/386 \
 		-osarch netbsd/amd64 \

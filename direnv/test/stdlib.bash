@@ -9,7 +9,7 @@ root=$(cd .. && pwd -P)
 export PATH=$root:$PATH
 
 load_stdlib() {
-  # shellcheck disable=SC1090
+  # shellcheck disable=SC1090,SC1091
   source "$root/stdlib.sh"
 }
 
@@ -190,7 +190,32 @@ test_name source_env_if_exists
   echo "export FOO=bar" > existing_file
   source_env_if_exists existing_file
   [[ $FOO = bar ]]
+
+  # Expect correct path being logged
+  export HOME=$workdir
+  output="$(source_env_if_exists existing_file 2>&1 > /dev/null)"
+  [[ "${output#*'loading ~/existing_file'}" != "$output" ]]
 )
+
+test_name env_vars_required
+(
+  load_stdlib
+
+  export FOO=1
+  env_vars_required FOO
+
+  # these should all fail
+  # shellcheck disable=SC2034
+  BAR=1
+  export BAZ=
+  output="$(env_vars_required BAR BAZ MISSING 2>&1 > /dev/null || echo "--- result: $?")"
+
+  [[ "${output#*'--- result: 1'}" != "$output" ]]
+  [[ "${output#*'BAR is required'}" != "$output" ]]
+  [[ "${output#*'BAZ is required'}" != "$output" ]]
+  [[ "${output#*'MISSING is required'}" != "$output" ]]
+)
+
 
 # test strict_env and unstrict_env
 ./strict_env_test.bash
