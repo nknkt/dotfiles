@@ -1,6 +1,11 @@
-## 初期環境の作成
-### GItHub
-#### dotfiles
+# 初期環境の作成
+自分の初期環境設定用のメモを含むため、当dotfilesと直接関係のないことにも触れています。
+
+
+
+## GItHub
+
+### dotfiles
 - node(nodenv)
 - photoshop
   - 設定
@@ -8,11 +13,6 @@
   - ショートカット
 - Illustrator
   - ショートカット
-#### adobe script
-
-- https://github.com/nknkt/photoshopScript
-- https://github.com/nknkt/ps-rename-script
-
 #### homebrew
 dotfiles内に必要アプリをcaskでインストールできるシェルスクリプトをおいておく
 
@@ -47,17 +47,59 @@ dotfiles内に必要アプリをcaskでインストールできるシェルス�
 - Visual-Studio-Code
 - Vivaldi
 - Xcode
-### boostnote
+
+
+
+### adobe script
+
+別リポリトジで管理
+
+- https://github.com/nknkt/photoshopScript
+- https://github.com/nknkt/ps-rename-script
+
+
+
+## アプリ設定
+
+#### boostnote
+
 別スニペットアプリに移行予定
 
-### 手動で落とすapp
+
+
+#### Clipy
+
+スニペットを開く→インポート・エクスポート
+
+
+
+#### HyperSwitch
+
+keyをoptionに（⌘+tabと使い分けるため）
+Run HyperSwitch in the backgroudにチェック
+
+##### 代価候補
+
+[AltTab](https://alt-tab-macos.netlify.app/)
+
+
+
+#### 手動で落とすapp
 - [Display Menu](https://apps.apple.com/jp/app/display-menu/id549083868?mt=12)
 - [SCONE Diff](https://sconeapp.com/diff/)
-### font
+
+
+
+## font
+
 Google Font
 - [Fira Code](https://fonts.google.com/specimen/Fira+Code)
   - [GitHub](https://github.com/tonsky/FiraCode)
-### vscode
+
+
+
+## vscode
+
 個人のGitHubアカウントで管理 ⌘,→基本設定→同期
 ##### 同期できるもの
 
@@ -67,7 +109,10 @@ Google Font
 - プラグイン
 - UI
 
-### Mac自体の設定
+
+
+## Mac自体の設定
+
 #### マウススピード
 
 ```shell
@@ -92,8 +137,6 @@ defaults write com.apple.finder DisableAllAnimations -boolean true
 killall Finder
 ```
 
-
-
 ##### ※解除
 
 ```shell
@@ -108,5 +151,3 @@ killall Finder
 ```shell
 sudo spctl --master-disable
 ```
-
-
