@@ -15,39 +15,32 @@ brew upgrade --all
 
 formulas=(
     git
-    wget
-    curl
-    tree
-    openssl
-    z
-    colordiff
-    "--without-etcdir zsh"
-    zsh-completions
-    "--with-cocoa --srgb emacs"
-    cask
-    ansible
-    peco
-    hub
-    tig
     node
-    python3
-    lua
-    "vim --with-lua"
-    mysql
-    postgresql
+    pkg-config
+    apr-util
+    hub
+    nodebrew
+    readline
+    autoconf
+    icu4c
+    oniguruma
     sqlite
-    "php55 --homebrew-apxs"
-    httpd22
-    ricty
-    sqlite
-    composer
-    markdown
-    ctags
-    ssh-copy-id
-    phantomjs
-    mecab
-    diff-so-fancy
-    thefuck
+    exa
+    jq
+    openssl@1.1	starship
+    fish
+    lz4
+    pandoc
+    tree
+    gettext
+    m4
+    pcre2
+    utf8proc
+    ghq
+    ncurses
+    peco
+    yarn
+    z
 )
 
 "brew tap..."
@@ -63,27 +56,36 @@ for formula in "${formulas[@]}"; do
 done
 
 casks=(
-    dropbox
-    evernote
-    skitch
-    bettertouchtool
+    alfred
+    clipy
+    CotEditor
+    DeepL
+    Dropbox
+    Firefox
+    Flux
+    HyperSwitch
     google-chrome
     google-japanese-ime
-    slack
-    alfred
+    sourcetree
     iterm2
-    libreoffice
-    cyberduck
-    vlc
-    atom
-    virtualbox
-    vagrant
-    vagrant-manager
+    ImageOptim
+    Karabiner-Elements
+    KeyboardCleanTool
+    MAMP
+    OnyX
+    Sourcetree
+    Spark
+    Spectacle
+    Transmit
+    Typora
+    Visual-Studio-Code
+    Vivaldi
+    Xcode
 )
 
 echo "start brew cask install apps..."
 for cask in "${casks[@]}"; do
-    brew cask install $cask
+    brew install $cask
 done
 
 brew cleanup
