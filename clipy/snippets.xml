@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<folders>
+	<folder>
+		<title>git</title>
+		<snippets>
+			<snippet>
+				<title>fix 修正</title>
+				<content>fix:[]</content>
+			</snippet>
+			<snippet>
+				<title>hotfix クリティカルな修正</title>
+				<content>hotfix:[]</content>
+			</snippet>
+			<snippet>
+				<title>update 更新</title>
+				<content>update:[]</content>
+			</snippet>
+			<snippet>
+				<title>change 変更</title>
+				<content>change:[]</content>
+			</snippet>
+			<snippet>
+				<title>add 追加</title>
+				<content>add:[]</content>
+			</snippet>
+			<snippet>
+				<title>remove コード削除</title>
+				<content>remove:[]</content>
+			</snippet>
+			<snippet>
+				<title>refactor 整理</title>
+				<content>refactor:[]</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>mail</title>
+		<snippets>
+			<snippet>
+				<title>hoge</title>
+				<content>hoge</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>dammy</title>
+		<snippets>
+			<snippet>
+				<title>1行</title>
+				<content>この文章はダミーです。</content>
+			</snippet>
+			<snippet>
+				<title>2行</title>
+				<content>この文章はダミーです。
+この文章はダミーです。</content>
+			</snippet>
+			<snippet>
+				<title>1行長</title>
+				<content>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</content>
+			</snippet>
+			<snippet>
+				<title>2行長</title>
+				<content>この文章はダミーです。
+文字の大きさ、量、字間、行間等を確認するために入れています。</content>
+			</snippet>
+			<snippet>
+				<title>長 流し</title>
+				<content>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</content>
+			</snippet>
+			<snippet>
+				<title>200文字</title>
+				<content>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れ</content>
+			</snippet>
+			<snippet>
+				<title>100文字</title>
+				<content>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、</content>
+			</snippet>
+			<snippet>
+				<title>rebeccapurple</title>
+				<content>rebeccapurple</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>markdown</title>
+		<snippets>
+			<snippet>
+				<title>table</title>
+				<content>|  TH  |  TH  |
+| ---- | ---- |
+|  TD  |  TD  |
+|  TD  |  TD  |</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>regexp</title>
+		<snippets>
+			<snippet>
+				<title>2桁の数字</title>
+				<content>[0-9]{2}</content>
+			</snippet>
+			<snippet>
+				<title>文字列全て</title>
+				<content>.+</content>
+			</snippet>
+			<snippet>
+				<title>日本語全て</title>
+				<content>[亜-熙ぁ-んァ-ヶ]</content>
+			</snippet>
+			<snippet>
+				<title>alt全て</title>
+				<content>alt=&quot;.+&quot;</content>
+			</snippet>
+		</snippets>
+	</folder>
+</folders>
