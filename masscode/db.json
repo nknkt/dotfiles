@@ -1,0 +1,2054 @@
+{
+  "folders": [
+    {
+      "name": "rule",
+      "parentId": "Uuf6kA9F",
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "k2ykwaIx",
+      "createdAt": 1665642797299,
+      "updatedAt": 1665642808223,
+      "index": 0
+    },
+    {
+      "name": "vscode",
+      "parentId": "Uuf6kA9F",
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "OZJYzn9d",
+      "createdAt": 1665642765430,
+      "updatedAt": 1665642794859,
+      "index": 1
+    },
+    {
+      "name": "ps",
+      "parentId": "Uuf6kA9F",
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "kmSXg6F4",
+      "createdAt": 1665642828963,
+      "updatedAt": 1665642833852,
+      "index": 2
+    },
+    {
+      "id": "Uuf6kA9F",
+      "name": "memo",
+      "defaultLanguage": "typescript",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "createdAt": 1665642270269,
+      "updatedAt": 1665642300448,
+      "index": 0
+    },
+    {
+      "name": "mixin",
+      "parentId": "fsjGtTk4",
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "4rgGaxbD",
+      "createdAt": 1665643263766,
+      "updatedAt": 1665643273435,
+      "index": 0
+    },
+    {
+      "name": "foundation",
+      "parentId": "fsjGtTk4",
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "cQf718zO",
+      "createdAt": 1665644363715,
+      "updatedAt": 1665644371185,
+      "index": 1
+    },
+    {
+      "name": "base",
+      "parentId": "fsjGtTk4",
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "8xs9Mguw",
+      "createdAt": 1665644391485,
+      "updatedAt": 1665644396214,
+      "index": 2
+    },
+    {
+      "name": "test",
+      "parentId": "fsjGtTk4",
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "AXjA8_qr",
+      "createdAt": 1665656450708,
+      "updatedAt": 1665656464579,
+      "index": 3
+    },
+    {
+      "name": "animation",
+      "parentId": "fsjGtTk4",
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "ZlYjrFwG",
+      "createdAt": 1665657122999,
+      "updatedAt": 1665657128773,
+      "index": 4
+    },
+    {
+      "name": "text",
+      "parentId": "fsjGtTk4",
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "5zMTm1JF",
+      "createdAt": 1665657135907,
+      "updatedAt": 1665657139326,
+      "index": 5
+    },
+    {
+      "name": "layout",
+      "parentId": "fsjGtTk4",
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "XA8lMrJy",
+      "createdAt": 1665657152509,
+      "updatedAt": 1665657158412,
+      "index": 6
+    },
+    {
+      "name": "border",
+      "parentId": "fsjGtTk4",
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "HK2DaNHk",
+      "createdAt": 1665657512769,
+      "updatedAt": 1665657516124,
+      "index": 7
+    },
+    {
+      "name": "css/sass",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "fsjGtTk4",
+      "createdAt": 1665642600288,
+      "updatedAt": 1665642614178,
+      "index": 1
+    },
+    {
+      "name": "html",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "dEgrWvtb",
+      "createdAt": 1665643757791,
+      "updatedAt": 1665643767904,
+      "index": 2
+    },
+    {
+      "name": "js",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "iKm1FLRU",
+      "createdAt": 1665657609711,
+      "updatedAt": 1665657612287,
+      "index": 3
+    },
+    {
+      "name": "ejs",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "osS8WVJB",
+      "createdAt": 1665658600210,
+      "updatedAt": 1665658604068
+    },
+    {
+      "name": "shell",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "Pn_qW8Q9",
+      "createdAt": 1665658689613,
+      "updatedAt": 1665658693054
+    },
+    {
+      "name": "regexp",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "cmbMipHX",
+      "createdAt": 1665658814783,
+      "updatedAt": 1665658824008
+    },
+    {
+      "name": "php",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "k8WoRfXd",
+      "createdAt": 1665658922734,
+      "updatedAt": 1665658926342
+    },
+    {
+      "name": "htaccess",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "x3_XZkS0",
+      "createdAt": 1665658945786,
+      "updatedAt": 1665658952976
+    }
+  ],
+  "snippets": [
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "OZJYzn9d",
+      "tagsIds": [],
+      "description": null,
+      "name": "Better Comments",
+      "content": [
+        {
+          "label": ".css",
+          "language": "css",
+          "value": "! 注意\n? 不明\n// 通常コメント\ntodo やるべき\n** 強調"
+        },
+        {
+          "label": ".json",
+          "language": "json",
+          "value": "\"better-comments.tags\": [\n\t\t{\n\t\t\t\"tag\": \"!\",\n\t\t\t\"color\": \"#ff83a7\",\n\t\t\t\"strikethrough\": false,\n\t\t\t\"underline\": false,\n\t\t\t\"backgroundColor\": \"transparent\",\n\t\t\t\"bold\": true,\n\t\t\t\"italic\": false\n\t\t},\n\t\t{\n\t\t\t\"tag\": \"?\",\n\t\t\t\"color\": \"#3498DB\",\n\t\t\t\"strikethrough\": false,\n\t\t\t\"underline\": true,\n\t\t\t\"backgroundColor\": \"transparent\",\n\t\t\t\"bold\": false,\n\t\t\t\"italic\": false\n\t\t},\n\t\t{\n\t\t\t\"tag\": \"//\",\n\t\t\t\"color\": \"#474747\",\n\t\t\t\"strikethrough\": true,\n\t\t\t\"underline\": false,\n\t\t\t\"backgroundColor\": \"transparent\",\n\t\t\t\"bold\": true,\n\t\t\t\"italic\": false\n\t\t},\n\t\t{\n\t\t\t\"tag\": \"todo\",\n\t\t\t\"color\": \"#FF8C00\",\n\t\t\t\"strikethrough\": false,\n\t\t\t\"underline\": false,\n\t\t\t\"backgroundColor\": \"transparent\",\n\t\t\t\"bold\": true,\n\t\t\t\"italic\": false\n\t\t},\n\t\t{\n\t\t\t\"tag\": \"*\",\n\t\t\t\"color\": \"#98C379\",\n\t\t\t\"strikethrough\": false,\n\t\t\t\"underline\": false,\n\t\t\t\"backgroundColor\": \"transparent\",\n\t\t\t\"bold\": true,\n\t\t\t\"italic\": false\n\t\t}\n\t],"
+        }
+      ],
+      "id": "591JKQcP",
+      "createdAt": 1665642458293,
+      "updatedAt": 1665642818117
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": true,
+      "folderId": "8xs9Mguw",
+      "tagsIds": [],
+      "description": null,
+      "name": "電話レスポンシブ",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": "@media (min-width: 768px) {\n  a[href*=\"tel:\"] {\n    pointer-events: none;\n    cursor: default;\n    text-decoration: none;\n  }\n}"
+        }
+      ],
+      "id": "t7r4R7Kx",
+      "createdAt": 1665642616425,
+      "updatedAt": 1665651242768
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "kmSXg6F4",
+      "tagsIds": [],
+      "description": null,
+      "name": "photoshop アセット 初期設定",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "markdown",
+          "value": "## アセットの初期設定の指定\n\n[Photoshop でのレイヤーから画像アセットの作成](https://helpx.adobe.com/jp/photoshop/using/generate-assets-layers.html#default_settings)\n\n生成されたアセットに対してドキュメント全体の初期設定を指定できます。次の手順に従います。\n\n1. ドキュメント内に空のレイヤーを作成します。\n\n2. レイヤー名の先頭にキーワード default を付けます。次に、そのドキュメントから生成されるすべての画像アセットに適用する設定を入力します。以下に例を挙げます。\n\n   \n\n**`default hi-res/`**\n\n**hi-res** という名前のサブフォルダーにすべての画像アセットを生成します。\n例：**[asset_folder]/hi-res/Delicious.jpg**\n\n\n\n**`default hi-res/@2x`**\n\n**hi-res** という名前のサブフォルダーにすべての画像アセットを生成します。さらに、アセット名にサフィックスとして **@2x** を付加します。\n例：**[asset_folder]/hi-res/Delicious@2x.jpg**\n\n\n\n**`default 50% lo-res/`**\n\n画像アセットを 50% 縮小して、ドキュメントのアセットフォルダーの **lo-res**という名前のサブフォルダーに保存します。\n\n\n\n**`default hi-res/@2x + 50% lo-res/`**\n\n1 つのレイヤーから 2 つの画像アセットを生成します。\n\n- **hi-res** サブフォルダーに、サフィックス **@2x** が名前に付いた画像アセット\n\n- **lo-res** サブフォルダーに、50% 縮小された画像アセット\n\n  \n\n> **注意：**\n> 初期設定の拡大縮小係数は、個々のレイヤーに指定された拡大縮小係数で上書きされます。\n> \n\n\n\n2倍、1倍で書き出し\n**`default 200% 2x/@2x + 100%`**"
+        }
+      ],
+      "id": "R-mEUCin",
+      "createdAt": 1665642690177,
+      "updatedAt": 1665642910216
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "OZJYzn9d",
+      "tagsIds": [],
+      "description": null,
+      "name": "エディタのフォーマットをオフにしてstylelintを優先する",
+      "content": [
+        {
+          "label": "setting.json",
+          "language": "json",
+          "value": "{\n  \"css.validate\": false,\n  \"scss.validate\": false,\n  \"stylelint.autoFixOnSave\": true,\n  \"[css]\": {\n    \"editor.formatOnSave\": false\n  },\n  \"[scss]\": {\n    \"editor.formatOnSave\": false\n  },\n}"
+        },
+        {
+          "label": "Fragment 2",
+          "language": "plain_text",
+          "value": ""
+        }
+      ],
+      "id": "baGzL92N",
+      "createdAt": 1665642786165,
+      "updatedAt": 1665642886471
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "cQf718zO",
+      "tagsIds": [],
+      "description": null,
+      "name": "レスポンシブな丸",
+      "content": [
+        {
+          "label": ".scss",
+          "language": "sass",
+          "value": "div {\n\tposition: relative;\n\twidth: 50%;\n\theight: 50%;\n\tpadding: 25%;\n\tborder-radius: 50%;\n\tbackground: #000;\n\tmargin: 1em;\n  \n  span {\n    position: absolute;\n    left: 0;\n    top: 50%;\n    margin: -.5em 0 0;\n    width: 100%;\n    text-align: center;\n    color: #fff;\n  }\n}"
+        }
+      ],
+      "id": "iAuIF8Di",
+      "createdAt": 1665643122543,
+      "updatedAt": 1665644382087
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "4rgGaxbD",
+      "tagsIds": [],
+      "description": null,
+      "name": "メディアクエリ",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": "//mediaquery\n$pc: 1088px; // PC\n$tab: 959px; // タブレット\n$sp: 600px;  // スマホ\n\n@mixin lpc {\n  @media screen and (min-width: ($pc)) {\n    @content;\n  }\n}\n@mixin mpc {\n  @media screen and (max-width: ($pc - 1)) {\n    @content;\n  }\n}\n@mixin tab-pc {\n  @media screen and (min-width: ($tab)) and (max-width: ($pc - 1)) {\n    @content;\n  }\n}\n@mixin tab {\n  @media screen and (max-width: ($tab)) {\n    @content;\n  }\n}\n@mixin sp-tab {\n  @media screen and (min-width: ($sp)) and (max-width: ($tab - 1)) {\n    @content;\n  }\n}\n@mixin sp {\n  @media screen and (max-width: ($sp - 1)) {\n    @content;\n  }\n}"
+        }
+      ],
+      "id": "JNAGtE5l",
+      "createdAt": 1665643275874,
+      "updatedAt": 1665656753621
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "8xs9Mguw",
+      "tagsIds": [],
+      "description": null,
+      "name": "safari hack",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": "_::-webkit-full-page-media, _:future, :root .hoge {\n  padding-left: 2.4rem;\n  padding-right: 0.3rem;\n}"
+        }
+      ],
+      "id": "45H_wM0u",
+      "createdAt": 1665643341027,
+      "updatedAt": 1665644411106
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "ZlYjrFwG",
+      "tagsIds": [],
+      "description": null,
+      "name": "キラン処理",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": "&::before {\n\t\t\tposition: absolute;\n\t\t\ttop: 0;\n\t\t\tright: 0;\n\t\t\tbottom: 0;\n\t\t\tleft: 0;\n\t\t\tz-index: 1;\n\t\t\tcontent: '';\n\t\t\tbackground: #122a88;\n\t\t\ttransform: scale(0, 1);\n\t\t\tanimation: slide-in-01 .6s cubic-bezier(.755,.05,.855,.06), slide-out-01 .6s cubic-bezier(.755,.05,.855,.06);\n\t\t\ttransition-duration: .4s;\n\t\t}\n\n@keyframes slidein_text {\n\t0% {\n\t\t\ttransform: scaleX(0);\n\t\t\ttransform-origin: left center;\n\t}\n\t50% {\n\t\t\ttransform: scaleX(1);\n\t\t\ttransform-origin: left center;\n\t}\n\t51% {\n\t\t\ttransform: scaleX(1);\n\t\t\ttransform-origin: right center;\n\t}\n\t100% {\n\t\t\ttransform: scaleX(0);\n\t\t\ttransform-origin: right center;\n\t}\n}"
+        }
+      ],
+      "id": "7yCw3-ek",
+      "createdAt": 1665643377028,
+      "updatedAt": 1665657277125
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "8xs9Mguw",
+      "tagsIds": [],
+      "description": null,
+      "name": "hover画像切替",
+      "content": [
+        {
+          "label": ".scss",
+          "language": "sass",
+          "value": ".top__info {\n    &_item {\n        position: relative;\n    }\n    a {\n        .ov {\n            position: absolute;\n            top: 0;\n            left: 0;\n            width: 100%;\n            height: 100%;\n            opacity: 0;\n            transition: 0.3s ease;\n        }\n        &:hover {\n            .ov {\n                opacity: 1;\n                transition: 0.3s ease;\n            }\n        }\n    }\n}"
+        },
+        {
+          "label": ".html",
+          "language": "html",
+          "value": "<div class=\"topics_item\">\n  <a href=\"https://lmp1.net/ocp8wpjkbspim4gx98ucuq9qvsuvdcmu/contacts/new\" target=\"_blank\">\n    <img src=\"imgs/bnr_topics01.jpg\" alt=\"\" class=\"df\">\n    <img src=\"imgs/bnr_topics01_ov.jpg\" alt=\"\" class=\"ov\">\n  </a>\n</div>"
+        }
+      ],
+      "id": "hagcbqaJ",
+      "createdAt": 1665643402463,
+      "updatedAt": 1665644559656
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": true,
+      "folderId": "cQf718zO",
+      "tagsIds": [],
+      "description": null,
+      "name": "flex 空要素 配置",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": "ul {\n  &::after {\n    content:\"\";\n    display: block;\n    width: 267px;\n  } \n}\n\nul {\n  &::before {\n    content:\"\";\n    display: block;\n    width: 267px;\n    order:1;\n  }\n}"
+        }
+      ],
+      "id": "Nj9MFQTM",
+      "createdAt": 1665643461466,
+      "updatedAt": 1665651187038
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "cQf718zO",
+      "tagsIds": [],
+      "description": null,
+      "name": "半分 斜め 2色 ボタン",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": ".slant {\n  position: relative;\n  \n  &::before {\n    position: absolute;\n    top: 0;\n    left: 0;\n    content: \"\";\n    display: block;\n    width: 180px;\n    height: 52px;\n    background: linear-gradient(-15deg, rgba(0,0,0,0) 50% , rgba(218, 216, 133, 0.3) 50% );\n    z-index: 2;\n  }\n\n  &::after {\n    position: absolute;\n    top: 0;\n    left: 0;\n    content: \"\";\n    display: block;\n    width: 180px;\n    height: 52px;\n    background: linear-gradient(90deg, rgba(184,182,105,1) 0%, rgba(72,67,19,1) 60%, rgba(55,49,6,1) 75%, rgba(184,182,105,1) 100%);\n    z-index: 1;\n  }\n}"
+        }
+      ],
+      "id": "8_a9Ll9b",
+      "createdAt": 1665643543934,
+      "updatedAt": 1665644435841
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "5zMTm1JF",
+      "tagsIds": [],
+      "description": null,
+      "name": "テキスト カーニング",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": ".kerning {\n  //左つめ\n  text-indent: .08em;\n  //右つめ\n  letter-spacing: -.04em;\n}"
+        }
+      ],
+      "id": "K9ncWSUX",
+      "createdAt": 1665643611486,
+      "updatedAt": 1665657282629
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": true,
+      "folderId": "dEgrWvtb",
+      "tagsIds": [],
+      "description": null,
+      "name": "ポップアップ",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "html",
+          "value": "<a class=\"ohover\" href=\"javascript:void(0);\" onclick=\"window.open('plan_a.html','_blank','width=750,height=750,scrollbars=1');return false;\"></a>"
+        }
+      ],
+      "id": "YHz-yMwy",
+      "createdAt": 1665643770043,
+      "updatedAt": 1665651259601
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": true,
+      "folderId": "HK2DaNHk",
+      "tagsIds": [],
+      "description": null,
+      "name": "蛍光ペン風 ライン",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": "background: linear-gradient(transparent 50%, #eff4f8 50%); //数字の上下で太さ調整\nbackground-position-y: -2px; //位置を変更"
+        }
+      ],
+      "id": "NIz9bmGC",
+      "createdAt": 1665643920334,
+      "updatedAt": 1665657542196
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": true,
+      "folderId": "HK2DaNHk",
+      "tagsIds": [],
+      "description": null,
+      "name": "2重 内線",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": ".frame {\n  position: relative;\n  \n  &::before {\n    content: \"\";\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    border: 1px solid #fff;\n    box-sizing: border-box;\n  }\n\n  &::after {\n    content: \"\";\n    width: calc(100% - 4px);\n    height: calc(100% - 4px);\n    position: absolute;\n    top: 2px;\n    left: 2px;\n    border: 1px dashed #7ba4a8;\n    box-sizing: border-box;\n  }\n}"
+        }
+      ],
+      "id": "fxc80GXu",
+      "createdAt": 1665644060988,
+      "updatedAt": 1665657544298
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "cQf718zO",
+      "tagsIds": [],
+      "description": null,
+      "name": "画像に透明のグラデをかけてキャプションを見やすく",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": ".photo-shadow {\n  position: relative;\n  \n  &::before {\n    content: \"\";\n    display: block;\n    position: absolute;\n    bottom: 0;\n    width: 100%;\n    height: 100%;\n    background: linear-gradient(0deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0) 15%);\n  }\n}"
+        }
+      ],
+      "id": "fR6AcOPS",
+      "createdAt": 1665644140831,
+      "updatedAt": 1665644592878
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "5zMTm1JF",
+      "tagsIds": [],
+      "description": null,
+      "name": "テキスト 縁取り",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": "-webkit-text-stroke: 2px #333;"
+        }
+      ],
+      "id": "lFT8CpjA",
+      "createdAt": 1665644195931,
+      "updatedAt": 1665657291691
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "dEgrWvtb",
+      "tagsIds": [],
+      "description": null,
+      "name": "JSなしでタブ切り替え",
+      "content": [
+        {
+          "label": ".html",
+          "language": "html",
+          "value": "<div class=\"tabs\">\n  <!-- セットで1つ input（ラジオボタンは見た目では消す）\n                    inputのidとlabelのforをあわせる -->\n  <input id=\"all\" type=\"radio\" name=\"tab_item\" checked>\n  <label class=\"tab_item\" for=\"all\">総合</label>\n  \n  <input id=\"programming\" type=\"radio\" name=\"tab_item\">\n  <label class=\"tab_item\" for=\"programming\">プログラミング</label>\n  \n  <input id=\"design\" type=\"radio\" name=\"tab_item\">\n  <label class=\"tab_item\" for=\"design\">デザイン</label>\n  \n  <div class=\"tab_content\" id=\"all_content\">\n    <div class=\"tab_content_description\">\n      <p class=\"c-txtsp\">総合の内容がここに入ります</p>\n    </div>\n  </div>\n  <div class=\"tab_content\" id=\"programming_content\">\n    <div class=\"tab_content_description\">\n      <p class=\"c-txtsp\">プログラミングの内容がここに入ります</p>\n    </div>\n  </div>\n  <div class=\"tab_content\" id=\"design_content\">\n    <div class=\"tab_content_description\">\n      <p class=\"c-txtsp\">デザインの内容がここに入ります</p>\n    </div>\n  </div>\n</div>"
+        },
+        {
+          "label": ".scss",
+          "language": "sass",
+          "value": "/*タブ切り替え全体のスタイル*/\n.tabs {\n  margin-top: 50px;\n  padding-bottom: 40px;\n  background-color: #fff;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);\n  width: 700px;\n  margin: 0 auto;}\n\n/*タブのスタイル*/\n.tab_item {\n  width: calc(100%/3);\n  height: 50px;\n  border-bottom: 3px solid #5ab4bd;\n  background-color: #d9d9d9;\n  line-height: 50px;\n  font-size: 16px;\n  text-align: center;\n  color: #565656;\n  display: block;\n  float: left;\n  text-align: center;\n  font-weight: bold;\n  transition: all 0.2s ease;\n}\n.tab_item:hover {\n  opacity: 0.75;\n}\n\n/*ラジオボタンを全て消す*/\ninput[name=\"tab_item\"] {\n  display: none;\n}\n\n/*タブ切り替えの中身のスタイル*/\n.tab_content {\n  display: none;\n  padding: 40px 40px 0;\n  clear: both;\n  overflow: hidden;\n}\n\n\n/*選択されているタブのコンテンツのみを表示*/\n#all:checked ~ #all_content,\n#programming:checked ~ #programming_content,\n#design:checked ~ #design_content {\n  display: block;\n}\n\n/*選択されているタブのスタイルを変える*/\n.tabs input:checked + .tab_item {\n  background-color: #5ab4bd;\n  color: #fff;\n}"
+        }
+      ],
+      "id": "upYKjLiG",
+      "createdAt": 1665644237712,
+      "updatedAt": 1665645662021
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "8xs9Mguw",
+      "tagsIds": [],
+      "description": null,
+      "name": "print 印刷",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": "@media only print {\n  @page {\n      size: A4;\n      margin: 12.7mm 9.7mm;\n  }\n\n  body {\n      width: 1440px;\n      height: 100vh;\n      margin: 0 !important;\n      padding: 0 !important;\n      overflow: hidden;\n      transform: scale(0.6);\n      transform-origin: 0 0;\n      -webkit-print-color-adjust: exact;/* 背景を印刷する */\n  }\n  \n  p{\n    page-break-before: always; /*強制的に直前で改ページさせる*/\n  }\n  \n  p{\n    page-break-after: always;/* 強制的に直後で改ページさせる */\n  }\n}"
+        }
+      ],
+      "id": "eHveUAJT",
+      "createdAt": 1665644315313,
+      "updatedAt": 1665644649057
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "5zMTm1JF",
+      "tagsIds": [],
+      "description": null,
+      "name": "文字量に合わせて点線の長さを自動調整",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": ".line {\n  background: radial-gradient(#fff 10%,transparent 20%) center/3px 7px;\n  content: '';\n  display: flex;\n  flex: 1 1 auto;\n  height: 7px;\n  margin: 0 10px;\n}\n\nhr {\n  padding: 0;\n  border: 0;\n  outline: 0;\n}"
+        }
+      ],
+      "id": "tz--zmvx",
+      "createdAt": 1665645670652,
+      "updatedAt": 1665657302059
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "cQf718zO",
+      "tagsIds": [],
+      "description": null,
+      "name": "ドロップシャドウ",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": ".drop-shadow {\n  filter: drop-shadow(2px 4px 8px #585858);\n}"
+        }
+      ],
+      "id": "J1hrzU5I",
+      "createdAt": 1665645762986,
+      "updatedAt": 1665645782889
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "8xs9Mguw",
+      "tagsIds": [],
+      "description": null,
+      "name": "選択ハイライトの変更",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": ".custom-highlighting::selection {\n  background-color: #8e44ad;\n  color: #fff;\n}"
+        }
+      ],
+      "id": "OTrvHomK",
+      "createdAt": 1665645960275,
+      "updatedAt": 1665645992911
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "8xs9Mguw",
+      "tagsIds": [],
+      "description": null,
+      "name": "スムーズスクロール",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": "html {\n  scroll-behavior: smooth;\n}\n\n// ie safari x"
+        }
+      ],
+      "id": "DTAfc4Ay",
+      "createdAt": 1665646154895,
+      "updatedAt": 1665646200382
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "cQf718zO",
+      "tagsIds": [],
+      "description": null,
+      "name": "箱がずれて重なる表現 影",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": ".box {      \n    width: calc(100% - 10px);\n    height: calc(100% - 10px);\n    background-color: #e2e1d7;\n    position: relative;\n\n    &::after {\n      content: \"\";\n      display: block;\n      width: 100%;\n      height: 100%;\n      position: absolute;\n      bottom: -10px;\n      right: -10px;\n      background-color: #aea69a;\n      z-index: -1;\n    }\n}"
+        }
+      ],
+      "id": "9SGr7UYd",
+      "createdAt": 1665647266181,
+      "updatedAt": 1665647288901
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "5zMTm1JF",
+      "tagsIds": [],
+      "description": null,
+      "name": "テキストの上に強調する点",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": "background-position: top left -2px;\nbackground-repeat: repeat-x;\nbackground-size: 1.1em .3em;\nbackground-image: radial-gradient(.15em .15em at center center,orange,orange 100%,transparent);"
+        }
+      ],
+      "id": "aX6e4t0E",
+      "createdAt": 1665647306115,
+      "updatedAt": 1665657307662
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "5zMTm1JF",
+      "tagsIds": [],
+      "description": null,
+      "name": "文字グラデ",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": "h1{\n  background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);//背景色にグラデーションを指定\n  -webkit-background-clip: text;//テキストでくり抜く\n  -webkit-text-fill-color: transparent;//くり抜いた部分は背景を表示\n}"
+        }
+      ],
+      "id": "sog_IyMa",
+      "createdAt": 1665647342315,
+      "updatedAt": 1665657311309
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": true,
+      "folderId": "HK2DaNHk",
+      "tagsIds": [],
+      "description": null,
+      "name": "内線css",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": ".frame {\n  position: relative;\n  \n  &::after {\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  border: 1px solid #dddddd;\n  box-sizing: border-box;\n  }\n}"
+        }
+      ],
+      "id": "rhL37lPh",
+      "createdAt": 1665651067805,
+      "updatedAt": 1665657536545
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": true,
+      "folderId": "cQf718zO",
+      "tagsIds": [],
+      "description": null,
+      "name": "透明のフィルタ",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": ".hoge {\n  position: relative;\n  \n  &:before {\n    content: \"\";\n    position: absolute;\n    top: 0;\n    right: 0;\n    left: 0;\n    bottom: 0;\n    width: 100%;\n    background: rgba(0, 0, 0, 0.6);\n    z-index: 100;\n  }\n  \n\t&:hover:before {\n    background: rgba(0, 0, 0, 0);\n    transition: 0.2s;\n  }\n}"
+        }
+      ],
+      "id": "vJAzmu-s",
+      "createdAt": 1665651099940,
+      "updatedAt": 1665651163700
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "HK2DaNHk",
+      "tagsIds": [],
+      "description": null,
+      "name": "二重線を引く",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": ".hoge {\n  font-size: 2rem;\n  line-height: 1.5;\n  letter-spacing: .28em;\n  border-bottom: 1px #d0cca0 solid;\n  position: relative;\n  \n  &::before {\n    content: \"\";\n    width: 100%;\n    height: 1px;\n    border-bottom: 1px #8d8955 solid;\n    position: absolute;\n    left: 0;\n    bottom: -4px;\n  }\n}"
+        }
+      ],
+      "id": "C6KVWVAU",
+      "createdAt": 1665656360663,
+      "updatedAt": 1665657546103
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "8xs9Mguw",
+      "tagsIds": [],
+      "description": null,
+      "name": "コメントアウト",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": "#comment\n\n##scss\n\n```\n//=================================================================\n \n\tcomment\n\n//=================================================================\n```\n\n```\n// comment\n//––––––––––––––––––––––––––––––––––––––––––––––––––\n```\n\n```\n//=====================================================\n\n//comment\n\n//=====================================================\n```\n\n```\n//-------------------------------\n//\tcomment\n//-------------------------------\n```"
+        }
+      ],
+      "id": "JPlhHMrC",
+      "createdAt": 1665656411444,
+      "updatedAt": 1665656424670
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "AXjA8_qr",
+      "tagsIds": [],
+      "description": null,
+      "name": "Rayout CSS",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "scss",
+          "value": "* {background-color: rgba(255,0,0,.2)}\n* * {background-color：rgba(0,255,0、.2)} \n* * * {background-color：rgba(0,0,255、.2)} \n* * * * {background-color：rgba(255,0,255、.2)} \n* * * * * {background-color：rgba(0,255,255、.2)} \n* * * * * * {background-color：rgba(255,255,0、.2)} \n* * * * * * * {background-color：rgba(255,0,0、.2)} \n* * * * * * * * {background-color：rgba(0,255,0、.2)} \n* * * * * * * * * {background-color：rgba(0,0,255、.2)}"
+        }
+      ],
+      "id": "UFhb9aEi",
+      "createdAt": 1665656469274,
+      "updatedAt": 1665656523919
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "8xs9Mguw",
+      "tagsIds": [],
+      "description": null,
+      "name": "游ゴシックのweightを正しく指定する",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": "@font-face {\n\tfont-family: \"YuGothic M\"; src: local(\"Yu Gothic Medium\");\n}\n\np {\n\tfont-family: \"游ゴシック体\", YuGothic, \"YuGothic M\", sans-serif;\n}"
+        }
+      ],
+      "id": "iyXs3kmj",
+      "createdAt": 1665656489074,
+      "updatedAt": 1665656519505
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "8xs9Mguw",
+      "tagsIds": [],
+      "description": null,
+      "name": "スクロールバーを消す",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": "body::-webkit-scrollbar {\n\tdisplay: none;\n}"
+        }
+      ],
+      "id": "OjV1EuNY",
+      "createdAt": 1665656553858,
+      "updatedAt": 1665656564253
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "cQf718zO",
+      "tagsIds": [],
+      "description": null,
+      "name": "justify-content: space-between;に例外を与える",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": ".table {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n    p {\n    &:nth-child(1) {\n      width: 13.9583333%;\n      margin-top: 14.8rem;\n    }\n    &:nth-child(2) {\n      margin-top: 2.2rem;\n      margin-left: -.41%; //ネガティブマージンを与える\n    }\n    &:nth-child(n + 2) {\n\t    width: 28.44%;\n    }\n  }\n}"
+        }
+      ],
+      "id": "MGWjDI2P",
+      "createdAt": 1665656586892,
+      "updatedAt": 1665656619708
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "8xs9Mguw",
+      "tagsIds": [],
+      "description": null,
+      "name": "IEハック",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": ".info01 {\n\tfont-size: 4.5vw\\0;\n}"
+        }
+      ],
+      "id": "cWQp5AW3",
+      "createdAt": 1665656636288,
+      "updatedAt": 1665656653706
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "8xs9Mguw",
+      "tagsIds": [],
+      "description": null,
+      "name": "画像名から直接画像レスポンシブ切り替え",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": "img[src$=\"_sp.jpg\"],\nimg[src$=\"_sp.png\"] {\n\tdisplay: none;\n\n\t@include sp {\n\t\tdisplay: inline-block;\n\n\t\t& ~ img {\n\t\t\tdisplay: none;\n\t\t}\n\t}\n}\nimg[src$=\"_tb.jpg\"],\nimg[src$=\"_tb.png\"] {\n\tdisplay: none;\n\n\t@include tb {\n\t\tdisplay: inline-block;\n\n\t\t& ~ img {\n\t\t\tdisplay: none;\n\t\t}\n\t}\n}\n.sp,\n.tb,\n.slick-slide img.tb {\n\tdisplay: none;\n}\n@include tb {\n\t.slick-slide img.pc,\n\t.pc {\n\t\tdisplay: none;\n\t}\n\t.tb {\n\t\tdisplay: block;\n\t}\n\t.slick-slide img.tb,\n\tbr.tb {\n\t\tdisplay: inline;\n\t}\n}\n@include sp {\n\tbr.sp {\n\t\tdisplay: inline;\n\t}"
+        }
+      ],
+      "id": "0un-CSm2",
+      "createdAt": 1665656678257,
+      "updatedAt": 1665656706716
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "4rgGaxbD",
+      "tagsIds": [],
+      "description": null,
+      "name": "文字上下の行間調整 line-height 相殺",
+      "content": [
+        {
+          "label": ".scss",
+          "language": "sass",
+          "value": "@include mt($num:2rem, $fz:1.4rem, $lh:1.5);\n@include mb($num:2rem, $fz:1.4rem, $lh:1.5);"
+        },
+        {
+          "label": ".scss",
+          "language": "sass",
+          "value": "//行間削除マージン\n//$num＝実寸マージン（rem）\n//$fz＝実寸フォントサイズ（rem）\n//$lh＝line-heightの数値\n\n//magine-top\n@mixin mt ($num,$fz,$lh) {\nmargin-top: ($num - ((($fz * $lh) - $fz) / 2));\n}\n//margin-bottom\n@mixin mb ($num,$fz,$lh){\nmargin-bottom: ($num - ((($fz * $lh) - $fz) / 2));\n}\n\n//padding-top\n@mixin pt ($num,$fz,$lh) {\npadding-top: ($num - ((($fz * $lh) - $fz) / 2));\n}\n//padding-bottom\n@mixin pb ($num,$fz,$lh){\npadding-bottom: ($num - ((($fz * $lh) - $fz) / 2));\n}"
+        },
+        {
+          "label": ".md",
+          "language": "markdown",
+          "value": "font-size:14px\nline-height: 1.5\nmargin-top:30px\nのとき\n\n```\nmargin-top: calc(30px - (((14px * 1.5) - 14px) / 2))\n```"
+        }
+      ],
+      "id": "N_Is6YgM",
+      "createdAt": 1665656721274,
+      "updatedAt": 1665656829508
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "5zMTm1JF",
+      "tagsIds": [],
+      "description": null,
+      "name": "リストの前の丸など、改行しても頭につくように",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": "li {\n\tpadding-left: 2.5rem;\n\tline-height: 3;\n\tvertical-align: middle;\n\tposition: relative;\n\tspan::after {\n\t\tcontent: \"\";\n\t\twidth: 15px;\n\t\theight: 15px;\n\t\tborder-radius: 50%;\n\t\tdisplay: block;\n\t\tbackground: rgb(0, 0, 0);\n\t\tposition: absolute;\n\t\ttop: 0.6em;\n\t\tleft: -2em;\n\t\ttransform: translateY(-47%);\n\t\t}\n}"
+        }
+      ],
+      "id": "0-MlSzmg",
+      "createdAt": 1665656838325,
+      "updatedAt": 1665657334895
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "5zMTm1JF",
+      "tagsIds": [],
+      "description": null,
+      "name": "日本語を両端揃えにする",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": "text-align-last: justify;\ntext-justify: inter-ideograph;"
+        }
+      ],
+      "id": "PQpawhDN",
+      "createdAt": 1665656860126,
+      "updatedAt": 1665657336977
+    },
+    {
+      "isDeleted": true,
+      "isFavorites": false,
+      "folderId": "cQf718zO",
+      "tagsIds": [],
+      "description": null,
+      "name": "Untitled snippet",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": ""
+        }
+      ],
+      "id": "nH-gGbRn",
+      "createdAt": 1665656898117,
+      "updatedAt": 1665657341001
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "cQf718zO",
+      "tagsIds": [],
+      "description": null,
+      "name": "透明グラデの光るフィルタ",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": ".hoge a {\n\tposition: relative;\n  display: inline-block;\n\ttransition: 0.3s ease;\n}\n.hoge a:before {\n\tcontent: \"\";\n\tposition: absolute;\n\ttop: 0;\n\tright: 0;\n\tleft: 0;\n\tbottom: 0;\n\twidth: 100%;\n\tz-index: 100;\n\topacity: 0;\n  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);\n\ttransition: 0.3s ease;\n}\n.hoge a:hover:before {\n\topacity: .6;\n\ttransition: 0.3s ease;\n}"
+        }
+      ],
+      "id": "-Jus8f3N",
+      "createdAt": 1665656898211,
+      "updatedAt": 1665656909543
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "5zMTm1JF",
+      "tagsIds": [],
+      "description": null,
+      "name": "文字 10px以下",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": "font-size: 10px;\ntransform: scale(.8);\ntransform-origin: right bottom;"
+        }
+      ],
+      "id": "U8QxF78c",
+      "createdAt": 1665656915961,
+      "updatedAt": 1665657449496
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "XA8lMrJy",
+      "tagsIds": [],
+      "description": null,
+      "name": "fixedで上下左右正中",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": ".popup{\n  position: fixed;\n  inset: 0;\n  margin: auto;\n}"
+        }
+      ],
+      "id": "ysMWxQSj",
+      "createdAt": 1665656941078,
+      "updatedAt": 1665657455647
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "cQf718zO",
+      "tagsIds": [],
+      "description": null,
+      "name": "グラデ線",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": "border: 1px solid rgb(140,120,86);\nborder-image: linear-gradient(to right, rgba(140,120,86,1) 0%, rgba(247,226,170,1) 100%);\nborder-image-slice: 1;"
+        }
+      ],
+      "id": "6QLKkuqh",
+      "createdAt": 1665656961412,
+      "updatedAt": 1665656972946
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "5zMTm1JF",
+      "tagsIds": [],
+      "description": null,
+      "name": "テキストなどの横に線",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": "position: relative;\n  &::before {\n    content: \"\";\n    width: calc(223/624 * 100%);\n    height: 1px;\n    background: #c5c5c5;\n    position: absolute;\n    top: 50%;\n    left: 0;\n  }\n  &::after {\n    content: \"\";\n    width: calc(223/624 * 100%);\n    height: 1px;\n    background: #c5c5c5;\n    position: absolute;\n    top: 50%;\n    right: 0;\n  }"
+        }
+      ],
+      "id": "wQgaIMNo",
+      "createdAt": 1665657001414,
+      "updatedAt": 1665657577748
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "dEgrWvtb",
+      "tagsIds": [],
+      "description": null,
+      "name": "スペース 特殊文字",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "html",
+          "value": "&ensp;\n<!-- 半角スペースより少し広い空白 -->\n\n&emsp;\n<!-- 全角スペースとほぼ同じ大きさの空白 -->\n\n&thinsp;\n<!-- &nbsp;の空白より小さい空白 -->"
+        }
+      ],
+      "id": "pNnqycrG",
+      "createdAt": 1665657033115,
+      "updatedAt": 1665657051112
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "5zMTm1JF",
+      "tagsIds": [],
+      "description": null,
+      "name": "2行目の始まりを行揃えする インデント",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": ".num_list p {\n  text-indent: -1em;\n  padding-left: 1em;\n}"
+        }
+      ],
+      "id": "1B2V4ou-",
+      "createdAt": 1665657064752,
+      "updatedAt": 1665657466098
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "ZlYjrFwG",
+      "tagsIds": [],
+      "description": null,
+      "name": "領域内で縮みながらふわっと現れる",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": ".image {\n  overflow: hidden;\n  transition: 1s ease-in-out;\n  transform: scale(1.05);\n  opacity: 0;\n}\n  &.aos-animate .image {\n  transform: scale(1);\n  opacity: 1;\n}"
+        }
+      ],
+      "id": "Lb1u0i20",
+      "createdAt": 1665657086213,
+      "updatedAt": 1665657470515
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "ZlYjrFwG",
+      "tagsIds": [],
+      "description": null,
+      "name": "左から右に徐々に画像表示",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": ".img-wrap {\n  overflow: hidden;\n  position: relative;\n\n  &:before {\n    animation: img-wrap 2s cubic-bezier(0.4, 0, 0.2, 1) forwards;\n    background: #fff;\n    bottom: 0;\n    content: '';\n    left: 0;\n    pointer-events: none;\n    position: absolute;\n    right: 0;\n    top: 0;\n    z-index: 1;\n  }\n}\n\n@keyframes img-wrap {\n  100% {\n    transform: translateX(100%);\n  }\n}"
+        }
+      ],
+      "id": "Mu88GOf4",
+      "createdAt": 1665657111131,
+      "updatedAt": 1665657479913
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "5zMTm1JF",
+      "tagsIds": [],
+      "description": null,
+      "name": "テキストの横の線 overflow: hidden;",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": "overflow: hidden;\n\nspan {\n  position: relative;\n  display: inline-block;\n  &::before {\n    content: '';\n    width: 50vw;\n    height: 1px;\n    background: #000;\n    position: absolute;\n    top: 50%;\n    left: -20px;\n    transform: translateX(-100%);\n  }\n  &::after {\n    content: '';\n    width: 50vw;\n    height: 1px;\n    background: #000;\n    position: absolute;\n    top: 50%;\n    right: -20px;\n    transform: translateX(100%);\n  }\n}"
+        }
+      ],
+      "id": "dSeF10A9",
+      "createdAt": 1665657171052,
+      "updatedAt": 1665657580583
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "cQf718zO",
+      "tagsIds": [],
+      "description": null,
+      "name": "Youtubeのレスポンシブ",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": ".youtube {\n\tposition: relative;\n\twidth: 100%;\n\tpadding-top: 56.25%;\n\t\tiframe {\n\t\t\tposition: absolute;\n\t\t\ttop: 0;\n\t\t\tleft: 0;\n\t\t\twidth: 100%;\n\t\t\theight: 100%;\n\t\t}\n}"
+        }
+      ],
+      "id": "HffG6c58",
+      "createdAt": 1665657186817,
+      "updatedAt": 1665657200005
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "XA8lMrJy",
+      "tagsIds": [],
+      "description": null,
+      "name": "max-widthを無視して画面100%",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": "margin: 0 calc((100vw - 960px) / -2);"
+        }
+      ],
+      "id": "6xSH47qO",
+      "createdAt": 1665657208435,
+      "updatedAt": 1665657494598
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "cQf718zO",
+      "tagsIds": [],
+      "description": null,
+      "name": "反転",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": "transform: scale(-1, 1);"
+        }
+      ],
+      "id": "g5QMCRA7",
+      "createdAt": 1665657227271,
+      "updatedAt": 1665657241632
+    },
+    {
+      "isDeleted": true,
+      "isFavorites": false,
+      "folderId": "dEgrWvtb",
+      "tagsIds": [],
+      "description": null,
+      "name": "Untitled snippet",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "<link href=\"https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap\" rel=\"stylesheet\">\n\n<link href=\"https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500;600;700&display=swap\" rel=\"stylesheet\">"
+        }
+      ],
+      "id": "Qrby4zjZ",
+      "createdAt": 1665657249171,
+      "updatedAt": 1665657263631
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "iKm1FLRU",
+      "tagsIds": [],
+      "description": null,
+      "name": "画面幅をとる",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "javascript",
+          "value": "$(window).on('load scroll', function () {\n\t\tvar w = $(window).width();\n\t\tif (w < 959) {\n\t\t\t\tif ($(window).scrollTop() > 100) {\n\t\t\t\t\t\t$('#remainder').fadeIn(200);\n\t\t\t\t} else {\n\t\t\t\t\t\t$('#remainder').fadeOut(200);\n\t\t\t\t}\n\t\t} else {\n\t\t\t\tif ($(window).scrollTop() > 3700) {\n\t\t\t\t\t\t$('#remainder').fadeIn(200);\n\t\t\t\t} else {\n\t\t\t\t\t\t$('#remainder').fadeOut(200);\n\t\t\t\t}\n\t\t}\n});"
+        }
+      ],
+      "id": "taU5vq9l",
+      "createdAt": 1665657625361,
+      "updatedAt": 1665657635554
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "iKm1FLRU",
+      "tagsIds": [],
+      "description": null,
+      "name": "フローティングバナー2",
+      "content": [
+        {
+          "label": ".html",
+          "language": "plain_text",
+          "value": "<div class=\"flo_bnr\">\n  <div class=\"bnr\">\n    <div class=\"close\" for=\"close\"><img src=\"./imgs/modal_bnr_close.png\" alt=\"\"></div>\n      <div class=\"image\"><img src=\"./imgs/modal_bnr.jpg\" alt=\"＜正式価格決定＞ 第一期登録受付期間：2020年12月5日（土）～12月11日（金） 14:00締め切り\" width=\"232\"></div>\n  </div>\n</div>"
+        },
+        {
+          "label": ".scss",
+          "language": "sass",
+          "value": ".flo_bnr {\n  position: fixed;\n  top: 100px;\n  right: 8px;\n  z-index: 1;\n  \n  .bnr {\n    position: relative;\n    width: auto;\n    margin-top: 0;\n    \n    .close {\n      position: absolute;\n      top: 0;\n      right: 0;\n      z-index: 1;\n      cursor: pointer;\n    }\n    \n    a:hover {\n    }\n  }\n  \n\t#close:checked ~ .close {\n    display: none;\n    transition: all 0.3s ease;\n\t}\n}"
+        },
+        {
+          "label": ".js",
+          "language": "javascript",
+          "value": "$(function () {\n  $('.flo_bnr .bnr .close').on('click',function () {\n    var target = $(this).parent().parent();\n    $(target).fadeOut();\n  });\n});"
+        }
+      ],
+      "id": "-Wc65Fj-",
+      "createdAt": 1665657644111,
+      "updatedAt": 1665657834835
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "iKm1FLRU",
+      "tagsIds": [],
+      "description": null,
+      "name": "フローティングバナー1",
+      "content": [
+        {
+          "label": ".html",
+          "language": "plain_text",
+          "value": "<div class=\"fixBnr\" style=\"opacity: 1;\">\n\t<div class=\"inner\">\n\t\t<p>\n\t\t\t<a href=\"special/index.html\">\n\t\t\t\t<img src=\"imgs/bnr_cam.jpg\" alt=\"Special Contents 新しいマンションでの暮らし  「ゆとりの広さ」にこだわりたい！ 詳しくはこちら\" class=\"image pc\">\n\t\t\t\t<img src=\"imgs/bnr_cam_sp.jpg\" alt=\"Special Contents 新しいマンションでの暮らし  「ゆとりの広さ」にこだわりたい！ 詳しくはこちら\" class=\"image sp\">\n\t\t\t</a>\n\t\t</p>\n\t\t<p class=\"close\"><img src=\"imgs/btn_close.png\" alt=\"CLOSE\"></p>\n\t</div>\n\t<div class=\"bg\"></div>\n</div>"
+        },
+        {
+          "label": ".scss",
+          "language": "sass",
+          "value": "/* fix bnr */\n.fixBnr {\n  position: fixed;\n  width: 100%;\n  height: 100vh;\n  top: 0;\n  left: 0;\n  z-index: 99999999\n  \n  .inner {\n  max-width: 860px;\n  width: 100%;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  -webkit-transform: translate(-50%, -50%);\n  -ms-transform: translate(-50%, -50%);\n  transform: translate(-50%, -50%);\n  text-align: center\n  \n  @media screen and (max-width: 599px) {\n    max-width: 330px;\n    padding: 0 22.5px;\n  }\n  \n  .image {\n    width: 100%;\n  }\n\n\t.text {\n    padding-left: 20px;\n    padding-right: 20px;\n    text-align: left;\n    font-size: 10px;\n    line-height: 1.8;\n    color: #fff;\n    margin-top: calc(10px - (((10px * 1.8) - 10px) / 2));\n    margin-bottom: calc(0px - (((10px * 1.8) - 10px) / 2));\n    font-family: \"Noto Serif Japanese\", serif, sans-serif\n  }\n\n  .close {\n    max-width: 97px;\n    margin: 32px auto 0;\n    cursor: pointer\n\n    img {\n      transition: 0.3s ease\n    }\n    \n    &:hover img {\n      opacity: 0.8\n    }\n  }\n  \n  .bg {\n    width: 100%;\n    height: 100%;\n    background: rgba(0, 0, 0, 0.8)\n  }\n}"
+        },
+        {
+          "label": ".js",
+          "language": "javascript",
+          "value": "$(function () {\n\tsetTimeout(function () {\n\t\t$('.fixBnr').css('opacity', '1');\n\t}, 1000);\n\n\t$('.close').click(function () {\n\t\t$('.fixBnr').fadeOut(700);\n\t});\n\n\t$('.image').click(function () {\n\t\t$('.fixBnr').fadeOut(700);\n\t})\n\t$('.fixBnr').click(function () {\n\t\t$('.fixBnr').fadeOut(700);\n\t});\n\n});"
+        }
+      ],
+      "id": "Tia9lDU4",
+      "createdAt": 1665657840297,
+      "updatedAt": 1665658071161
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "dEgrWvtb",
+      "tagsIds": [],
+      "description": null,
+      "name": "間取り よくあるボタン",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "html",
+          "value": "ポップアップ\n<a href=\"javascript:void(0);\" onclick=\"window.open('hoge.html','_blank','width=768,height=750,scrollbars=1');return false;\">\n\n印刷\n<a href=\"javascript:void(0)\" onclick=\"window.print();return false;\" class=\"print\">\n\n閉じる\n<a href=\"javascript:close();\" class=\"close\">"
+        }
+      ],
+      "id": "nnZxCMNw",
+      "createdAt": 1665658078797,
+      "updatedAt": 1665658098139
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "iKm1FLRU",
+      "tagsIds": [],
+      "description": null,
+      "name": "読み込み数秒後にクラスをつける",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "javascript",
+          "value": "$(function () {\n  $('.firstScene').delay(4000).queue(function(){\n  \t$(this).addClass('is-end');\n  })\n  $('.heroAnimation__inner').delay(5000).queue(function(){\n\t  $(this).addClass('is-able');\n  })\n});"
+        }
+      ],
+      "id": "FrxTIDU5",
+      "createdAt": 1665658104767,
+      "updatedAt": 1665658124739
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "iKm1FLRU",
+      "tagsIds": [],
+      "description": null,
+      "name": "ディレクトリパスを取得する",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "var siteDirectory = location.pathname;"
+        }
+      ],
+      "id": "dwbtV8iQ",
+      "createdAt": 1665658135868,
+      "updatedAt": 1665658140970
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "dEgrWvtb",
+      "tagsIds": [],
+      "description": null,
+      "name": "CSS Variables Polyfill for IE11",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "html",
+          "value": "<script>window.MSInputMethodContext && document.documentMode && document.write('<script src=\"https://cdn.jsdelivr.net/gh/nuxodin/ie11CustomProperties@4.1.0/ie11CustomProperties.min.js\"><\\/script>');</script>"
+        }
+      ],
+      "id": "_3jmHJnz",
+      "createdAt": 1665658153238,
+      "updatedAt": 1665658168755
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "iKm1FLRU",
+      "tagsIds": [],
+      "description": null,
+      "name": "スクロール量でクラスをつける",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "javascript",
+          "value": "$(window).scroll(function(){\n  if ($(window).scrollTop() > 300) {\n    $('#nav').addClass('fixed');\n  } else {\n    $('#nav').removeClass('fixed');\n  }\n});"
+        }
+      ],
+      "id": "KWFuWJ2N",
+      "createdAt": 1665658178934,
+      "updatedAt": 1665658187725
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "iKm1FLRU",
+      "tagsIds": [],
+      "description": null,
+      "name": "スクロール量をコンソールに表示",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "javascript",
+          "value": "window.addEventListener('scroll', ()=> {\n    console.log(window.pageYOffset);\n});"
+        }
+      ],
+      "id": "3UTtODUf",
+      "createdAt": 1665658194602,
+      "updatedAt": 1665658219654
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "iKm1FLRU",
+      "tagsIds": [],
+      "description": null,
+      "name": "ov画像自動でふんわり切り替え",
+      "content": [
+        {
+          "label": ".html",
+          "language": "html",
+          "value": "<div class=\"btn fade ta_c\">\n\t<a href=\"\">\n\t\t<img src=\"../images/js-drill/btn@2x.png\" alt=\"CLICK\" width=\"72\">\n\t</a>\n</div>"
+        },
+        {
+          "label": ".scss",
+          "language": "sass",
+          "value": "\t/* fade - util.js\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\n.fade {\n\tdisplay: inline-block;\n\tposition: relative;\n\n\t> a {\n\t\tdisplay: inline-block;\n\t\tposition: relative;\n\t}\n\n\timg {\n\t\ttransition: all 0.5s linear;\n\n\t\t&.off {\n\t\t\tposition: relative;\n\t\t\tz-index: 1;\n\t\t}\n\t}\n\n\t&:hover img {\n\t\t&.off {\n\t\t\topacity: 0;\n\t\t}\n\n\t\t&.on {\n\t\t\topacity: 1;\n\t\t}\n\t}\n\n\timg.on {\n\t\tposition: absolute;\n\t\ttop: 0;\n\t\tleft: 0;\n\t\tz-index: 2;\n\t\topacity: 0;\n\t}\n}\n\n"
+        },
+        {
+          "label": ".js",
+          "language": "javascript",
+          "value": "//ロールオーバー\n$.util = {\n    rollover: function (options) {\n\n        $(\".fade\").find(\"img\").parent().each(function () {\n            $(this).css(\"position\", \"relative\");\n            $(this).find(\"img\").addClass(\"off\");\n            $(this).append($(this).find(\"img.off\").clone(true).removeClass(\"off\").addClass(\"on\"));\n            var onsrc = $(this).find(\"img.on\").attr(\"src\").replace(new RegExp('(_ov)?(\\.gif|\\.jpg|\\.png\\@2x.gif|\\@2x.jpg|\\@2x.png)$'), \"_ov$2\");\n            $(this).find(\"img.on\").attr(\"src\", onsrc);\n        });\n\n    }\n}"
+        }
+      ],
+      "id": "xb_BB3u4",
+      "createdAt": 1665658235905,
+      "updatedAt": 1665658287964
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "iKm1FLRU",
+      "tagsIds": [],
+      "description": null,
+      "name": "popup",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "javascript",
+          "value": "//ポップアップ\n$(function(){\n\tvar\n\tw = 690,\n\th = 800,\n\tl = (screen.availWidth - w) / 2,\n\tt = (screen.availHeight - h) / 2,\n\tpopPage = '.popup';\n\n\t$(popPage).on('click',function(event){\n\twindow.open(this.href,\"\",\"width= \"+ w + \",height=\" + h + \",left=\" + l + \",top=\" + t + \", scrollbars = yes, location = no, toolbar = no, menubar = no, status = no\");\n\treturn false;\n\t});\n});"
+        }
+      ],
+      "id": "mIFcwAqR",
+      "createdAt": 1665658292623,
+      "updatedAt": 1665658302039
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "iKm1FLRU",
+      "tagsIds": [],
+      "description": null,
+      "name": "smoothscroll.js",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "javascript",
+          "value": "$(function(){\n  $('a[href^=\"#\"]').click(function(){\n    var speed = 500;\n    var href= $(this).attr(\"href\");\n    var target = $(href == \"#\" || href == \"\" ? 'html' : href);\n    var position = target.offset().top;\n    $(\"html, body\").animate({scrollTop:position}, speed, \"swing\");\n    return false;\n  });\n});"
+        }
+      ],
+      "id": "28VQBgFy",
+      "createdAt": 1665658311773,
+      "updatedAt": 1665658320522
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "iKm1FLRU",
+      "tagsIds": [],
+      "description": null,
+      "name": "要素のクローン",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "javascript",
+          "value": "//infoエリアの内容をページ下部にもクローン\nvar infoArea = $('.js-info');\nvar infoAreaData = infoArea.prop('outerHTML');\nvar infoCloneArea = $('.js-infoClone')\ninfoCloneArea.append(infoAreaData);"
+        }
+      ],
+      "id": "Imn8v15p",
+      "createdAt": 1665658328624,
+      "updatedAt": 1665658341155
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "iKm1FLRU",
+      "tagsIds": [],
+      "description": null,
+      "name": "上下連動タブ切り替え",
+      "content": [
+        {
+          "label": ".html",
+          "language": "html",
+          "value": "<div class=\"sNav\">\n\t<ul class=\"sNav__list\" id=\"sNavTop\">\n\t\t<li class=\"sNav__item is-active\">btn A</li>\n\t\t<li class=\"sNav__item\">btn B</li>\n\t</ul>\n</div>\n\n<div class=\"tabContent\">\n\t\t<div class=\"tabContent__item\">コンテンツ A</div>\n\t\t<div class=\"tabContent__item\">コンテンツ B</div>\n</div>\n\n<div class=\"sNav\">\n\t<ul class=\"sNav__list\" id=\"sNavBottom\">\n\t\t<li data-url=\"#sNavTop\" class=\"sNav__item is-active\">btn A</li>\n\t\t<li data-url=\"#sNavTop\" class=\"sNav__item\">btn B</li>\n\t</ul>\n</div>"
+        },
+        {
+          "label": ".js",
+          "language": "javascript",
+          "value": "$(function () {\n\t$('.sNav__list>li').click(function() {\n\t\tvar num = $(this).parent().children('li').index(this);\n\t\t$('.sNav__list').each(function () {\n\t\t\t$('>li', this).removeClass('is-active').eq(num).addClass('is-active');\n\t\t});\n\t\t$('.tabContent__item').hide().eq(num).show();\n\t}).first().click();\n\t$('#sNavBottom>li').click(function () {\n\t\tvar speed = 400;\n\t\tvar href = $(this).attr(\"data-url\");\n\t\tvar target = $(href == \"#\" || href == \"\" ? 'html' : href);\n\t\tvar position = target.offset().top;\n\t\t$('body,html').animate({ scrollTop: position }, speed, 'swing');\n\t\treturn false;\n\t});\n});"
+        }
+      ],
+      "id": "KLsDDxjq",
+      "createdAt": 1665658346791,
+      "updatedAt": 1665658383033
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "iKm1FLRU",
+      "tagsIds": [],
+      "description": null,
+      "name": "swiper skipボタンで最後に移動して停止",
+      "content": [
+        {
+          "label": ".js",
+          "language": "javascript",
+          "value": "$(document).ready(function () {\n\n\t\t\t\t\tvar slider = new Swiper('.slider', {\n\t\t\t\t\t\tloop: false,\n\t\t\t\t\t\tspeed: 2000,\n\t\t\t\t\t\teffect: 'fade',\n\t\t\t\t\t\tautoplay: {\n\t\t\t\t\t\t\tdelay: 2500,\n\t\t\t\t\t\t\tstopOnLastSlide: 'true', //autoplayを指定した上でこれも掛けないと最後停止しない\n\t\t\t\t\t\t}\n\t\t\t\t\t});\n\n\t\t\t\t\tslider.on('slideChange', function () {\n\t\t\t\t\t\tif(slider.activeIndex === 5) { // 指定のスライドにたどり着いたらボタンを消す\n\t\t\t\t\t\t\t$(\".mainVisualBtn\").addClass(\"is-stop\");\n\t\t\t\t\t\t}\n\t\t\t\t\t});\n\t\n\t\t\t\t\t$(\".mainVisualBtn\").on(\"click\", function() {\n\t\t\t\t\t\t$(this).addClass(\"is-stop\");\n\t\t\t\t\t\tslider.slideToLoop(5, 2000);// 指定のスライドに2000のスピードで移動 後ろにfalseつけるとdelayなくなる\n\t\t\t\t\t});\n\t\t\t\t});"
+        },
+        {
+          "label": ".html",
+          "language": "html",
+          "value": "<div class=\"swiper-container slider\">\n\t<a class=\"mainVisualBtn\" href=\"javascript:void(0);\">SKIP</a>\n\t<ul class=\"swiper-wrapper\">\n\t\t<li class=\"swiper-slide swiper-slide--01\">\n\t\t\t<picture>\n\t\t\t\t<source srcset=\"imgs/sp/img-mv-01.jpg\" media=\"(max-width: 767px)\"/>\n\t\t\t\t<img src=\"imgs/img-mv-01@1.5x.jpg\" alt=\"\">\n\t\t\t</picture>\n\t\t</li>\n\t\t<li class=\"swiper-slide swiper-slide--02\">\n\t\t\t<picture>\n\t\t\t\t<source srcset=\"imgs/sp/img-mv-02.jpg\" media=\"(max-width: 767px)\"/>\n\t\t\t\t<img src=\"imgs/img-mv-02@1.5x.jpg\" alt=\"\">\n\t\t\t\t<p class=\"caption\">all image photo</p>\n\t\t\t</picture>\n\t\t</li>\n\t\t<li class=\"swiper-slide swiper-slide--03\">\n\t\t\t<picture>\n\t\t\t\t<source srcset=\"imgs/sp/img-mv-03.jpg\" media=\"(max-width: 767px)\"/>\n\t\t\t\t<img src=\"imgs/img-mv-03@1.5x.jpg\" alt=\"\">\n\t\t\t\t<p class=\"caption\">all image photo</p>\n\t\t\t</picture>\n\t\t</li>\n\t</ul>\n</div>"
+        }
+      ],
+      "id": "UaddCzGU",
+      "createdAt": 1665658391458,
+      "updatedAt": 1665658430822
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "iKm1FLRU",
+      "tagsIds": [],
+      "description": null,
+      "name": "0から始まる2桁の連番",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "javascript",
+          "value": "$(this).prepend('<span class=\"num\">' + (n + 1).toString().padStart(2, '0') + '</span>');"
+        }
+      ],
+      "id": "NftMqUds",
+      "createdAt": 1665658439390,
+      "updatedAt": 1665658448220
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "iKm1FLRU",
+      "tagsIds": [],
+      "description": null,
+      "name": "clickなどに含む、タブ切り替え時にaosのクラスをリセットする",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "javascript",
+          "value": "$(\".aos-animate\").removeClass(\"aos-animate\");\nAOS.refresh();"
+        }
+      ],
+      "id": "Ck-_C7u-",
+      "createdAt": 1665658453945,
+      "updatedAt": 1665658498504
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "iKm1FLRU",
+      "tagsIds": [],
+      "description": null,
+      "name": "slickを読み込んでからaos発火",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "javascript",
+          "value": "$('.slick_box').on('init', function(event, slick){\n\tAOS.init();\n});"
+        }
+      ],
+      "id": "kiDFNdUL",
+      "createdAt": 1665658481300,
+      "updatedAt": 1665658494756,
+      "folder": {
+        "name": "js",
+        "parentId": null,
+        "isOpen": false,
+        "isSystem": false,
+        "defaultLanguage": "plain_text",
+        "id": "iKm1FLRU",
+        "createdAt": 1665657609711,
+        "updatedAt": 1665657612287,
+        "index": 3
+      }
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "iKm1FLRU",
+      "tagsIds": [],
+      "description": null,
+      "name": "magnificPopupでパラメータを取得して開く",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "javascript",
+          "value": "$(function () {\n\tvar srcUrl = '//www.youtube-nocookie.com/embed/wYJvkyXljqc?rel=0&amp;controls=1&amp;showinfo=0&amp;autoplay=1&amp;&version=3&enablejsapi=1'\n\t\n\t$('.popup-youtube').magnificPopup({\n\t\titems: {\n\t\t\tsrc: srcUrl\n\t\t},\n\t\ttype: 'iframe',\n\t\tmainClass: 'mfp-fade',\n\t\tremovalDelay: 150,\n\t\tpreloader: false,\n\t\tfixedContentPos: true,\n\t});\n\n\tconst param = location.search\n\tif (param == '?modal=open') {\n\t\t$.magnificPopup.open({\n\t\t\titems: {\n\t\t\t\tsrc: srcUrl\n\t\t\t},\n\t\t\ttype: 'iframe',\n\t\t\tmainClass: 'mfp-fade',\n\t\t\tpreloader: false,\n\t\t\tmodal: true,\n\t\t}, 0);\n\t}\n});"
+        }
+      ],
+      "id": "50AXM-DH",
+      "createdAt": 1665658511009,
+      "updatedAt": 1665658526313
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "iKm1FLRU",
+      "tagsIds": [],
+      "description": null,
+      "name": "1文字目を大文字に",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "javascript",
+          "value": "const type = ''\nconst typeUpper = type.slice( 0, 1 ).toUpperCase() + type.slice( 1 ) ;"
+        }
+      ],
+      "id": "32WD5m8y",
+      "createdAt": 1665658532427,
+      "updatedAt": 1665658542222
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "iKm1FLRU",
+      "tagsIds": [],
+      "description": null,
+      "name": "アコーディオン トグル 複数",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "javascript",
+          "value": "function accordion() {\n\tconst $openBtn = document.querySelectorAll('.js-openBtn');\n\tconst $openCont = document.querySelectorAll('.js-openCont');\n\n\tfor (let i = 0; i < $openBtn.length; i++) {\n\t\t$openBtn[i].addEventListener('click', function () {\n\t\t\tthis.classList.toggle('is-active');\n\t\t\t$openCont[i].classList.toggle('is-open');\n\t\t});\n\t}\n}\naccordion();"
+        }
+      ],
+      "id": "gICl9idZ",
+      "createdAt": 1665658549246,
+      "updatedAt": 1665658558065
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "iKm1FLRU",
+      "tagsIds": [],
+      "description": null,
+      "name": "動かなかったらとりあえず読み込み早くする",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "javascript",
+          "value": "$(window).on('load', function () {\n});"
+        }
+      ],
+      "id": "T8q3D9pS",
+      "createdAt": 1665658565426,
+      "updatedAt": 1665658575272
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "iKm1FLRU",
+      "tagsIds": [],
+      "description": null,
+      "name": "md5 ログイン",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "javascript",
+          "value": "/**\n     * login page(cookie version)\n     * md5.jsを使って暗号化はしているものの簡易的なもののため、個人情報等重要な情報を扱うページには利用しないこと\n     * @description\n     * 現在loginページの処理をlogin page(localStorage version)の方を適用しています。\n     * login page(localStorage version)を使用する時は(cookie version)を削除して使用してください\n     */\n $(function () {\n  var currentPage = $('.page').attr('id');\n  var accessDataName = 'accessData_initia';\n\n  /*----------------------------------------------------------------------\n  // 資料請求者様限定\n  ----------------------------------------------------------------------*/\n  var pw = {};\n  var inputData;\n\n  pw.init = function () {\n    // localStorageのキーの定義\n    var limitedKey = window.localStorage.getItem(accessDataName);\n\n    if (currentPage == 'login') {\n      if (limitedKey != 'logined') {\n        // 限定ログインページ初来訪時の処理\n        $('#submit').bind('click touchstart', function () {\n          inputData = $('#password').val();\n          pw.auth(inputData); // パスワードが間違ってた時にリロードしてしまう処理を無効化\n\n          return false;\n        });\n      } else {\n        // 限定ログインページパスワード認証済みの処理\n        window.localStorage.setItem(accessDataName, 'logined');\n        location.href = './index.html';\n      }\n    } else if (currentPage.includes('limited')) {\n      // 限定ページに直接遷移した時にクッキーを認証するための処理\n      loginCheck(limitedKey);\n    }\n  };\n\n  pw.auth = function (value) {\n    // md5の暗号を解読するための処理\n    var str = CybozuLabs.MD5.calc(value);\n\n    if (str == 'e61136b70bfc8a91c6fb0f891afed02a') {\n      window.localStorage.setItem(accessDataName, 'logined');\n      location.href = './index.html';\n    } else {\n      alert('パスワードが間違っています');\n    }\n  };\n\n  function loginCheck(limitedKey) {\n    if (limitedKey != 'logined') {\n      var urlArray = location.href.split('index.html'),\n        innerPath = urlArray[1],\n        pathCount = (innerPath.match(/\\//g) || []).length,\n        pathLayer = '';\n      for (var i = 0; i < pathCount; i++) {\n        pathLayer += '../';\n      }\n      console.log(limitedKey);\n      location.href = pathLayer + 'login.html';\n    }\n  }; // パスワード処理初期化\n\n  pw.init();\n});"
+        }
+      ],
+      "id": "pcdtn0b5",
+      "createdAt": 1665658580611,
+      "updatedAt": 1665658591133
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "osS8WVJB",
+      "tagsIds": [],
+      "description": null,
+      "name": "分岐でつけたりつけなかったり",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "ejs",
+          "value": "<% if (params.longTtl !== '') { %> pageDirection__link--long<% } %>"
+        }
+      ],
+      "id": "FOzTuGmh",
+      "createdAt": 1665658609415,
+      "updatedAt": 1665658618992
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "osS8WVJB",
+      "tagsIds": [],
+      "description": null,
+      "name": "否定 厳密不等価 (!==)",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "ejs",
+          "value": "if(tf.onChoice.index !== 0) {\n  result += '<a href=\"#\" class=\"el_pageTopBtn js_pageTopBtn\">';\n  result += '<img src=\"' + layer + 'assets/imgs/icon-pagetop.svg\" alt=\"\">';\n  result += '</a>';\n}\n\nif(tf.onChoice.index === 0) {\n  result += '<a href=\"#\" class=\"el_pageTopBtn js_pageTopBtn\">';\n  result += '<img src=\"' + layer + 'imgs/icon-pagetop.svg\" alt=\"\">';\n  result += '</a>';\n}\n\nif(tf.onChoice.index === 0 || tf.onChoice.index === 1) {\n  result += '<a href=\"#\" class=\"el_pageTopBtn js_pageTopBtn\">';\n  result += '<img src=\"' + layer + 'imgs/icon-pagetop.svg\" alt=\"\">';\n  result += '</a>';\n}"
+        }
+      ],
+      "id": "hKOVrNTX",
+      "createdAt": 1665658623430,
+      "updatedAt": 1665658631671
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "osS8WVJB",
+      "tagsIds": [],
+      "description": null,
+      "name": "if文",
+      "content": [
+        {
+          "label": ".ejs",
+          "language": "ejs",
+          "value": "<% if (params.pageId === 'top') { %>style.css\"><% } else { %><%- params.pageId %>.css\"><% } %>"
+        },
+        {
+          "label": ".ejs",
+          "language": "ejs",
+          "value": "<% if (params.pageId === 'top') { %>\nstyle.css\">\n<% } else { %>\n<%- params.pageId %>.css\">\n<% } %>"
+        }
+      ],
+      "id": "A98HuYNQ",
+      "createdAt": 1665658633931,
+      "updatedAt": 1665658666298
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "osS8WVJB",
+      "tagsIds": [],
+      "description": null,
+      "name": "これまたはこれでもない場合",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "ejs",
+          "value": "<% if (params.pageId !== 'map' && params.pageId !== 'outline') { %>"
+        }
+      ],
+      "id": "sLLskGVw",
+      "createdAt": 1665658673045,
+      "updatedAt": 1665658682663
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "Pn_qW8Q9",
+      "tagsIds": [],
+      "description": null,
+      "name": "mampでオートリロード",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "powershell",
+          "value": "//プロジェクト直下にbrowser-syncをおとす\nnpm install -g browser-sync\n\n//実行（ポート番号は必要に応じて書き換える　後半は監視するファイル形式）\nbrowser-sync start --proxy \"127.0.0.1:8888\" --files=\"./**/*.php,./**/*.css,./**/*.js/,./**/*.html\""
+        }
+      ],
+      "id": "xFbaOnNP",
+      "createdAt": 1665658699848,
+      "updatedAt": 1665658725143
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "Pn_qW8Q9",
+      "tagsIds": [],
+      "description": null,
+      "name": "フォルダを作成",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "powershell",
+          "value": "$ mkdir work01"
+        }
+      ],
+      "id": "2UZYPbDc",
+      "createdAt": 1665658730013,
+      "updatedAt": 1665658739045
+    },
+    {
+      "isDeleted": true,
+      "isFavorites": false,
+      "folderId": "Pn_qW8Q9",
+      "tagsIds": [],
+      "description": null,
+      "name": "homebrew cask でアプリをインストール",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "brew cask install Spectacle"
+        }
+      ],
+      "id": "7J9NME0_",
+      "createdAt": 1665658743847,
+      "updatedAt": 1665658752558
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "Pn_qW8Q9",
+      "tagsIds": [],
+      "description": null,
+      "name": "treeコマンド",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "markdown",
+          "value": "treeコマンド\n\n```\ntree -d -L 2 build/\n```\n\n`-a` \t\t名前がドットから始まるディレクトリも含めて表示する（「.」と「..」は対象外）\n`-d` \t\tディレクトリだけを表示する\n`-L 深さ` \t\t表示するディレクトリの深さ（1以上の整数を指定）"
+        }
+      ],
+      "id": "O_FV-eDY",
+      "createdAt": 1665658787229,
+      "updatedAt": 1665658804355
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "cmbMipHX",
+      "tagsIds": [],
+      "description": null,
+      "name": "alt全部",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "regexp",
+          "value": "alt=\".+\""
+        }
+      ],
+      "id": "fms6o_mf",
+      "createdAt": 1665658828815,
+      "updatedAt": 1665658846330
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "cmbMipHX",
+      "tagsIds": [],
+      "description": null,
+      "name": "日本語全部",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "regexp",
+          "value": "[亜-熙ぁ-んァ-ヶ]"
+        }
+      ],
+      "id": "W3fCHgUI",
+      "createdAt": 1665658851497,
+      "updatedAt": 1665658859285
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "cmbMipHX",
+      "tagsIds": [],
+      "description": null,
+      "name": "日付の表現",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "regexp",
+          "value": "//1900年以上の４桁の数\n19[0-9]{2}|[2-9][0-9]{3}/"
+        }
+      ],
+      "id": "DJvWDVWD",
+      "createdAt": 1665658865367,
+      "updatedAt": 1665658872933
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "cmbMipHX",
+      "tagsIds": [],
+      "description": null,
+      "name": "国内で有効な携帯電話番号の数字",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "regexp",
+          "value": "// 携帯電話番号。ハイフンを利用しても、しなくてもどちらでも良い。\n0[89]0-?[0-9]{4}-?[0-9]{4}"
+        }
+      ],
+      "id": "vb_Sako_",
+      "createdAt": 1665658876498,
+      "updatedAt": 1665658884093
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "cmbMipHX",
+      "tagsIds": [],
+      "description": null,
+      "name": "文字列全部",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "regexp",
+          "value": ".+"
+        }
+      ],
+      "id": "CKKcjv_C",
+      "createdAt": 1665658887999,
+      "updatedAt": 1665658898944
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "cmbMipHX",
+      "tagsIds": [],
+      "description": null,
+      "name": "◯桁の数字",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "regexp",
+          "value": "//１文字の数字（文字クラス。0,1,2,...9のいずれもマッチする）\n[0-9]\n\n// １文字の数字（エスケープシーケンス）\n/d\n\n\n\n// ４桁の数字\n[0-9]{4}\n\n\n// ４〜８桁の半角数字\n[0-9]{4,８}\n\n\n// 4桁以上の半角数字\n[0-9]{4,}\n\n\n// ８桁の半角数字\n[0-9]{,8}\n\n\n// 5以上, 9以下の数字\n[5-9]\n\n\n// 1以上、99以下の２桁の数字\n[1-9]|[1-9][0-9]\n\n// 3以上, 13以下の２桁の数字\n[3-9]|1[0-2]\n\n// 33以上, 99以下の２桁の数字\n3[3-9]|[2-9][0-9]"
+        }
+      ],
+      "id": "dw4P1bBE",
+      "createdAt": 1665658903617,
+      "updatedAt": 1665658913298
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "k8WoRfXd",
+      "tagsIds": [],
+      "description": null,
+      "name": "サーバー上のフルパスを表示するスクリプト",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "php",
+          "value": "<?php echo __FILE__;"
+        }
+      ],
+      "id": "zC6DxMmz",
+      "createdAt": 1665658928918,
+      "updatedAt": 1665658939826
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "x3_XZkS0",
+      "tagsIds": [],
+      "description": null,
+      "name": "ベーシック認証",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "AuthType Basic\nAuthName \"ログイン\" //コメント\nAuthUserFile \"/Volumes/LFS/SITES/JP_4DIGIT_OSAKA-TEST/.htpasswd\" //パス\nrequire valid-user"
+        }
+      ],
+      "id": "2IyWWU4v",
+      "createdAt": 1665658955219,
+      "updatedAt": 1665658961728
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "x3_XZkS0",
+      "tagsIds": [],
+      "description": null,
+      "name": "ディレクトリ単位",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "RewriteEngine on\nRewriteBase /\nRewriteRule ^old_dir(.*)$ /new_dir$1 [R=301,L]"
+        }
+      ],
+      "id": "aINTudOT",
+      "createdAt": 1665658985888,
+      "updatedAt": 1665658990960
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "x3_XZkS0",
+      "tagsIds": [],
+      "description": null,
+      "name": "httpsへのリダイレクト",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "RewriteEngine on //URLを書き換える\nRewriteCond %{HTTPS} off //HTTPSでのアクセスか否か\nRewriteRule ^(.*)$ https://xxxx/xxxxx/$1 [R=301,L] //^行頭 .0回以上の繰り返し $行末 "
+        }
+      ],
+      "id": "FlY-l5sx",
+      "createdAt": 1665658994819,
+      "updatedAt": 1665658999212
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "x3_XZkS0",
+      "tagsIds": [],
+      "description": null,
+      "name": "エラーからのリダイレクト",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "RewriteEngine on //URLを書き換える\n\nErrorDocument 400 /400.html\nErrorDocument 401 /401.html\nErrorDocument 403 /403.html\nErrorDocument 404 /404.html\nErrorDocument 500 /500.html\nErrorDocument 502 /502.html\nErrorDocument 504 /504.html"
+        }
+      ],
+      "id": "DbBiwlUm",
+      "createdAt": 1665659003385,
+      "updatedAt": 1665659008821
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "x3_XZkS0",
+      "tagsIds": [],
+      "description": null,
+      "name": "存在しないディレクトリにアクセス時、トップページ等、指定した先に飛ばす",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "RewriteEngine on //URLを書き換える\n\nErrorDocument 404 https://8984.jp/3110/"
+        }
+      ],
+      "id": "e1rYHVn2",
+      "createdAt": 1665659013453,
+      "updatedAt": 1665659025965
+    }
+  ],
+  "tags": []
+}

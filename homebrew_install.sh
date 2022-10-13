@@ -71,6 +71,7 @@ casks=(
     ImageOptim
     Karabiner-Elements
     KeyboardCleanTool
+    masscode
     MAMP
     OnyX
     Sourcetree
