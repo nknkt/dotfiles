@@ -73,10 +73,12 @@ dotfiles内に必要アプリをcaskでインストールできるシェルス�
 
 
 
-#### HyperSwitch
+#### HyperSwitch	
 
 keyをoptionに（⌘+tabと使い分けるため）
 Run HyperSwitch in the backgroudにチェック
+
+![hyper-switch](/Users/kenta_kanno/dotfiles/imgs/hyper-switch.png)
 
 ##### 代価候補
 
@@ -84,7 +86,14 @@ Run HyperSwitch in the backgroudにチェック
 
 
 
+#### Specatacle
+
+![specatacle](/Users/kenta_kanno/dotfiles/imgs/specatacle.png)
+
+
+
 #### 手動で落とすapp
+
 - [Display Menu](https://apps.apple.com/jp/app/display-menu/id549083868?mt=12)
 - [SCONE Diff](https://sconeapp.com/diff/)
 
