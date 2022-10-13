@@ -61,11 +61,6 @@ dotfiles内に必要アプリをcaskでインストールできるシェルス�
 
 ## アプリ設定
 
-#### boostnote
-
-別スニペットアプリに移行予定
-
-
 
 #### Clipy
 
@@ -73,7 +68,7 @@ dotfiles内に必要アプリをcaskでインストールできるシェルス�
 
 
 
-#### HyperSwitch	
+#### HyperSwitch
 
 keyをoptionに（⌘+tabと使い分けるため）
 Run HyperSwitch in the backgroudにチェック
