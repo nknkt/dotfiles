@@ -1,4 +1,6 @@
 .vscode
 .DS_Store
 
-/.config/filezilla
+.config/filezilla
+.config/configstore/
+.docker
