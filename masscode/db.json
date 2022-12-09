@@ -1,47 +1,102 @@
 {
   "folders": [
     {
-      "name": "rule",
-      "parentId": "Uuf6kA9F",
+      "name": "css/sass",
+      "parentId": "_GUj4iJR",
       "isOpen": false,
       "isSystem": false,
       "defaultLanguage": "plain_text",
-      "id": "k2ykwaIx",
-      "createdAt": 1665642797299,
-      "updatedAt": 1665642808223,
+      "id": "fsjGtTk4",
+      "createdAt": 1665642600288,
+      "updatedAt": 1665642614178,
       "index": 0
     },
     {
-      "name": "vscode",
-      "parentId": "Uuf6kA9F",
+      "name": "html",
+      "parentId": "_GUj4iJR",
       "isOpen": false,
       "isSystem": false,
       "defaultLanguage": "plain_text",
-      "id": "OZJYzn9d",
-      "createdAt": 1665642765430,
-      "updatedAt": 1665642794859,
+      "id": "dEgrWvtb",
+      "createdAt": 1665643757791,
+      "updatedAt": 1665643767904,
       "index": 1
     },
     {
-      "name": "ps",
-      "parentId": "Uuf6kA9F",
+      "name": "js",
+      "parentId": "_GUj4iJR",
       "isOpen": false,
       "isSystem": false,
       "defaultLanguage": "plain_text",
-      "id": "kmSXg6F4",
-      "createdAt": 1665642828963,
-      "updatedAt": 1665642833852,
+      "id": "iKm1FLRU",
+      "createdAt": 1665657609711,
+      "updatedAt": 1665657612287,
       "index": 2
     },
     {
-      "id": "Uuf6kA9F",
-      "name": "memo",
-      "defaultLanguage": "typescript",
+      "name": "ejs",
+      "parentId": "_GUj4iJR",
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "osS8WVJB",
+      "createdAt": 1665658600210,
+      "updatedAt": 1665658604068,
+      "index": 3
+    },
+    {
+      "name": "shell",
+      "parentId": "_GUj4iJR",
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "Pn_qW8Q9",
+      "createdAt": 1665658689613,
+      "updatedAt": 1665658693054,
+      "index": 4
+    },
+    {
+      "name": "regexp",
+      "parentId": "_GUj4iJR",
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "cmbMipHX",
+      "createdAt": 1665658814783,
+      "updatedAt": 1665658824008,
+      "index": 5
+    },
+    {
+      "name": "php",
+      "parentId": "_GUj4iJR",
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "k8WoRfXd",
+      "createdAt": 1665658922734,
+      "updatedAt": 1665658926342,
+      "index": 6
+    },
+    {
+      "name": "htaccess",
+      "parentId": "_GUj4iJR",
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "x3_XZkS0",
+      "createdAt": 1665658945786,
+      "updatedAt": 1665658952976,
+      "index": 7
+    },
+    {
+      "name": "Source",
       "parentId": null,
       "isOpen": false,
       "isSystem": false,
-      "createdAt": 1665642270269,
-      "updatedAt": 1665642300448,
+      "defaultLanguage": "plain_text",
+      "id": "_GUj4iJR",
+      "createdAt": 1670295460188,
+      "updatedAt": 1670295489429,
       "index": 0
     },
     {
@@ -133,87 +188,70 @@
       "index": 7
     },
     {
-      "name": "css/sass",
-      "parentId": null,
+      "name": "vscode",
+      "parentId": "Uuf6kA9F",
       "isOpen": false,
       "isSystem": false,
       "defaultLanguage": "plain_text",
-      "id": "fsjGtTk4",
-      "createdAt": 1665642600288,
-      "updatedAt": 1665642614178,
+      "id": "OZJYzn9d",
+      "createdAt": 1665642765430,
+      "updatedAt": 1665642794859,
+      "index": 0
+    },
+    {
+      "name": "ps",
+      "parentId": "Uuf6kA9F",
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "kmSXg6F4",
+      "createdAt": 1665642828963,
+      "updatedAt": 1665642833852,
       "index": 1
     },
     {
-      "name": "html",
+      "id": "Uuf6kA9F",
+      "name": "tips",
+      "defaultLanguage": "typescript",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "createdAt": 1665642270269,
+      "updatedAt": 1670385819334,
+      "index": 1
+    },
+    {
+      "name": "memo",
       "parentId": null,
       "isOpen": false,
       "isSystem": false,
       "defaultLanguage": "plain_text",
-      "id": "dEgrWvtb",
-      "createdAt": 1665643757791,
-      "updatedAt": 1665643767904,
+      "id": "HGH7sVHA",
+      "createdAt": 1670385825482,
+      "updatedAt": 1670385830998,
       "index": 2
     },
     {
-      "name": "js",
+      "name": "MTG",
       "parentId": null,
       "isOpen": false,
       "isSystem": false,
       "defaultLanguage": "plain_text",
-      "id": "iKm1FLRU",
-      "createdAt": 1665657609711,
-      "updatedAt": 1665657612287,
+      "id": "O0nVHWR4",
+      "createdAt": 1669973943591,
+      "updatedAt": 1669973947332,
       "index": 3
     },
     {
-      "name": "ejs",
+      "name": "Manuel",
       "parentId": null,
       "isOpen": false,
       "isSystem": false,
       "defaultLanguage": "plain_text",
-      "id": "osS8WVJB",
-      "createdAt": 1665658600210,
-      "updatedAt": 1665658604068
-    },
-    {
-      "name": "shell",
-      "parentId": null,
-      "isOpen": false,
-      "isSystem": false,
-      "defaultLanguage": "plain_text",
-      "id": "Pn_qW8Q9",
-      "createdAt": 1665658689613,
-      "updatedAt": 1665658693054
-    },
-    {
-      "name": "regexp",
-      "parentId": null,
-      "isOpen": false,
-      "isSystem": false,
-      "defaultLanguage": "plain_text",
-      "id": "cmbMipHX",
-      "createdAt": 1665658814783,
-      "updatedAt": 1665658824008
-    },
-    {
-      "name": "php",
-      "parentId": null,
-      "isOpen": false,
-      "isSystem": false,
-      "defaultLanguage": "plain_text",
-      "id": "k8WoRfXd",
-      "createdAt": 1665658922734,
-      "updatedAt": 1665658926342
-    },
-    {
-      "name": "htaccess",
-      "parentId": null,
-      "isOpen": false,
-      "isSystem": false,
-      "defaultLanguage": "plain_text",
-      "id": "x3_XZkS0",
-      "createdAt": 1665658945786,
-      "updatedAt": 1665658952976
+      "id": "RNdFy9Sh",
+      "createdAt": 1670295391995,
+      "updatedAt": 1670295402767,
+      "index": 4
     }
   ],
   "snippets": [
@@ -2048,6 +2086,96 @@
       "id": "e1rYHVn2",
       "createdAt": 1665659013453,
       "updatedAt": 1665659025965
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "O0nVHWR4",
+      "tagsIds": [],
+      "description": null,
+      "name": "221202 エンジニア定例",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "markdown",
+          "value": "## 221202 エンジニア定例\n\n### 目標\n\n個人の目標を２週間後までに考えておく。\n個人のやりたいことを優先していい→結果組織の良しにもつながる。\n\n### 課題進捗\n\n忙しい\n\n### 組織として\n\nインフラを整えていく"
+        }
+      ],
+      "id": "jqB9TtyK",
+      "createdAt": 1669973949341,
+      "updatedAt": 1670295521633
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "RNdFy9Sh",
+      "tagsIds": [],
+      "description": null,
+      "name": "docker",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "markdown",
+          "value": "docker-compose.ymlのディレクトリで\n\n```shell\n## 開始\ndocker-compose up -d\n\n## 停止\ndocker-compose down\n```\n\n\n\n### 古い案件\n\n`vogaro_development_pack`経由で動かす\n\n### 新しい案件\n\nGitHubからimageを引っ張る"
+        }
+      ],
+      "id": "GtNtp52r",
+      "createdAt": 1670231378240,
+      "updatedAt": 1670295540661
+    },
+    {
+      "isDeleted": true,
+      "isFavorites": false,
+      "folderId": "Pn_qW8Q9",
+      "tagsIds": [],
+      "description": null,
+      "name": "fnm",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "fnm "
+        }
+      ],
+      "id": "oFwviy-k",
+      "createdAt": 1670239744291,
+      "updatedAt": 1670240170165
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "RNdFy9Sh",
+      "tagsIds": [],
+      "description": null,
+      "name": "FTP",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "markdown",
+          "value": "## FTP\n\n### 社内\n\n#### invogue\n49.212.214.143:51221\nwww_invogue\nLXiEwPpNoY"
+        }
+      ],
+      "id": "PfWE2mop",
+      "createdAt": 1670310412925,
+      "updatedAt": 1670311629637
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "HGH7sVHA",
+      "tagsIds": [],
+      "description": null,
+      "name": "改善したほうがいいところ",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "## 制作面\n\nGitHubに統一\n\nデザインはGoogleDriveをFinderから見る\n\n売り上げをクリエイターに共有\n\npsdの命名規則"
+        }
+      ],
+      "id": "BidJzuHw",
+      "createdAt": 1670385835118,
+      "updatedAt": 1670396642391
     }
   ],
   "tags": []
