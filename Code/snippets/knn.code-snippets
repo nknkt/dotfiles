@@ -1,0 +1,215 @@
+{
+	// Place your snippets for css here. Each snippet is defined under a snippet name and has a prefix, body and
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// "scope": "css,scss",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	]
+	// },
+	"media query 599px": {
+		"scope": "css,scss",
+		"prefix": "mqs",
+		"body": [
+			"@media screen and (max-width: 599px) {",
+			"\t$1",
+			"}",
+		],
+		"description": "media query 599px"
+	},
+	"media query 600px〜959px": {
+		"scope": "css,scss",
+		"prefix": "mqt",
+		"body": [
+			" @media screen and (min-width: 600px) and (max-width: 959px) {",
+			"\t$1",
+			"}",
+		],
+		"description": "media query 600px〜959px"
+	},
+	"background": {
+		"scope": "css,scss",
+		"prefix": "bac",
+		"body": [
+			"background: transparent url(/assets/images/$1) $2repeat top center / co$3;",
+		],
+		"description": "background"
+	},
+	"margin 0 auto": {
+		"scope": "css,scss",
+		"prefix": "ma0",
+		"body": [
+			"margin: 0 auto;",
+		],
+		"description": "margin 0 auto"
+	},
+	"flex wrap justy": {
+		"scope": "css,scss",
+		"prefix": "fle",
+		"body": [
+			"display: flex;",
+			"flex-wrap: wrap;",
+			"justify-content: space-between;"
+		],
+		"description": "flex 等間隔"
+	},
+	"hover opacity": {
+		"scope": "css,scss",
+		"prefix": "hov",
+		"body": [
+			"$1 {",
+			"\t&.hover {",
+			"\t\timg {",
+			"\t\t\topacity: 0.6;",
+			"\t\t\ttransition: all 0.3s ease-in-out;",
+			"\t\t\t-webkit-transition: all 0.3s ease-in-out;",
+			"\t\t\t-moz-transition: all 0.3s ease-in-out;",
+			" \t\t}",
+			"\t}",
+			"}",
+		],
+		"description": "hoverで透明になる"
+	},
+	"ドロップシャドウ": {
+		"scope": "css,scss",
+		"prefix": "dro",
+		"body": [
+			"text-shadow: 0 0 3px #000000, 2px 2px 3px #000000, -2px 2px 3px #000000, -2px -2px 3px #000000, 2px -2px 3px #000000;",
+		],
+		"description": "ドロップシャドウ"
+	},
+	"fadeIn": {
+		"scope": "css,scss",
+		"prefix": "fad",
+		"body": [
+			"animation: fadeIn 2s cubic-bezier(.47, 0, .75, .72) 0s 1 normal;",
+			"\t@-webkit-keyframes fadeIn {",
+			"\t\t0% {opacity: 0;}",
+			"\t\t100% {opacity: 1;}",
+			"\t}",
+			"\t@keyframes fadeIn {",
+			"\t\t0% {opacity: 0;}",
+			"\t\t100% {opacity: 1;}",
+			"\t}",
+		],
+		"description": "CSSのみでふんわりfadein"
+	},
+	"コメント": {
+		"prefix": "com",
+		"body": [
+			"// $1",
+			"//-----------------------------------------------------------------",
+		],
+		"description": "For Loop"
+	},
+	"垂直中心": {
+		"scope": "css,scss",
+		"prefix": "pos",
+		"body": [
+			"position: absolute;",
+			"top: 50%;",
+			"transform: translateY(-50%);",
+		],
+		"description": "垂直中心"
+	},
+	"テキストセット": {
+		"scope": "css,scss",
+		"prefix": "fon",
+		"body": [
+			"font-size: $1px;",
+			"line-height: $2;",
+			"letter-spacing: $3;"
+		],
+		"description": "テキストセット"
+	},
+	"position 正中1": {
+		"scope": "css,scss",
+		"prefix": "pos",
+		"body": [
+			"position: absolute;",
+			"top: 50%;",
+			"left: 50%;",
+			"transform: translate(-50%,-50%);",
+		],
+		"description": "position 正中"
+	},
+	"position 正中2": {
+		"scope": "css,scss",
+		"prefix": "poa",
+		"body": [
+			"position: absolute;",
+			"top: 0;",
+			"left: 0;",
+			"right: 0;",
+			"bottom: 0;",
+			"margin: auto;",
+		],
+		"description": "position 正中"
+	},
+	"flex 正中": {
+		"scope": "css,scss",
+		"prefix": "flej",
+		"body": [
+			"display: flex;",
+			"justify-content: center;",
+			"align-items: center;",
+		],
+		"description": "flex 正中"
+	},
+	"疑似content": {
+		"scope": "css,scss",
+		"prefix": "con",
+		"body": [
+			"display: block;",
+			"content: \"\";",
+		],
+		"description": "content: \"\";"
+	},
+	"not": {
+		"scope": "css,scss",
+		"prefix": "not",
+		"body": [
+			":not(:last-child) ",
+		],
+		"description": "not"
+	},
+	"palt": {
+		"scope": "css,scss",
+		"prefix": "palt",
+		"body": [
+			"font-feature-settings: 'palt';",
+		],
+		"description": "font-feature-settings: 'palt';"
+	},
+	"grc": {
+		"scope": "css,scss",
+		"prefix": "垂直正中",
+		"body": [
+			"display: grid;",
+			"place-items: center;",
+		],
+		"description": "垂直正中"
+	},
+	"dash": {
+		"scope": "css,scss",
+        "prefix": "点線",
+        "body": [
+            "background-image: linear-gradient(",
+            "      to right,",
+            "      \\$color-page-brawn,",
+            "      \\$color-page-brawn 1px,",
+            "      transparent 1px,",
+            "      transparent 3px",
+            "    );",
+            "    background-repeat: repeat-x;",
+            "    background-position: left bottom;",
+            "    background-size: 3px 1px;",
+        ],
+        "description": "点線"
+    }
+}

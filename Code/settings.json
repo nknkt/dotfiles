@@ -1,0 +1,140 @@
+{
+    "editor.renderWhitespace": "all",
+    "editor.wordWrap": "off",
+    "workbench.editor.enablePreview": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "editor.renderControlCharacters": true,
+    "editor.snippetSuggestions": "top",
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.variables": {
+        "lang": "ja"
+    },
+    "window.openFoldersInNewWindow": "on",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.suggestSelection": "first",
+    "editor.hover.enabled": false,
+    "explorer.confirmDelete": false,
+    "auto-close-tag.SublimeText3Mode": true,
+    "editor.fontFamily": "Hack Nerd Font Mono",
+    "liveServer.settings.donotVerifyTags": true,
+    "editor.parameterHints.cycle": true,
+    "editor.smoothScrolling": true,
+    "window.newWindowDimensions": "inherit",
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": null
+        }
+    ],
+    "npm.enableScriptExplorer": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.external.osxExec": "iTerm.app",
+    "files.eol": "\r\n",
+    "security.workspace.trust.untrustedFiles": "open",
+    "tabnine.experimentalAutoImports": true,
+    "yaml.schemas": {
+        "file:///Users/kenta_kanno/.vscode/extensions/atlassian.atlascode-3.0.6/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "atlascode.bitbucket.enabled": true,
+    "redhat.telemetry.enabled": true,
+    "terminal.integrated.profiles.osx": {
+        "bash": {
+            "path": "bash",
+            "args": [
+                "-l"
+            ],
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh",
+            "args": [
+                "-l"
+            ]
+        },
+        "fish": {
+            "path": "fish",
+            "args": [
+                "-l"
+            ]
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        }
+    },
+    "terminal.integrated.defaultProfile.osx": "fish (2)",
+    "git.autofetch": true,
+    "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
+    "files.associations": {
+        "*.inc": "php"
+    },
+    "editor.minimap.enabled": false,
+    "vscode-pets.petColor": "gray",
+    "vscode-pets.petSize": "medium",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "stylelint.autoFixOnSave": true,
+    "editor.fontSize": 14,
+    "editor.formatOnType": true,
+    // "editor.formatOnSave": true,
+    // "editor.formatOnSaveMode": "modifications",
+    "[scss]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "bemHelper.classNameCase": "kebab,camel",
+    "terminal.integrated.fontSize": 13,
+    "javascript.suggest.paths": false,
+    "markdown.suggest.paths.enabled": false,
+    "typescript.suggest.paths": false,
+    "git.enableSmartCommit": true,
+    "editor.autoIndent": "none",
+    "editor.inlayHints.enabled": "off",
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#1073cf2d",
+        "editor.lineHighlightBorder": "#9fced11f"
+    },
+    "diffEditor.wordWrap": "off",
+    "editor.guides.indentation": false,
+    "editor.guides.bracketPairs": false,
+    "cSpell.userWords": [
+        "PDCA",
+        "ress",
+        "Splide",
+        "splidejs",
+        "stylelint",
+        "thum",
+        "Vogaro"
+    ],
+    "githubPullRequests.createOnPublishBranch": "never",
+    "git.ignoreRebaseWarning": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.colorTheme": "Dracula Soft",
+    "vscode_custom_css.imports": [
+        "file:///Users/kenta_kanno/.vscode/extensions/ohaihfo.synthwave-x-fluoromachine-avant-noir-0.1.2/synthwave-x-fluoromachine-avant-noir.css"
+    ],
+    "window.zoomLevel": -2,
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "never"
+}

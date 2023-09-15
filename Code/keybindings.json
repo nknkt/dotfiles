@@ -1,0 +1,177 @@
+// 既定値を上書きするには、このファイル内にキー バインドを挿入します
+[
+    {
+        "key": "shift+alt+k",
+        "command": "editor.emmet.action.removeTag"
+    },
+    {
+        "key": "shift+alt+w",
+        "command": "editor.emmet.action.balanceOut"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "extension.jumpy-word"
+    },
+    {
+        "key": "cmd+i",
+        "command": "editor.emmet.action.updateImageSize"
+    },
+    {
+        "key": "shift+alt+cmd+m",
+        "command": "workbench.actions.view.problems"
+    },
+    {
+        "key": "shift+cmd+m",
+        "command": "-workbench.actions.view.problems"
+    },
+    {
+        "key": "shift+cmd+m",
+        "command": "editor.emmet.action.mergeLines"
+    },
+    {
+        "key": "shift+alt+cmd+v",
+        "command": "extension.pasteImage",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+cmd+v",
+        "command": "-extension.pasteImage",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+cmd+d",
+        "command": "workbench.view.debug"
+    },
+    {
+        "key": "shift+cmd+d",
+        "command": "-workbench.view.debug"
+    },
+    {
+        "key": "cmd+d",
+        "command": "editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+d",
+        "command": "-editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+j",
+        "command": "duplicate.execute"
+    },
+    {
+        "key": "shift+cmd+j",
+        "command": "workbench.action.togglePanel"
+    },
+    {
+        "key": "cmd+j",
+        "command": "-workbench.action.togglePanel"
+    },
+    {
+        "key": "shift+alt+numpad2",
+        "command": "workbench.action.splitEditorRight"
+    },
+    {
+        "key": "alt+w",
+        "command": "extension.htmlTagWrap",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+w",
+        "command": "-extension.htmlTagWrap",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+p cmd+h",
+        "command": "git.push"
+    },
+    {
+        "key": "shift+enter",
+        "command": "type",
+        "args": {
+            "text": "<br>"
+        }
+    },
+    {
+        "key": "shift+cmd+l",
+        "command": "-editor.action.selectHighlights",
+        "when": "editorFocus"
+    },
+    // 新規ファイル作成
+    {
+        "key": "cmd+n",
+        "command": "explorer.newFile"
+    },
+    // 新規フォルダ作成
+    {
+        "key": "shift+cmd+m",
+        "command": "explorer.newFolder"
+    },
+    // ファイルを削除
+    {
+        "key": "shift+d",
+        "command": "deleteFile",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
+    },
+    // ファイルのリネーム
+    {
+        "key": "shift+r",
+        "command": "renameFile",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+    },
+    {
+        "key": "enter",
+        "command": "-renameFile",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+    },
+    // vで分割して開く
+    {
+        "key": "shift+2",
+        "command": "explorer.openToSide",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+    },
+    // ファイルのコピー
+    {
+        "key": "shift+c",
+        "command": "filesExplorer.copy",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+    },
+    // ファイルのペースト
+    {
+        "key": "shift+v",
+        "command": "filesExplorer.paste",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+    },
+    // 相対パスをコピー
+    {
+        "key": "alt+cmd+c",
+        "command": "-copyRelativeFilePath",
+        "when": "!editorFocus"
+    },
+    // 右トグルバーを隠す
+    {
+        "key": "alt+cmd+f",
+        "command": "workbench.action.toggleAuxiliaryBar"
+    },
+    {
+        "key": "shift+cmd+n",
+        "command": "workbench.action.newWindow"
+    },
+    {
+        "key": "shift+cmd+n",
+        "command": "-workbench.action.newWindow"
+    },
+    {
+        "key": "cmd+t",
+        "command": "-workbench.action.showAllSymbols"
+    },
+    {
+        "key": "cmd+t",
+        "command": "workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "cmd+n",
+        "command": "-workbench.action.files.newUntitledFile"
+    }
+]

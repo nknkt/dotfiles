@@ -91,7 +91,7 @@
     {
       "name": "Source",
       "parentId": null,
-      "isOpen": false,
+      "isOpen": true,
       "isSystem": false,
       "defaultLanguage": "plain_text",
       "id": "_GUj4iJR",
@@ -221,17 +221,6 @@
       "index": 1
     },
     {
-      "name": "memo",
-      "parentId": null,
-      "isOpen": false,
-      "isSystem": false,
-      "defaultLanguage": "plain_text",
-      "id": "HGH7sVHA",
-      "createdAt": 1670385825482,
-      "updatedAt": 1670385830998,
-      "index": 2
-    },
-    {
       "name": "MTG",
       "parentId": null,
       "isOpen": false,
@@ -240,7 +229,7 @@
       "id": "O0nVHWR4",
       "createdAt": 1669973943591,
       "updatedAt": 1669973947332,
-      "index": 3
+      "index": 2
     },
     {
       "name": "Manuel",
@@ -251,7 +240,7 @@
       "id": "RNdFy9Sh",
       "createdAt": 1670295391995,
       "updatedAt": 1670295402767,
-      "index": 4
+      "index": 3
     }
   ],
   "snippets": [
@@ -1178,12 +1167,12 @@
         {
           "label": "Fragment 1",
           "language": "sass",
-          "value": "overflow: hidden;\n\nspan {\n  position: relative;\n  display: inline-block;\n  &::before {\n    content: '';\n    width: 50vw;\n    height: 1px;\n    background: #000;\n    position: absolute;\n    top: 50%;\n    left: -20px;\n    transform: translateX(-100%);\n  }\n  &::after {\n    content: '';\n    width: 50vw;\n    height: 1px;\n    background: #000;\n    position: absolute;\n    top: 50%;\n    right: -20px;\n    transform: translateX(100%);\n  }\n}"
+          "value": "overflow: hidden;\n\nspan {\n  position: relative;\n  display: inline-block;\n  \n  &::after,\n  &::before {\n  content: '';\n  width: 50vw;\n  height: 1px;\n  background: #000;\n  position: absolute;\n  top: 50%;\n  }\n\n  &::after {\n    right: -20px;\n    transform: translateX(100%);\n  }\n\n  &::before {;\n    left: -20px;\n    transform: translateX(-100%);\n  }\n}"
         }
       ],
       "id": "dSeF10A9",
       "createdAt": 1665657171052,
-      "updatedAt": 1665657580583
+      "updatedAt": 1671689196635
     },
     {
       "isDeleted": false,
@@ -2152,17 +2141,17 @@
         {
           "label": "Fragment 1",
           "language": "markdown",
-          "value": "## FTP\n\n### 社内\n\n#### invogue\n49.212.214.143:51221\nwww_invogue\nLXiEwPpNoY"
+          "value": "## FTP\n\n### 社内\n\n#### invogue\nLXiEwPpNoY\n\n#### .jp\nLn8xD6sN"
         }
       ],
       "id": "PfWE2mop",
       "createdAt": 1670310412925,
-      "updatedAt": 1670311629637
+      "updatedAt": 1685519339510
     },
     {
-      "isDeleted": false,
+      "isDeleted": true,
       "isFavorites": false,
-      "folderId": "HGH7sVHA",
+      "folderId": "",
       "tagsIds": [],
       "description": null,
       "name": "改善したほうがいいところ",
@@ -2170,13 +2159,368 @@
         {
           "label": "Fragment 1",
           "language": "plain_text",
-          "value": "## 制作面\n\nGitHubに統一\n\nデザインはGoogleDriveをFinderから見る\n\n売り上げをクリエイターに共有\n\npsdの命名規則"
+          "value": "## 制作面\n\nGitHubに統一\n\nデザインはGoogleDriveをFinderから見る→単純に不便では。Finderから探せるようになればある程度ディレクターの負担軽減も見込める\n\n売り上げをクリエイターに共有\n\npsdの命名規則\n\n作業指示に使うツールを統一する\n→ログの簡易が容易になる・足並みが揃うのでルール化がしやすい・情報が分散することによる事故を防ぐ・人数が増えていけば管理面で必要\n→作業効率もアップが見込める・色んな所を見なくて良くなる\n\nworkplaceが使いにくすぎるのでなんとかなりませんか\n\nデプロイ環境ほしい。pushしたら勝手に上がってほしい"
         }
       ],
       "id": "BidJzuHw",
       "createdAt": 1670385835118,
-      "updatedAt": 1670396642391
+      "updatedAt": 1671417192123
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "O0nVHWR4",
+      "tagsIds": [],
+      "description": null,
+      "name": "221216 エンジニア定例",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "markdown",
+          "value": "## 221216 エンジニア定例\n\n### 目標\n\n#### Docker\n\n- インフラ系。Dovker環境構築をできるように\n\t- Docker周りでなにか起きたときにすぐ解決できるレベルに\n\n\t- 色々なパターンで作成してみる\n\n\t- 勉強しながらナレッジ共有できるような記事も書いてみる\n\n\t- これが理解できてかけるくらいがゴール？\n\t\t- https://qiita.com/mainy/items/62e85191744f4f69f01c\n\t\n\n#### p5.js\n\n- 趣味系。p5.js\n- https://p5js.org/\n  - まず5つ作品を作ってみる\n\n#### アクセンシビティ\n\n- 資格を取る\n\n- https://icc.infocreate.co.jp/"
+        }
+      ],
+      "id": "kkgKi5Y7",
+      "createdAt": 1671009213872,
+      "updatedAt": 1671183983685
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "HK2DaNHk",
+      "tagsIds": [],
+      "description": null,
+      "name": "点線をひく",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "background-image: linear-gradient(\n        to right,\n        rgb(0, 0, 0),\n        rgb(0, 0, 0) 3px,\n        transparent 3px,\n        transparent 5px\n      );\n      background-size: 5px 3px;\n      background-position: left bottom;\n      background-repeat: repeat-x;"
+        }
+      ],
+      "id": "nV1u4QAk",
+      "createdAt": 1671615444759,
+      "updatedAt": 1671615504527
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "Pn_qW8Q9",
+      "tagsIds": [],
+      "description": null,
+      "name": "linterなどを無視して矯正コミット",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "git commit -m \"hogehoge\" --no-verify"
+        }
+      ],
+      "id": "e_C72oWU",
+      "createdAt": 1673322758382,
+      "updatedAt": 1673322791379
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "Pn_qW8Q9",
+      "tagsIds": [],
+      "description": null,
+      "name": "AからBのコミットの差分抽出",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "git diff --name-status A..B"
+        }
+      ],
+      "id": "rXwh8jot",
+      "createdAt": 1673345011406,
+      "updatedAt": 1673345050206
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "RNdFy9Sh",
+      "tagsIds": [],
+      "description": null,
+      "name": "haskyで引っかかったら",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "markdown",
+          "value": "1. dockerを使っていなかったら外す。\n```gitignore\n\tdocker\n```\n\n2. readme.mdを対象から外してコミット\n\n```shell\n\tgit commit -m \"[add] readme\" --no-verify\n```"
+        }
+      ],
+      "id": "MFvAsJqF",
+      "createdAt": 1678412933843,
+      "updatedAt": 1678413426356
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "iKm1FLRU",
+      "tagsIds": [],
+      "description": null,
+      "name": "ブラウザサイズで分岐 レスポンシブ",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "javascript",
+          "value": "if (window.innerWidth < 768) {\n\tvar scrollKeyVisualHeight = 670;\n} else {\n\tvar scrollKeyVisualHeight = (900 / 1600 * 100) + 'vw';\n}"
+        }
+      ],
+      "id": "bBnqYSYn",
+      "createdAt": 1678427524991,
+      "updatedAt": 1678427572534
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "RNdFy9Sh",
+      "tagsIds": [],
+      "description": null,
+      "name": "packageからswiperなど入れるには",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "markdown",
+          "value": "バージョンを指定してインストール\n```\nyarn add swiper@4.5.0\n```\n\nパッケージを削除\n```\nyarn remove swiper\n```"
+        }
+      ],
+      "id": "oJ1-iBMg",
+      "createdAt": 1678440048103,
+      "updatedAt": 1678759478521
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "RNdFy9Sh",
+      "tagsIds": [],
+      "description": null,
+      "name": "テンプレでindex.jsのみ、vendor.jsを介さないようにしたい",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "markdown",
+          "value": "wevpack.config.jsから下記をコメントアウト\n```\noptimization: {\n    splitChunks: {\n      cacheGroups: {\n        vendors: {\n          chunks: 'all',\n          minSize: 0,\n          name: `${common.dir.assets}/${common.dir.scripts}/vendors`\n        }\n      }\n    }\n  },\n  ```"
+        }
+      ],
+      "id": "4014KKap",
+      "createdAt": 1678770586809,
+      "updatedAt": 1678770746868
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "iKm1FLRU",
+      "tagsIds": [],
+      "description": null,
+      "name": "ループ処理で複数の要素にclickイベント",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "javascript",
+          "value": "document.addEventListener('DOMContentLoaded', function(){\n\tfunction menuClick(){\n\t\t// クリックした際に実行する処理を記述\n\t}\n\n\t// 引数に指定したclassの値をもつ要素をすべて取得\n\tconst menus = document.getElementsByClassName('menu');\n\t// 上記で取得したすべての要素に対してクリックイベントを適用\n\tfor(let i = 0; i < menus.length; i++) {\n    \tmenus[i].addEventListener('click', menuClick, false);\n\t}\n    \n}, false);"
+        }
+      ],
+      "id": "P93SCRxE",
+      "createdAt": 1680678184958,
+      "updatedAt": 1680678464665
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "cQf718zO",
+      "tagsIds": [],
+      "description": null,
+      "name": "動画、Youtubeのレスポンシブ 最新版",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "scss",
+          "value": "&__video-wrapper {\n  width: 100%;\n  aspect-ratio: 16 / 9;\n}\n\n&__video {\n  width: 100%;\n  height: 100%;\n}"
+        }
+      ],
+      "id": "_AQrSYPs",
+      "createdAt": 1681800957095,
+      "updatedAt": 1681801054715
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "iKm1FLRU",
+      "tagsIds": [],
+      "description": null,
+      "name": "モーダルの背景を止めて、スクロール量をとって戻さない",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "javascript",
+          "value": "const showDialog = () => {\n  const scrollY = document.documentElement.style.getPropertyValue('--scroll-y');\n  const body = document.body;\n  body.style.position = 'fixed';\n  body.style.top = `-${scrollY}`;\n};\nconst closeDialog = () => {\n  const body = document.body;\n  const scrollY = body.style.top;\n  body.style.position = '';\n  body.style.top = '';\n  window.scrollTo(0, parseInt(scrollY || '0') * -1);\n}\nwindow.addEventListener('scroll', () => {\n  document.documentElement.style.setProperty('--scroll-y', `${window.scrollY}px`);\n});"
+        }
+      ],
+      "id": "cAuxgqa8",
+      "createdAt": 1682411426640,
+      "updatedAt": 1682411472010
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "RNdFy9Sh",
+      "tagsIds": [],
+      "description": null,
+      "name": "bitbucket 管理アカウント",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "engineer@vogaro.co.jp\nMh29kBUL\nk.shimokawa@vogaro.co.jp"
+        }
+      ],
+      "id": "8DQsygpU",
+      "createdAt": 1682652514626,
+      "updatedAt": 1688440098116
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "RNdFy9Sh",
+      "tagsIds": [],
+      "description": null,
+      "name": "v4テスト作成",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "markdown",
+          "value": "https://portainer.v4.vogaro.jp/#!/auth\n\n```\nadmin\nRbJR2dCETBCM\n```\n\nprimary\n↓\nstack\n↓\nadd stack\n↓\ncustom tempalate\n↓\nエディターのコメントに従って編集\n&\nphp datebaseを必要に合わせてコメントアウト\n↓\ndeploy the stack\n\n\nfishではコマンドがうまくいかない\n\nshellの切り替え方\nhttps://hirooooo-lab.com/development/change-mac-shell/"
+        }
+      ],
+      "id": "65-LZIAN",
+      "createdAt": 1684459327244,
+      "updatedAt": 1686825639890
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "RNdFy9Sh",
+      "tagsIds": [],
+      "description": null,
+      "name": "イントラアップ方法",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "markdown",
+          "value": "https://www.evernote.com/shard/s210/client/snv?isnewsnv=true&noteGuid=a28bdf7f-d169-48e8-a4ed-c16c7d4aa5cb&noteKey=539acd7bb57d7be2c03474f9dfa55e4c&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs210%2Fsh%2Fa28bdf7f-d169-48e8-a4ed-c16c7d4aa5cb%2F539acd7bb57d7be2c03474f9dfa55e4c&title=%25E3%2582%25A4%25E3%2583%25B3%25E3%2583%2588%25E3%2583%25A9%25E3%2582%25A2%25E3%2583%2583%25E3%2583%2597%25E6%2596%25B9%25E6%25B3%2595\n\nhttp://intra.invogue.jp/\nID：intra\nPW：awbydcy3id"
+        }
+      ],
+      "id": "AG3kAVCY",
+      "createdAt": 1684483704967,
+      "updatedAt": 1684483773637
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "fsjGtTk4",
+      "tagsIds": [],
+      "description": null,
+      "name": "lintを無視する",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "// stylelint-disable"
+        }
+      ],
+      "id": "7mOXlUIZ",
+      "createdAt": 1684748279001,
+      "updatedAt": 1684748292128
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "Pn_qW8Q9",
+      "tagsIds": [],
+      "description": null,
+      "name": "zipにパスワード",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "zipcloak"
+        }
+      ],
+      "id": "Zcuy59hc",
+      "createdAt": 1687829540835,
+      "updatedAt": 1687829553861
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "RNdFy9Sh",
+      "tagsIds": [],
+      "description": null,
+      "name": "s3s起動",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "```\ncd s3s\n```\n\n```\npython3 s3s.py -M 300 -r -nsr\n```"
+        }
+      ],
+      "id": "6OpIPI_p",
+      "createdAt": 1693444733490,
+      "updatedAt": 1693444823164
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "5zMTm1JF",
+      "tagsIds": [],
+      "description": null,
+      "name": "背景マーカー改行",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": "box-decoration-break: clone;"
+        }
+      ],
+      "id": "4WG07_i9",
+      "createdAt": 1693893297571,
+      "updatedAt": 1693893333786
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "cQf718zO",
+      "tagsIds": [],
+      "description": null,
+      "name": "clip-pathでの三角",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": "width: 7px;\nheight: 5px;\nbackground: #000;\nclip-path: polygon(0 0, 100% 0, 50% 100%);"
+        }
+      ],
+      "id": "OVZmjoGq",
+      "createdAt": 1693907953483,
+      "updatedAt": 1693907982626
     }
   ],
-  "tags": []
+  "tags": [
+    {
+      "name": "border",
+      "id": "-Ti-vrOT",
+      "createdAt": 1671615459976,
+      "updatedAt": 1671615459976
+    },
+    {
+      "name": "box-decoration-break: clone",
+      "id": "tiIZYTLp",
+      "createdAt": 1693893299585,
+      "updatedAt": 1693893299585
+    }
+  ]
 }

@@ -1,0 +1,86 @@
+{
+  "hover opacity": {
+    "prefix": "hov",
+    "body": [
+      "$1 {",
+      "\t&.hover {",
+      "\t\timg {",
+      "\t\t\topacity: 0.6;",
+      "\t\t\ttransition: all 0.3s ease-in-out;",
+      "\t\t\t-webkit-transition: all 0.3s ease-in-out;",
+      "\t\t\t-moz-transition: all 0.3s ease-in-out;",
+      " \t\t}",
+      "\t}",
+      "}"
+    ],
+    "description": "hoverで透明になる"
+  },
+  "コメント": {
+    "prefix": "com",
+    "body": [
+      "// $1",
+      "//-----------------------------------------------------------------"
+    ],
+    "description": "For Loop"
+  },
+  "line-height調整": {
+    "prefix": "lhh",
+    "body": [
+      "@include mt(\\$num: 0rem, \\$fz: $1rem, \\$lh: 2);",
+      "@include mb(\\$num: 0rem, \\$fz: $1rem, \\$lh: 2);"
+    ],
+    "description": "line-height調整"
+  },
+  "hover bg img": {
+    "prefix": "hovbg",
+    "body": [
+      "$1 {",
+      " \tbackground: transparent url(../../howto/imgs/$2_ov.png) no-repeat top 3px left / 100%;",
+      " \ta {",
+      "\t\t&.hover {",
+      "\t\t\timg {",
+      "\t\t\t\topacity: 0;",
+      "\t\t\t\ttransition: all 0.3s ease-in-out;",
+      "\t\t\t}",
+      "\t\t}",
+      "\t}",
+      "}",
+      ""
+    ],
+    "description": "hoverで背景画像表示"
+  },
+  "img cap": {
+    "prefix": "cap",
+    "body": [
+      ".imageArea {",
+      "      .image {",
+      "        position: relative;",
+      "        .acap {",
+      "          font-size: 10px;",
+      "          line-height: 1;",
+      "          letter-spacing: normal;",
+      "          position: absolute;",
+      "          bottom: 8px;",
+      "          right: 8px;",
+      "          color: #fff;",
+      "          text-shadow: black 1px 1px 2px, black -1px 1px 2px, black 1px -1px 2px, black -1px -1px 2px;",
+      "        }",
+      "      }",
+      "    }"
+    ],
+    "description": "画像に光彩付きcaption"
+  },
+  "this": {
+    "prefix": "this",
+    "description": "親継承",
+    "body": [
+      "\\$this: &;",
+      "  ",
+      "  &__$1 {",
+      "    #{\\$this}__$2 {",
+      "    ",
+      "    }",
+      "  }"
+    ]
+  }
+}

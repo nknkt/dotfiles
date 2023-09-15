@@ -1,0 +1,103 @@
+{
+  "sm": {
+    "prefix": "sm",
+    "description": "smoothscroll.js",
+    "body": [
+      "$(function () {",
+      "    $('a[href^=\"#\"]').click(function () {",
+      "        var speed = 500;",
+      "        var href = $(this).attr(\"href\");",
+      "        var target = $(href == \"#\" || href == \"\" ? 'html' : href);",
+      "        var position = target.offset().top;",
+      "        $(\"html, body\").animate({ scrollTop: position }, speed, \"swing\");",
+      "        return false;",
+      "    });",
+      "});"
+    ]
+  },
+  "fl": {
+    "prefix": "fl",
+    "description": "flatHeight.js",
+    "body": [
+      "<script src=\"/mansion_kansai/osaka/bay330/common/js/jquery.flatHeightAll.min.js\" id=\"flJS\" charset=\"UTF-8\"></script>",
+      "<script>",
+      "$(window).on('load',function(){",
+      "$('.lh1').flatHeightAll();",
+      "$(window).resize(function(){$('.lh1').flatHeightAll();});",
+      "$('.lh2').flatHeightAll();",
+      "$(window).resize(function(){$('.lh2').flatHeightAll();});",
+      "$('.lh3').flatHeightAll();",
+      "$(window).resize(function(){$('.lh3').flatHeightAll();});",
+      "$('.lh4').flatHeightAll();",
+      "$(window).resize(function(){$('.lh4').flatHeightAll();});",
+      "});",
+      "</script>"
+    ]
+  },
+  "ma": {
+    "prefix": "ma",
+    "description": "jquery.magnific-popup.js",
+    "body": [
+      "$(function() {",
+      "  $('.popup').magnificPopup({",
+      "\t\tdisableOn: 640, //windowサイズによってMagnific Popupを無効",
+      "\t\tmidClick: true, //マウスのミドルボタンのクリック・Command/Ctrlキーを押してクリックでもポップアップが開く",
+      "\t\tmainClass: \"myClass\", //ポップアップ全体を囲むdivタグにクラス名として追加",
+      "\t\tpreloader: true, //ポップアップのコンテンツがない場合は「The image could not be loaded.」と表示されますが、falseの場合はエラーイメージが表示",
+      "\t\tfocus: null, //フォーカスされるべきポップアップ内の要素のCSSセレクタを設定",
+      "\t\thowCloseBtn: true, //閉じるボタンの非表示",
+      "\t\tcloseOnContentClick: true, //trueの場合、コンテンツをクリックするとポップアップが閉じるよ",
+      "\t\tcloseOnBgClick: false,　//閉じるボタンのみで閉じれる",
+      "\t\tcloseBtnInside: false, //ウインドウの右上に閉じるボタンが配置される",
+      "\t\tshowCloseBtn: false, //クローズボタンを非表示",
+      "\t\tmodal: true, //クローズボタンが非表示になり、背景クリック・escキーでポップアップを閉じることができなくなる",
+      "\t\talignTop: true, //ポップアップは中央にではなく上に揃えられます",
+      "\t\tenableEscapeKey: true, //escキーでポップアップを閉じる",
+      "\t\tfixedContentPos: true,",
+      "\t\t//trueにすると、ポップアップコンテンツにposition:fixed;が適用されます。",
+      "\t\t//falseにすると、ポップアップコンテンツにposition:absolute;適用されます。",
+      "\t\t//autoの場合は、ブラウザがposition:fixed;をサポートしていない場合にはposition:absolute;が適用されます。",
+      "\t\tfixedBgPos: true, //上記の背景オーバーレイのpositionに関するオプション",
+      "  });",
+      "});",
+      "",
+      "$(function() {",
+      "  $('.popup').magnificPopup({",
+      "\t\tmodal: false //クローズボタンが非表示になり、背景クリック・escキーでポップアップを閉じることができなくなる",
+      "  });",
+      "});"
+    ]
+  },
+  "console": {
+    "prefix": "console",
+    "description": "console.log",
+    "body": [
+      "console.log('$1');"
+    ]
+  },
+  "prompt": {
+    "prefix": "prompt",
+    "description": "prompt",
+    "body": [
+      "prompt('$1')"
+    ]
+  },
+  "elseif": {
+    "prefix": "elseif",
+    "description": "else if",
+    "body": [
+      "else if (${1:condition}) {",
+      "    $2",
+      "}"
+    ]
+  },
+  "for": {
+    "prefix": "for",
+    "description": "配列の繰り返し",
+    "body": [
+      "for (let ${1:array} of ${2:index}) {",
+      "    $3",
+      "}"
+    ]
+  }
+}

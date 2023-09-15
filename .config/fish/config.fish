@@ -15,3 +15,13 @@ function fish_user_key_bindings
 end
 
 starship init fish | source
+
+# fnm
+set -gx PATH "/Users/kenta_kanno/Library/Caches/fnm_multishells/80456_1671090326072/bin" $PATH;
+set -gx FNM_VERSION_FILE_STRATEGY "local";
+set -gx FNM_LOGLEVEL "info";
+set -gx FNM_NODE_DIST_MIRROR "https://nodejs.org/dist";
+set -gx FNM_ARCH "arm64";
+set -gx FNM_DIR "/Users/kenta_kanno/Library/Application Support/fnm";
+set -gx FNM_MULTISHELL_PATH "/Users/kenta_kanno/Library/Caches/fnm_multishells/80456_1671090326072";
+source /Users/kenta_kanno/.docker/init-fish.sh || true # Added by Docker Desktop

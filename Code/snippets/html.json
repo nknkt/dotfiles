@@ -1,0 +1,36 @@
+{
+  "header内aos読み込み": {
+    "prefix": "aos",
+    "body": [
+      "<!--「aos」CSSの読込-->",
+      "\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../common/css/aos.css\" media=\"only screen and (min-width: 960px)\" />",
+      "<!--「aos」JSの読込-->",
+      "\t<script src=\"//cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js\"></script>"
+    ],
+    "description": "header内aos読み込み"
+  },
+  "fadeup aos": {
+    "prefix": "aos",
+    "body": [
+      "data-aos=\"fade-up\""
+    ],
+    "description": "fadeで現れる"
+  },
+  "pic": {
+    "prefix": "pic",
+    "description": "picture",
+    "body": [
+      "<picture>",
+      "  <source srcset=\"assets/img/img-01.jpg\" media=\"(min-width: 768px)\">",
+      "  <img src=\"assets/img/img-01-sp.jpg\" alt=\"\">",
+      "</picture>"
+    ]
+  },
+  "placehold": {
+    "prefix": "placehold",
+    "description": "ダミー画像",
+    "body": [
+      "<img src=\"https://placehold.jp/999999/ffffff/300x300.jpg\" alt=\"\">"
+    ]
+  }
+}
