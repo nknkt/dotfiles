@@ -2141,12 +2141,12 @@
         {
           "label": "Fragment 1",
           "language": "markdown",
-          "value": "## FTP\n\n### 社内\n\n#### invogue\nLXiEwPpNoY\n\n#### .jp\nLn8xD6sN"
+          "value": "## FTP\n\n### 社内\n\n#### v5\nFzuiMR4F\n\n#### invogue\nLXiEwPpNoY\n\n#### .jp\nLn8xD6sN"
         }
       ],
       "id": "PfWE2mop",
       "createdAt": 1670310412925,
-      "updatedAt": 1685519339510
+      "updatedAt": 1704417541509
     },
     {
       "isDeleted": true,
@@ -2337,14 +2337,19 @@
       "name": "動画、Youtubeのレスポンシブ 最新版",
       "content": [
         {
-          "label": "Fragment 1",
+          "label": ".scss",
           "language": "scss",
           "value": "&__video-wrapper {\n  width: 100%;\n  aspect-ratio: 16 / 9;\n}\n\n&__video {\n  width: 100%;\n  height: 100%;\n}"
+        },
+        {
+          "label": ".html",
+          "language": "html_elixir",
+          "value": "<div class=\"top-movie__video\">\n  <iframe id=\"ytplayer\" type=\"text/html\" width=\"640\" height=\"360\"\n  src=\"https://www.youtube.com/embed/9vGCpFQovLM?&mute=1&loop=1&playlist=9vGCpFQovLM&autoplay=1&controls=0\" frameborder=\"0\"></iframe>\n</div>"
         }
       ],
       "id": "_AQrSYPs",
       "createdAt": 1681800957095,
-      "updatedAt": 1681801054715
+      "updatedAt": 1700191902463
     },
     {
       "isDeleted": false,
@@ -2465,12 +2470,12 @@
         {
           "label": "Fragment 1",
           "language": "plain_text",
-          "value": "```\ncd s3s\n```\n\n```\npython3 s3s.py -M 300 -r -nsr\n```"
+          "value": "```\ncd s3s\n```\n\n```\npython3 s3s.py -M 3600 -r\n```"
         }
       ],
       "id": "6OpIPI_p",
       "createdAt": 1693444733490,
-      "updatedAt": 1693444823164
+      "updatedAt": 1696391666210
     },
     {
       "isDeleted": false,
@@ -2483,12 +2488,12 @@
         {
           "label": "Fragment 1",
           "language": "sass",
-          "value": "box-decoration-break: clone;"
+          "value": "display: inline;\nbox-decoration-break: clone;"
         }
       ],
       "id": "4WG07_i9",
       "createdAt": 1693893297571,
-      "updatedAt": 1693893333786
+      "updatedAt": 1696497347255
     },
     {
       "isDeleted": false,
@@ -2507,6 +2512,114 @@
       "id": "OVZmjoGq",
       "createdAt": 1693907953483,
       "updatedAt": 1693907982626
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "5zMTm1JF",
+      "tagsIds": [],
+      "description": null,
+      "name": "Upper Caseの読み上げ対応",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": "text-transform: uppercase;"
+        }
+      ],
+      "id": "7J6bKnpt",
+      "createdAt": 1696473208654,
+      "updatedAt": 1696473236441
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "5zMTm1JF",
+      "tagsIds": [],
+      "description": null,
+      "name": "縦書き",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sass",
+          "value": "writing-mode: vertical-rl;"
+        }
+      ],
+      "id": "IkZRY_i1",
+      "createdAt": 1696473789904,
+      "updatedAt": 1696473852846
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "RNdFy9Sh",
+      "tagsIds": [],
+      "description": null,
+      "name": "テストサーバー新環境",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "markdown",
+          "value": "https://docs.google.com/document/d/1OgPIg87ag23h5QjU66zJh2wmHizDU_jdjIzRajMsQvE/edit"
+        }
+      ],
+      "id": "sdNAFGiD",
+      "createdAt": 1697076087834,
+      "updatedAt": 1697076767726
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "fsjGtTk4",
+      "tagsIds": [],
+      "description": null,
+      "name": "90度じゃないくの字",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "scss",
+          "value": "&__arrow {\n  position: relative;\n  width: 5.8rem;\n  height: 5.8rem;\n\n  &::before,\n  &::after {\n    content: \"\";\n    display: block;\n    width: 5.8rem;\n    height: 1px;\n    background: #fff;\n    position: absolute;\n  }\n\n  &::before {\n  \ttransform: rotate(45deg);\n\t  left: -35px;\n  }\n\n  &::after {\n    transform: rotate(135deg);\n    left: 8px;\n  }\n}"
+        }
+      ],
+      "id": "9Vh4irJY",
+      "createdAt": 1698734300149,
+      "updatedAt": 1698735187976
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "fsjGtTk4",
+      "tagsIds": [],
+      "description": null,
+      "name": "タブレットviewport固定",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "scss",
+          "value": "@media screen and (min-width: 768px) and (max-width: 960px) {\n  meta[name=\"viewport\"] {\n    width: 1280px;\n  }\n}"
+        }
+      ],
+      "id": "2pP2Cyrr",
+      "createdAt": 1701167000739,
+      "updatedAt": 1701167032274
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "osS8WVJB",
+      "tagsIds": [],
+      "description": null,
+      "name": "特殊文字・機種依存文字",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "markdown",
+          "value": "|  表⽰  |  説明  |\n| ---- | ---- |\n|  &amp  |  アンパサンド  |\n|  &lt  |  ⽐較記号  |\n|  &gt  |  ⽐較記号  |\n|  &quot  |  引⽤符  |\n|  &yen  |  円  |\n|  &copy  |  コピーライト  |\n|  &reg  |  登録商標  |"
+        }
+      ],
+      "id": "-3HoE-Gd",
+      "createdAt": 1703043296702,
+      "updatedAt": 1703043415956
     }
   ],
   "tags": [
