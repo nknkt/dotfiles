@@ -69,7 +69,7 @@
         "command": "-workbench.action.togglePanel"
     },
     {
-        "key": "shift+alt+numpad2",
+        "key": "shift+cmd+2",
         "command": "workbench.action.splitEditorRight"
     },
     {

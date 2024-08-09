@@ -36,7 +36,7 @@
 		"scope": "css,scss",
 		"prefix": "bac",
 		"body": [
-			"background: transparent url(/assets/images/$1) $2repeat top center / co$3;",
+			"background: transparent url(/assets/images/$1) $2repeat top center / ${3:100%};",
 		],
 		"description": "background"
 	},
@@ -53,7 +53,6 @@
 		"prefix": "fle",
 		"body": [
 			"display: flex;",
-			"flex-wrap: wrap;",
 			"justify-content: space-between;"
 		],
 		"description": "flex 等間隔"
@@ -188,7 +187,7 @@
 	},
 	"grc": {
 		"scope": "css,scss",
-		"prefix": "垂直正中",
+		"prefix": "grc",
 		"body": [
 			"display: grid;",
 			"place-items: center;",
@@ -197,7 +196,7 @@
 	},
 	"dash": {
 		"scope": "css,scss",
-        "prefix": "点線",
+        "prefix": "dash",
         "body": [
             "background-image: linear-gradient(",
             "      to right,",

@@ -3,7 +3,7 @@
     {
       "name": "css/sass",
       "parentId": "_GUj4iJR",
-      "isOpen": false,
+      "isOpen": true,
       "isSystem": false,
       "defaultLanguage": "plain_text",
       "id": "fsjGtTk4",
@@ -2506,12 +2506,12 @@
         {
           "label": "Fragment 1",
           "language": "sass",
-          "value": "width: 7px;\nheight: 5px;\nbackground: #000;\nclip-path: polygon(0 0, 100% 0, 50% 100%);"
+          "value": "width: 7px;\nheight: 5px;\nbackground: #000;\nclip-path: polygon(50% 0, 100% 100%, 0 100%);\n//上向き\nclip-path: polygon(0 0, 100% 0, 50% 100%);\n//下向き\nclip-path: polygon(0 0, 0 100%, 100% 50%);\n//右向き\nclip-path: polygon(0 50%, 100% 0, 100% 100%);\n//左向き"
         }
       ],
       "id": "OVZmjoGq",
       "createdAt": 1693907953483,
-      "updatedAt": 1693907982626
+      "updatedAt": 1721811264878
     },
     {
       "isDeleted": false,
@@ -2620,6 +2620,101 @@
       "id": "-3HoE-Gd",
       "createdAt": 1703043296702,
       "updatedAt": 1703043415956
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "osS8WVJB",
+      "tagsIds": [],
+      "description": null,
+      "name": "JSONから引いてきたテキストを置き換え",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "ejs",
+          "value": "<%- getModelName(series, model).replace(' 公式オンラインストア限定', '<br>公式オンラインストア限定') %>"
+        }
+      ],
+      "id": "ZOU9OLVo",
+      "createdAt": 1706706809218,
+      "updatedAt": 1706706835943
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "osS8WVJB",
+      "tagsIds": [],
+      "description": null,
+      "name": "forEach 繰り返し list",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "ejs",
+          "value": "<% list.forEach(function (value, key) { %>\n  <li class=\"sec-target__item\">\n    <a class=\"sec-target__anchor\" href=\"/spec/<%- value.url %>/\">\n      <div class=\"img\"><img src=\"/assets/images/pages/sustainability/<%- value.imgPath %>\" alt=\"\"></div>\n      <span class=\"name\">\n        ・<%- value.name1 %>\n        <% if (value.name2 !=='') { %>\n        <br>・<%- value.name2 %>\n        <% } %>\n      </span>\n    </a>\n  </li>\n<% }); %>"
+        },
+        {
+          "label": "Fragment 2",
+          "language": "ejs",
+          "value": "<%- include('/sec-target.ejs',{\n  list: [\n    {\n      url: 'sociac_sociacx',\n      imgPath: 'img-sociac_sociacx.png',\n      name1: 'SOCIAC',\n      name2: 'SOCIAC X'\n    },\n    {\n      url: 'sociacalpha_sociacalphanext',\n      imgPath: 'img-sociacalpha_sociacalphanext.png',\n      name1: 'SOCIACα',\n      name2: 'SOCIACα NEXT'\n    },\n    {\n      url: 'sociacpro',\n      imgPath: 'img-sociacpro.png',\n      name1: 'SOCIAC PRO',\n      name2: ''\n    },\n    {\n      url: 'neoblue',\n      imgPath: 'img-neoblue.png',\n      name1: 'NEO Blue',\n      name2: ''\n    }\n  ],\n  modifiers: []\n}) %>"
+        }
+      ],
+      "id": "Pf44lJbD",
+      "createdAt": 1708396809019,
+      "updatedAt": 1708399391617
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "RNdFy9Sh",
+      "tagsIds": [],
+      "description": null,
+      "name": "GitHub 2段階認証",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "f36e7-a5228\nf9b2e-0692d\n658a8-203ce\n5404a-f2eb5\n4dc32-a4bd0\n942b7-e36af\n880e8-4968e\nf7138-ec8fb\nab12d-1709b\na79c4-89490\n27107-23b2e\n6fce7-4d4ca\nfa08c-ddb19\n6b2ee-534a0\nea3f8-50a23\n4d655-499c1"
+        }
+      ],
+      "id": "U6Oz2zun",
+      "createdAt": 1708996506913,
+      "updatedAt": 1708996546162
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "RNdFy9Sh",
+      "tagsIds": [],
+      "description": null,
+      "name": "PHPのローカルでの映し方",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "formApp/inc/envの中のvogaro.co.jp.phpコピーして、立ち上がってるホスト名の名前つけてファイル追加すると多分うつります\n\ninbound-tvlp.localhost.php\nlocalhost:3000.php\nなど"
+        }
+      ],
+      "id": "h-YJa4ct",
+      "createdAt": 1715764481763,
+      "updatedAt": 1715764503998
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "XA8lMrJy",
+      "tagsIds": [],
+      "description": null,
+      "name": "縦積みの2カラム以上",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "scss",
+          "value": "ul {\n\tdisplay:flex;\n  flex-wrap: wrap;\n  flex-direction: column;\n  gap: 20px;\n  height: 400px\n}"
+        }
+      ],
+      "id": "1dWv-8tH",
+      "createdAt": 1722926413912,
+      "updatedAt": 1723079351108
     }
   ],
   "tags": [
