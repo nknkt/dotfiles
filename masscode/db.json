@@ -2105,12 +2105,12 @@
         {
           "label": "Fragment 1",
           "language": "markdown",
-          "value": "docker-compose.ymlのディレクトリで\n\n```shell\n## 開始\ndocker-compose up -d\n\n## 停止\ndocker-compose down\n```\n\n\n\n### 古い案件\n\n`vogaro_development_pack`経由で動かす\n\n### 新しい案件\n\nGitHubからimageを引っ張る"
+          "value": "docker-compose.ymlのディレクトリで\n\n```shell\n## 開始\ndocker-compose up -d\n\n## 停止\ndocker-compose down\n```\n\n\n\n### 古い案件\n\n`vogaro_development_pack`経由で動かす\n\n#### 動かし方\n\nまず、、、\ndpckerアプリの起動中以外非表示を解除して、defaultがないかチェック\n\n`/docker/readme.md`\n\n`/Users/kenta_kanno/Documents/git/vogaro_development_pack/docker/images/`\n\ndocker build -t vogaro:php5.3 -f php5.3-apache/Dockerfile .\ndocker build -t vogaro:php5.6 -f php5.6-apache/Dockerfile .\ndocker build -t vogaro:php7.0 -f php7.0-apache/Dockerfile .\ndocker build -t vogaro:php7.1 -f php7.1-apache/Dockerfile .\ndocker build -t vogaro:php7.2 -f php7.2-apache/Dockerfile .\ndocker build -t vogaro:php7.3 -f php7.3-apache/Dockerfile .\ndocker build -t vogaro:php7.4 -f php7.4-apache/Dockerfile .\ndocker build -t vogaro:php8.0 -f php8.0-apache/Dockerfile .\n\n### 新しい案件\n\nGitHubからimageを引っ張る"
         }
       ],
       "id": "GtNtp52r",
       "createdAt": 1670231378240,
-      "updatedAt": 1670295540661
+      "updatedAt": 1728011386156
     },
     {
       "isDeleted": true,
@@ -2715,6 +2715,132 @@
       "id": "1dWv-8tH",
       "createdAt": 1722926413912,
       "updatedAt": 1723079351108
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "RNdFy9Sh",
+      "tagsIds": [],
+      "description": null,
+      "name": "fish マニュアル",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "bd fish-bd ディレクトリ戻る\ntab 予測補完\ncon + c peco_cd ディレクトリ移動先の検索\ncon + w peco_select_history 履歴検索\ncon + k peco_kill\ncon + r fish-peco_recentd zで頻繁に移動する履歴をpecoで出す\nz dir z ディレクトリ移動"
+        }
+      ],
+      "id": "8Bd-BEdR",
+      "createdAt": 1723772298094,
+      "updatedAt": 1723773299982
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "RNdFy9Sh",
+      "tagsIds": [],
+      "description": null,
+      "name": "社内wifi",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "markdown",
+          "value": "# VOGARO-ACCOUNT\nq5KuM3LY\n\n# mbs-staff-wifi\npwr689\nmwv140\n\n# SSID(2.4Ghz帯)：SPWH_L13_09A471\n# SSID(5GHz帯)：SPWH＿L13＿09A471＿5G\n暗号化キー：6uLv3nRx"
+        }
+      ],
+      "id": "Je02mKmL",
+      "createdAt": 1724808681263,
+      "updatedAt": 1726218839615
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "RNdFy9Sh",
+      "tagsIds": [],
+      "description": null,
+      "name": "itrem hotkey shortcut",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "markdown",
+          "value": "https://qiita.com/0084ken/items/8aefabef4fd3cfdf8fce\n\ncmd + d \tウィンドウを縦に分割\ncmd + shift + d \tウィンドウを横に分割\ncon + tab タブ移動"
+        }
+      ],
+      "id": "qU3bjwdv",
+      "createdAt": 1724809869539,
+      "updatedAt": 1724810227426
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "RNdFy9Sh",
+      "tagsIds": [],
+      "description": null,
+      "name": "LINE 検証機",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "アカウント名 : Vogaro検証機（AQUOS）\n登録電話番号 : 080-4005-9240\nパスワード : Vogaro4035"
+        }
+      ],
+      "id": "ecH67Gg4",
+      "createdAt": 1724980585477,
+      "updatedAt": 1724980608955
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "RNdFy9Sh",
+      "tagsIds": [],
+      "description": null,
+      "name": "passwordルール",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "Mossgreen0707/\n後ろにサービス名の頭文字と最後の文字の2文字を追加したもの"
+        }
+      ],
+      "id": "70OTRsvn",
+      "createdAt": 1726797927480,
+      "updatedAt": 1726797982489
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "x3_XZkS0",
+      "tagsIds": [],
+      "description": null,
+      "name": "incファイルを読ませる",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "Options +Includes\nAddHandler server-parsed html\n\n// phpも通す\nOptions +Includes\nAddHandler server-parsed .html .php\nAddType application/x-httpd-php .html .php\n\n\t•\tOptions +Includes\nこの行はSSI（サーバーサイドインクルード）を有効にします。\n\t•\tAddHandler server-parsed .html .php\n.htmlファイルと.phpファイルの両方でSSIを有効にします。これにより、両方の拡張子のファイルで<!--#include virtual=\"...\" -->のようなSSIの記述が使えるようになります。\n\t•\tAddType application/x-httpd-php .html .php\n.htmlファイルと.phpファイルの両方をPHPとして処理します。これにより、.htmlファイル内でもPHPコードを埋め込むことが可能になります。"
+        }
+      ],
+      "id": "MB-vGTKx",
+      "createdAt": 1727836400413,
+      "updatedAt": 1729761216235
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "8xs9Mguw",
+      "tagsIds": [],
+      "description": null,
+      "name": "target=\"_blank\"などaタグのいろんな指定の仕方",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "scss",
+          "value": "a[target=\"_blank\"]{\n\n}\n\n// href*=”〇〇”・・・〇〇を含む場合\n// href^=”〇〇”・・・〇〇で始まる場合\n// href$=”〇〇”・・・〇〇で終わる場合\n\t\na[href$=\".pdf\"] {\n\n}\n\n[class^=\"rd_\"] {\n color: red;\n}"
+        }
+      ],
+      "id": "vj2d6VHo",
+      "createdAt": 1731299335544,
+      "updatedAt": 1731299500101
     }
   ],
   "tags": [
