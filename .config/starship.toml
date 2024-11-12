@@ -1,5 +1,8 @@
 add_newline = true
 
+# Command timeout
+command_timeout = 5000
+
 ##########################
 
 ## iceburg + sakana
@@ -15,26 +18,6 @@ truncation_length = 100
 truncate_to_repo = false
 style = "#84a0c6"
 home_symbol = "〜"
-
-##########################
-
-## forest
-
-##########################
-
-# [character]
-# success_symbol = "[🦊 ⇒](bold #93dec0) "
-# error_symbol = "🥺"
-# use_symbol_for_status = true
-
-# [directory]
-# truncation_length = 100
-# truncate_to_repo = false
-# style = "#bbed84"
-# home_symbol = "〜"
-
-# [nodejs]
-# style = "#93dec0"
 
 ##########################
 
@@ -75,7 +58,6 @@ truncation_symbol = ""
 commit_hash_length = 30
 
 [git_state]
-progress_divider = " of "
 cherry_pick = "🍒 pick "
 
 [git_status]
@@ -90,11 +72,11 @@ staged = "【staged】🔦 ステージング "
 renamed = "【renamed】🏷 "
 deleted = "【deleted】🗑 "
 
-[battery.display]
+[battery]
+full_symbol = "🤗 "
+charging_symbol = "😌 "
+discharging_symbol = "😨 "
+
+[[battery.display]]
 threshold = 100
 style = "bold blue"
-
-[battery]
-full_symbol = "🤗"
-charging_symbol = "😌"
-discharging_symbol = "😨"
