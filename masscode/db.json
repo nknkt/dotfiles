@@ -3,7 +3,7 @@
     {
       "name": "css/sass",
       "parentId": "_GUj4iJR",
-      "isOpen": true,
+      "isOpen": false,
       "isSystem": false,
       "defaultLanguage": "plain_text",
       "id": "fsjGtTk4",
@@ -91,7 +91,7 @@
     {
       "name": "Source",
       "parentId": null,
-      "isOpen": true,
+      "isOpen": false,
       "isSystem": false,
       "defaultLanguage": "plain_text",
       "id": "_GUj4iJR",
@@ -278,12 +278,12 @@
         {
           "label": "Fragment 1",
           "language": "sass",
-          "value": "@media (min-width: 768px) {\n  a[href*=\"tel:\"] {\n    pointer-events: none;\n    cursor: default;\n    text-decoration: none;\n  }\n}"
+          "value": "@media (min-width: 768px) {\n  a[href*=\"tel:\"] {\n    pointer-events: none;\n    text-decoration: none;\n  }\n}\n\nカーソルを有効にしたければ、aタグを囲みそちらに"
         }
       ],
       "id": "t7r4R7Kx",
       "createdAt": 1665642616425,
-      "updatedAt": 1665651242768
+      "updatedAt": 1742881824165
     },
     {
       "isDeleted": false,
@@ -296,12 +296,12 @@
         {
           "label": "Fragment 1",
           "language": "markdown",
-          "value": "## アセットの初期設定の指定\n\n[Photoshop でのレイヤーから画像アセットの作成](https://helpx.adobe.com/jp/photoshop/using/generate-assets-layers.html#default_settings)\n\n生成されたアセットに対してドキュメント全体の初期設定を指定できます。次の手順に従います。\n\n1. ドキュメント内に空のレイヤーを作成します。\n\n2. レイヤー名の先頭にキーワード default を付けます。次に、そのドキュメントから生成されるすべての画像アセットに適用する設定を入力します。以下に例を挙げます。\n\n   \n\n**`default hi-res/`**\n\n**hi-res** という名前のサブフォルダーにすべての画像アセットを生成します。\n例：**[asset_folder]/hi-res/Delicious.jpg**\n\n\n\n**`default hi-res/@2x`**\n\n**hi-res** という名前のサブフォルダーにすべての画像アセットを生成します。さらに、アセット名にサフィックスとして **@2x** を付加します。\n例：**[asset_folder]/hi-res/Delicious@2x.jpg**\n\n\n\n**`default 50% lo-res/`**\n\n画像アセットを 50% 縮小して、ドキュメントのアセットフォルダーの **lo-res**という名前のサブフォルダーに保存します。\n\n\n\n**`default hi-res/@2x + 50% lo-res/`**\n\n1 つのレイヤーから 2 つの画像アセットを生成します。\n\n- **hi-res** サブフォルダーに、サフィックス **@2x** が名前に付いた画像アセット\n\n- **lo-res** サブフォルダーに、50% 縮小された画像アセット\n\n  \n\n> **注意：**\n> 初期設定の拡大縮小係数は、個々のレイヤーに指定された拡大縮小係数で上書きされます。\n> \n\n\n\n2倍、1倍で書き出し\n**`default 200% 2x/@2x + 100%`**"
+          "value": "## アセットの初期設定の指定\n\n[Photoshop でのレイヤーから画像アセットの作成](https://helpx.adobe.com/jp/photoshop/using/generate-assets-layers.html#default_settings)\n\n生成されたアセットに対してドキュメント全体の初期設定を指定できます。次の手順に従います。\n\n1. ドキュメント内に空のレイヤーを作成します。\n\n2. レイヤー名の先頭にキーワード default を付けます。次に、そのドキュメントから生成されるすべての画像アセットに適用する設定を入力します。以下に例を挙げます。\n\n   \n\n**`default hi-res/`**\n\n**hi-res** という名前のサブフォルダーにすべての画像アセットを生成します。\n例：**[asset_folder]/hi-res/Delicious.jpg**\n\n\n\n**`default hi-res/@2x`**\n\n**hi-res** という名前のサブフォルダーにすべての画像アセットを生成します。さらに、アセット名にサフィックスとして **@2x** を付加します。\n例：**[asset_folder]/hi-res/Delicious@2x.jpg**\n\n\n\n**`default 50% lo-res/`**\n\n画像アセットを 50% 縮小して、ドキュメントのアセットフォルダーの **lo-res**という名前のサブフォルダーに保存します。\n\n\n\n**`default hi-res/@2x + 50% lo-res/`**\n\n1 つのレイヤーから 2 つの画像アセットを生成します。\n\n- **hi-res** サブフォルダーに、サフィックス **@2x** が名前に付いた画像アセット\n\n- **lo-res** サブフォルダーに、50% 縮小された画像アセット\n\n  \n\n> **注意：**\n> 初期設定の拡大縮小係数は、個々のレイヤーに指定された拡大縮小係数で上書きされます。\n> \n\n750pxスマホデザインの書き出し 等倍で@2xをつける\n**`default 100% @2x`**\n\n2倍、1倍で書き出し\n**`default 200% 2x/@2x + 100%`**"
         }
       ],
       "id": "R-mEUCin",
       "createdAt": 1665642690177,
-      "updatedAt": 1665642910216
+      "updatedAt": 1735286953804
     },
     {
       "isDeleted": false,
@@ -504,12 +504,12 @@
         {
           "label": "Fragment 1",
           "language": "sass",
-          "value": "background: linear-gradient(transparent 50%, #eff4f8 50%); //数字の上下で太さ調整\nbackground-position-y: -2px; //位置を変更"
+          "value": "background: linear-gradient(transparent 50%, #eff4f8 50%); //数字の上下で太さ調整\nbackground-position-y: -2px; //位置を変更\n\nbackground: linear-gradient(transparent 50%, #f9f5b7 50%) no-repeat bottom 6px center / 100% 10px;\n\nグラデでないとsizeを指定しても全面になる、なので50%のグラデにして高さの倍のサイズを指定する"
         }
       ],
       "id": "NIz9bmGC",
       "createdAt": 1665643920334,
-      "updatedAt": 1665657542196
+      "updatedAt": 1736153313831
     },
     {
       "isDeleted": false,
@@ -1095,12 +1095,12 @@
         {
           "label": "Fragment 1",
           "language": "html",
-          "value": "&ensp;\n<!-- 半角スペースより少し広い空白 -->\n\n&emsp;\n<!-- 全角スペースとほぼ同じ大きさの空白 -->\n\n&thinsp;\n<!-- &nbsp;の空白より小さい空白 -->"
+          "value": "&nbsp;\n<!-- 半角スペース -->\n\n&ensp;\n<!-- 半角スペースより少し広い空白 -->\n\n&emsp;\n<!-- 全角スペースとほぼ同じ大きさの空白 -->\n\n&thinsp;\n<!-- &nbsp;の空白より小さい空白 -->"
         }
       ],
       "id": "pNnqycrG",
       "createdAt": 1665657033115,
-      "updatedAt": 1665657051112
+      "updatedAt": 1731570125320
     },
     {
       "isDeleted": false,
@@ -2105,12 +2105,12 @@
         {
           "label": "Fragment 1",
           "language": "markdown",
-          "value": "docker-compose.ymlのディレクトリで\n\n```shell\n## 開始\ndocker-compose up -d\n\n## 停止\ndocker-compose down\n```\n\n\n\n### 古い案件\n\n`vogaro_development_pack`経由で動かす\n\n#### 動かし方\n\nまず、、、\ndpckerアプリの起動中以外非表示を解除して、defaultがないかチェック\n\n`/docker/readme.md`\n\n`/Users/kenta_kanno/Documents/git/vogaro_development_pack/docker/images/`\n\ndocker build -t vogaro:php5.3 -f php5.3-apache/Dockerfile .\ndocker build -t vogaro:php5.6 -f php5.6-apache/Dockerfile .\ndocker build -t vogaro:php7.0 -f php7.0-apache/Dockerfile .\ndocker build -t vogaro:php7.1 -f php7.1-apache/Dockerfile .\ndocker build -t vogaro:php7.2 -f php7.2-apache/Dockerfile .\ndocker build -t vogaro:php7.3 -f php7.3-apache/Dockerfile .\ndocker build -t vogaro:php7.4 -f php7.4-apache/Dockerfile .\ndocker build -t vogaro:php8.0 -f php8.0-apache/Dockerfile .\n\n### 新しい案件\n\nGitHubからimageを引っ張る"
+          "value": "docker-compose.ymlのディレクトリで\n\n```shell\n## 開始\ndocker-compose up -d\n\n## 停止\ndocker-compose down\n```\n\n### 古い案件\n\n`vogaro_development_pack`経由で動かす\n\n#### 動かし方\n\nまず、、、\ndpckerアプリの起動中以外非表示を解除して、defaultがないかチェック\n\n`/docker/readme.md`\nｗ\n`/Users/kenta_kanno/Documents/git/vogaro_development_pack/docker/images/`\n\ndocker build -t vogaro:php5.3 -f php5.3-apache/Dockerfile .\ndocker build -t vogaro:php5.6 -f php5.6-apache/Dockerfile .\ndocker build -t vogaro:php7.0 -f php7.0-apache/Dockerfile .\ndocker build -t vogaro:php7.1 -f php7.1-apache/Dockerfile .\ndocker build -t vogaro:php7.2 -f php7.2-apache/Dockerfile .\ndocker build -t vogaro:php7.3 -f php7.3-apache/Dockerfile .\ndocker build -t vogaro:php7.4 -f php7.4-apache/Dockerfile .\ndocker build -t vogaro:php8.0 -f php8.0-apache/Dockerfile .\n\n### 新しい案件\n\nGitHubからimageを引っ張る\n\n### 困ったときのコマンド\n\n#### Docker デーモンを再起動\n\n```\nsudo systemctl restart docker\n```\n\n#### Docker 全部消す\n\n```\ndocker system prune -af\n```\n"
         }
       ],
       "id": "GtNtp52r",
       "createdAt": 1670231378240,
-      "updatedAt": 1728011386156
+      "updatedAt": 1743729648783
     },
     {
       "isDeleted": true,
@@ -2841,6 +2841,78 @@
       "id": "vj2d6VHo",
       "createdAt": 1731299335544,
       "updatedAt": 1731299500101
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "cmbMipHX",
+      "tagsIds": [],
+      "description": null,
+      "name": "クラスが2つ以上ある要素",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "class=\"[^\"]*(\\s+\\S+){1,}[^\"]*\""
+        }
+      ],
+      "id": "63z5LUW-",
+      "createdAt": 1737096804044,
+      "updatedAt": 1737096817500
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "HK2DaNHk",
+      "tagsIds": [],
+      "description": null,
+      "name": "角丸三角",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "scss",
+          "value": ".triangle {\n            &,\n            &::before,\n            &::after{\n              width: 9px;\n              height: 9px;\n              background: #fff;\n            }\n\n            &::before,\n            &::after {\n              content: \"\";\n              position: absolute;\n            }\n\n            & {\n              position: relative;\n              border-top-left-radius: 30%;\n              transform: skewY(30deg) scaleX(.86666);\n            }\n\n            &::before {\n              border-top-right-radius: 30%;\n              transform: skewX(-45deg) translateX(50%);\n            }\n\n            &::after {\n              border-bottom-left-radius: 30%;\n              transform: skewY(-45deg) translateY(50%);\n            }\n          }"
+        }
+      ],
+      "id": "lb9YICVN",
+      "createdAt": 1740017812801,
+      "updatedAt": 1740996563835
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "RNdFy9Sh",
+      "tagsIds": [],
+      "description": null,
+      "name": "ベネフィット・ステーション",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "団体ID：C1001B3AH\n認証キー1：VO000013\n認証キー2：19860615\n\n電話番号\nmossgreen0707bn"
+        }
+      ],
+      "id": "mn1MnHPc",
+      "createdAt": 1741065357972,
+      "updatedAt": 1741066424610
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "RNdFy9Sh",
+      "tagsIds": [],
+      "description": null,
+      "name": "huskyの再インストール",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "npm install husky@latest\n\nstylelintのエラーが出たらこれ"
+        }
+      ],
+      "id": "rT0Xx748",
+      "createdAt": 1743760669688,
+      "updatedAt": 1743760713777
     }
   ],
   "tags": [
