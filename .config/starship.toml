@@ -72,10 +72,10 @@ staged = "【staged】🔦 ステージング "
 renamed = "【renamed】🏷 "
 deleted = "【deleted】🗑 "
 
-[battery]
-full_symbol = "🤗 "
-charging_symbol = "😌 "
-discharging_symbol = "😨 "
+# [battery]
+# full_symbol = "🤗 "
+# charging_symbol = "😌 "
+# discharging_symbol = "😨 "
 
 [[battery.display]]
 threshold = 100
