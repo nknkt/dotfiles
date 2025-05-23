@@ -170,7 +170,7 @@
 		"scope": "css,scss",
 		"prefix": "not",
 		"body": [
-			":not(:last-child) ",
+			":not(:first-child) ",
 		],
 		"description": "not"
 	},

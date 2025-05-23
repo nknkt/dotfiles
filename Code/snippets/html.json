@@ -21,8 +21,8 @@
     "description": "picture",
     "body": [
       "<picture>",
-      "  <source srcset=\"assets/img/img-01.jpg\" media=\"(min-width: 768px)\">",
-      "  <img src=\"assets/img/img-01-sp.jpg\" alt=\"\">",
+      "  <source srcset=\"/assets/$2\" media=\"(min-width: 768px)\">",
+      "  <img src=\"/assets/$1\" alt=\"\">",
       "</picture>"
     ]
   },
