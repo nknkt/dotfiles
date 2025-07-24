@@ -87,7 +87,7 @@
         "command": "git.push"
     },
     {
-        "key": "shift+enter",
+        "key": "shift+cmd+enter",
         "command": "type",
         "args": {
             "text": "<br>"
