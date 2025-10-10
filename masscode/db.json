@@ -409,7 +409,7 @@
         {
           "label": ".scss",
           "language": "sass",
-          "value": ".top__info {\n    &_item {\n        position: relative;\n    }\n    a {\n        .ov {\n            position: absolute;\n            top: 0;\n            left: 0;\n            width: 100%;\n            height: 100%;\n            opacity: 0;\n            transition: 0.3s ease;\n        }\n        &:hover {\n            .ov {\n                opacity: 1;\n                transition: 0.3s ease;\n            }\n        }\n    }\n}"
+          "value": "font-size: calc(13 / 375 * 100vw);"
         },
         {
           "label": ".html",
@@ -419,7 +419,7 @@
       ],
       "id": "hagcbqaJ",
       "createdAt": 1665643402463,
-      "updatedAt": 1665644559656
+      "updatedAt": 1747977460814
     },
     {
       "isDeleted": false,
@@ -725,12 +725,12 @@
         {
           "label": "Fragment 1",
           "language": "sass",
-          "value": "h1{\n  background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);//背景色にグラデーションを指定\n  -webkit-background-clip: text;//テキストでくり抜く\n  -webkit-text-fill-color: transparent;//くり抜いた部分は背景を表示\n}"
+          "value": "h1{\n  background: linear-gradient(0deg, #ACB6E5, #86FDE8);\n\tbackground-clip: text;\n  -webkit-text-fill-color: transparent;\n}"
         }
       ],
       "id": "sog_IyMa",
       "createdAt": 1665647342315,
-      "updatedAt": 1665657311309
+      "updatedAt": 1757398818096
     },
     {
       "isDeleted": false,
@@ -2110,7 +2110,7 @@
       ],
       "id": "GtNtp52r",
       "createdAt": 1670231378240,
-      "updatedAt": 1743729648783
+      "updatedAt": 1749627786757
     },
     {
       "isDeleted": true,
@@ -2913,6 +2913,114 @@
       "id": "rT0Xx748",
       "createdAt": 1743760669688,
       "updatedAt": 1743760713777
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "5zMTm1JF",
+      "tagsIds": [],
+      "description": null,
+      "name": "フォントサイズ vw 可変",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "scss",
+          "value": "font-size: calc(13 / 375 * 100vw);"
+        }
+      ],
+      "id": "Uwyprg9q",
+      "createdAt": 1746065792859,
+      "updatedAt": 1746065842733
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "Uuf6kA9F",
+      "tagsIds": [],
+      "description": null,
+      "name": "動画圧縮",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "typescript",
+          "value": "https://even-columnist-3cf.notion.site/Adobe-Media-Encoder-2015ae9d3c03809b98d7e6aba1e7696b\n\n◯ Adobe Media Encoder\n\n上部メニュー「ウインドウ」→「キュー」\nキューエリアに圧縮したい動画をドラッグイン\n\n圧縮方法を「プリセット」より設定\n\n\n◯ 書き出し設定\n\n・形式\nここで動画の形式（拡張子など）の設定が可能。\n→ 一番メジャーな形式は「.mp4」になるので、基本は.mp4で書き出せる「H264」に設定する。\n\n・プリセット\n書き出し方式などを指定することが可能。\n→ 基本は下記2つのどちらかを使用\n\n高速ビットレート\n→ 映画など高画質で書き出すための仕様（4Kや大画面用の書き出し方法）\n\n中速ビットレート（基本こっちでOK）\n→ 画質は多少下がるが軽く書き出すための仕様（PC.SPなどで見るレベルはこれでOK\n\n\n◯ 動画のサイズを変えたい場合\n書き出し設定の下、「ビデオ」より、基本ビデオ設定の中\nソースの一致のしたのチェックボックスをはず\n→チェックを外すと左の動画のサイズを変更が可能。"
+        }
+      ],
+      "id": "qFbzo1cA",
+      "createdAt": 1748917474775,
+      "updatedAt": 1748919272930
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "RNdFy9Sh",
+      "tagsIds": [],
+      "description": null,
+      "name": "slack backupコード",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "2要素認証のバックアップコード\nワークスペース: Vogaro - https://vogaroheadquarters.slack.com/\nメール: k.kanno@vogaro.co.jp\n\n577442773\n526454687\n256998182\n742085245\n572172435\n407743459\n791141491\n256381165\n251249836\n414399092"
+        }
+      ],
+      "id": "BHllfsPF",
+      "createdAt": 1752044264721,
+      "updatedAt": 1752044281711
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "RNdFy9Sh",
+      "tagsIds": [],
+      "description": null,
+      "name": "ESET",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "製品コード・ライセンス\nNTW7-X7KF-AUMP-9J8X-RCPB"
+        }
+      ],
+      "id": "3V4UA9W5",
+      "createdAt": 1752457525848,
+      "updatedAt": 1752457555252
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "RNdFy9Sh",
+      "tagsIds": [],
+      "description": null,
+      "name": "Untitled snippet",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "markdown",
+          "value": "# Figmaコーディング用ショートカット一覧\n\n## 基本操作\n| ショートカット | 機能 | 備考 |\n|---|---|---|\n| `V` | 選択ツール | 最もよく使用 |\n| `H` | ハンドツール | スペースキー長押しでも可 |\n| `Z` | ズームツール | |\n| `Ctrl + 0` | 全体表示 | Mac: `Cmd + 0` |\n| `Ctrl + 1` | 100%表示 | Mac: `Cmd + 1` |\n| `Ctrl + 2` | 選択範囲にフィット | Mac: `Cmd + 2` |\n\n## 要素の検査・測定\n| ショートカット | 機能 | 開発での用途 |\n|---|---|---|\n| `Alt + ホバー` | 距離測定 | margin、paddingの確認 |\n| `Ctrl + クリック` | レイヤー深掘り選択 | Mac: `Cmd + クリック` |\n| `Tab` | 選択範囲内の次要素選択 | 要素の順番確認 |\n| `Shift + Tab` | 選択範囲内の前要素選択 | |\n| `Enter` | グループ・フレーム内に入る | コンポーネント内部の確認 |\n| `Esc` | グループ・フレームから出る | |\n\n## プロパティ確認\n| ショートカット | 機能 | CSS作成時に便利 |\n|---|---|---|\n| `右クリック → Copy → Copy CSS` | CSS出力 | スタイルの基本値取得 |\n| `右クリック → Copy → Copy Properties` | プロパティコピー | 数値の正確な確認 |\n| `Shift + E` | エクスポート設定 | 画像書き出し準備 |\n| `Ctrl + Shift + E` | エクスポート実行 | Mac: `Cmd + Shift + E` |\n\n## レイヤー・構造確認\n| ショートカット | 機能 | HTML構造理解に必要 |\n|---|---|---|\n| `Ctrl + Y` | アウトライン表示切替 | Mac: `Cmd + Y` |\n| `Ctrl + Shift + 3` | レイヤーパネル表示切替 | Mac: `Cmd + Shift + 3` |\n| `Ctrl + Shift + O` | アウトライン表示 | Mac: `Cmd + Shift + O` |\n| `Alt + 1` | レイヤー表示/非表示 | 要素の重なり確認 |\n| `Alt + 2` | ロック/アンロック | |\n\n## 色・スタイル確認\n| ショートカット | 機能 | デザインシステム確認 |\n|---|---|---|\n| `I` | スポイトツール | カラーコード取得 |\n| `Ctrl + Alt + K` | カラースタイル作成 | Mac: `Cmd + Option + K` |\n| `Ctrl + Alt + T` | テキストスタイル作成 | Mac: `Cmd + Option + T` |\n| `F4` | デザインパネル表示切替 | カラー・エフェクト確認 |\n\n## コメント・共有\n| ショートカット | 機能 | チーム作業 |\n|---|---|---|\n| `C` | コメントツール | 質問・確認事項記録 |\n| `Shift + Space` | プレゼンテーション | クライアント確認 |\n| `Ctrl + Alt + C` | リンクコピー | Mac: `Cmd + Option + C` |\n\n## 検索・ナビゲーション\n| ショートカット | 機能 | 効率的な作業 |\n|---|---|---|\n| `Ctrl + F` | 検索 | レイヤー名検索 |\n| `Ctrl + G` | ページ移動 | Mac: `Cmd + G` |\n| `Page Up/Down` | ページ切替 | 複数ページ間移動 |\n| `Shift + 1` | フレーム表示切替 | デスクトップ/モバイル切替 |\n\n## 開発者向けTips\n\n### デベロッパーモード\n- **Dev Mode**: 左上の「Dev Mode」を有効化すると、より詳細な開発情報が表示される\n- **コードスニペット**: CSS、iOS、Android向けコードが自動生成される\n- **アセット**: 最適化されたアセットが自動で準備される\n\n### 効率的な作業フロー\n1. `V`で選択ツール → 要素選択\n2. `Alt + ホバー`で周囲の要素との距離確認\n3. 右クリック → Copy CSS でスタイル取得\n4. `Tab`で関連要素を順番に確認\n5. `I`でカラーコード確認\n6. `Shift + E`で必要な画像をエクスポート\n\n### レスポンシブ対応確認\n- `Ctrl + Shift + 3`でレイヤーパネル表示\n- フレーム名でブレークポイント確認\n- `Page Up/Down`で各画面サイズを順番確認\n\n### パフォーマンス最適化\n- `Shift + E`でエクスポート設定を確認\n- SVGかPNGかJPEGかの判断\n- @2x、@3x用の高解像度対応確認"
+        }
+      ],
+      "id": "fQN7qnvl",
+      "createdAt": 1758697350077,
+      "updatedAt": 1758697368107
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "Uuf6kA9F",
+      "tagsIds": [],
+      "description": null,
+      "name": "評価について",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "typescript",
+          "value": "評価SSは実際ない、Sも歴代いたかいないかくらい\nAも期で数えるほど\n実際はBの中で中間〜上が及第点\n中間値を下回るとあまり良くない\nCまで行くと注意レベル\n\n\n評価面談は、ただの自己申告の場じゃなく、自分の仕事を振り返って整理して言葉にするチャンスです。\nせっかくなので「自分がどんな価値を生んだか」をドヤれるように言語化してみてください！\n他職種の方や上長が見ても理解しやすい内容を意識してくださいね。\n\n＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝\n！！記載時の6つのポイント！！\n＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝\n\n① 対応スコープの明確化\n自分が担当した範囲と責任領域をはっきりと記載。\n「ここは自分が主導」「ここはサポート」など、具体的に書くと伝わりやすいです！\n\n② 事実と成果の分離\nやったこと（事実）と、その結果（成果）を分けて書く。\n「何をしたか」よりも「何を生み出したか」にフォーカスすることがポイント。\n\n③ 意図と工夫の提示\n指示通りにやっただけでなく、自分なりの判断や改善を明確に。\n課題→仮説→改善の流れを意識して書くと、読み手に伝わりやすいです。\n\n④ 数値・具体例で裏づけ\n成果はできるだけ数値や具体例で裏づける。\n「改善した」だけでなく、「CVR1.5倍」「作業時間20％短縮」などが理想。\n\n⑤ 成果と課題の対比\n達成したことだけでなく、残課題もセットで整理。\n次につながる気づきや成長プロセスも書くと、シートの説得力アップ！\n成果を語るのは簡単ですが、課題を客観的に整理するのは少し難しいポイント。\nここがまさに伸びしろです！\nまた、課題は上長や関係者とすり合わせることも重要。\n自分の視点だけでなく、求められていることや期待との整合性を確認しながら整理すると、より価値ある振り返りになります！\n\n⑥ 組織・チームへの貢献\n個人の成果だけでなく、チームや組織への影響も意識。\n改善提案やナレッジ共有、後輩育成などもどんどん書いてOKです！\nポイントは、単に「できた／できなかった」を並べるのではなく、\n「自分が考えてどう行動したか」「どんな価値を生み出したか」を整理してみてください。\n上手にアピールすることも大事ですが、\n客観的に自分をみてみながらクレーバーな視点もいれながら書いてみてくださいね！\n皆さんの頑張りがシートや面談でしっかり伝わることを期待しています！"
+        }
+      ],
+      "id": "pOJDntg4",
+      "createdAt": 1760073160887,
+      "updatedAt": 1760073441020
     }
   ],
   "tags": [
