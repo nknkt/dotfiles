@@ -1,0 +1,95 @@
+[user]
+	name = kenta_kanno
+	email = kenta@example.com
+[core]
+	editor = code --wait
+	autocrlf = input
+	quotepath = false
+	precomposeunicode = true
+	ignorecase = false
+[user]
+	email = k.kanno@vogaro.co.jp
+	name = vogaro-kanno
+
+[init]
+	defaultBranch = main
+
+[core]
+	editor = code --wait
+	autocrlf = input
+	ignorecase = false
+
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+
+[http]
+	postBuffer = 524288000
+	maxRequestBuffer = 524288000
+
+[pull]
+	rebase = false
+
+[push]
+	default = simple
+
+[alias]
+	# ログ関連
+	lg = log --oneline --graph --decorate
+	ll = log --pretty=format:'%C(yellow)%h%Creset %C(blue)%ad%Creset %C(green)%an%Creset %s %C(red)%d%Creset' --date=short
+	
+	# ステータス・差分
+	st = status
+	df = diff
+	dc = diff --cached
+	
+	# ブランチ関連
+	br = branch
+	co = checkout
+	cb = checkout -b
+	
+	# コミット関連
+	ci = commit
+	cm = commit -m
+	ca = commit --amend
+	
+	# その他
+	unstage = reset HEAD --
+	uncommit = reset --soft HEAD^
+	graph = log --graph --oneline --decorate --all
+[push]
+	default = simple
+	autoSetupRemote = true
+[pull]
+	rebase = false
+[fetch]
+	prune = true
+[merge]
+	tool = vscode
+[mergetool "vscode"]
+	cmd = code --wait $MERGED
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+[color]
+	ui = auto
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	br = branch
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	visual = !gitk
+	lg = log --oneline --graph --decorate --all
+	undo = reset --soft HEAD~1
+[credential]
+	helper = osxkeychain
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
