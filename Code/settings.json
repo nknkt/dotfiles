@@ -1,141 +1,247 @@
 {
-    "editor.renderWhitespace": "all",
-    "editor.wordWrap": "on",
-    "workbench.editor.enablePreview": false,
-    "workbench.startupEditor": "newUntitledFile",
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "emmet.triggerExpansionOnTab": true,
-    "editor.renderControlCharacters": true,
-    "editor.snippetSuggestions": "top",
-    "emmet.showSuggestionsAsSnippets": true,
-    "emmet.variables": {
-        "lang": "ja"
-    },
-    "window.openFoldersInNewWindow": "on",
-    "liveServer.settings.donotShowInfoMsg": true,
-    "editor.suggestSelection": "first",
-    "editor.hover.enabled": false,
-    "explorer.confirmDelete": false,
-    "auto-close-tag.SublimeText3Mode": true,
+    // ===== エディタ設定 =====
+    "editor.autoIndent": "keep",
     "editor.fontFamily": "Hack Nerd Font Mono",
-    "liveServer.settings.donotVerifyTags": true,
-    "editor.parameterHints.cycle": true,
-    "editor.smoothScrolling": true,
-    "window.newWindowDimensions": "inherit",
-    "liveSassCompile.settings.formats": [
-        {
-            "format": "expanded",
-            "extensionName": ".css",
-            "savePath": null
-        }
-    ],
-    "npm.enableScriptExplorer": true,
-    "workbench.iconTheme": "material-icon-theme",
-    "terminal.external.osxExec": "iTerm.app",
-    "files.eol": "\r\n",
-    "security.workspace.trust.untrustedFiles": "open",
-    "tabnine.experimentalAutoImports": true,
-    "yaml.schemas": {
-        "file:///Users/kenta_kanno/.vscode/extensions/atlassian.atlascode-3.0.6/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-    },
-    "atlascode.bitbucket.enabled": true,
-    "redhat.telemetry.enabled": true,
-    "terminal.integrated.profiles.osx": {
-        "bash": {
-            "path": "bash",
-            "args": [
-                "-l"
-            ],
-            "icon": "terminal-bash"
-        },
-        "zsh": {
-            "path": "zsh",
-            "args": [
-                "-l"
-            ]
-        },
-        "fish": {
-            "path": "fish",
-            "args": [
-                "-l"
-            ]
-        },
-        "tmux": {
-            "path": "tmux",
-            "icon": "terminal-tmux"
-        },
-        "pwsh": {
-            "path": "pwsh",
-            "icon": "terminal-powershell"
-        }
-    },
-    "terminal.integrated.defaultProfile.osx": "fish (2)",
-    "git.autofetch": true,
-    "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
-    "files.associations": {
-        "*.inc": "php",
-        "*.php": "html"
-    },
-    "editor.minimap.enabled": false,
-    "vscode-pets.petColor": "gray",
-    "vscode-pets.petSize": "medium",
-    "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "stylelint.autoFixOnSave": true,
     "editor.fontSize": 14,
     "editor.formatOnType": true,
-    // "editor.formatOnSave": true,
-    // "editor.formatOnSaveMode": "modifications",
-    "[scss]": {
+    "editor.hover.enabled": false,
+    "editor.linkedEditing": true,
+    "editor.minimap.enabled": false,
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all",
+    "editor.snippetSuggestions": "top",
+    "editor.stickyScroll.defaultModel": "indentationModel",
+    "editor.stickyScroll.enabled": true,
+    "editor.stickyScroll.maxLineCount": 7,
+    "editor.suggestSelection": "first",
+    "editor.wordWrap": "on",
+
+    // ===== 言語別フォーマッタ設定 =====
+    "[css]": {
         "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[dockercompose]": {
+        "editor.autoIndent": "advanced",
+        "editor.defaultFormatter": "redhat.vscode-yaml",
+        "editor.insertSpaces": true,
+        "editor.quickSuggestions": {
+            "comments": false,
+            "other": true,
+            "strings": true
+        },
+        "editor.tabSize": 2
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
     },
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "[css]": {
-        "editor.defaultFormatter": "vscode.css-language-features"
-    },
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
-    "bemHelper.classNameCase": "kebab,camel",
-    "terminal.integrated.fontSize": 13,
-    "javascript.suggest.paths": false,
-    "markdown.suggest.paths.enabled": false,
-    "typescript.suggest.paths": false,
-    "git.enableSmartCommit": true,
-    "editor.autoIndent": "none",
-    "editor.inlayHints.enabled": "off",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.stylelint": "explicit"
+        }
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    // ===== ファイル設定 =====
+    "files.associations": {
+        "*.ejs": "html",
+        "*.inc": "php",
+        "*.php": "html"
+    },
+    "files.eol": "\n",
+    "files.trimTrailingWhitespace": true,
+
+    // ===== ワークベンチ設定 =====
     "workbench.colorCustomizations": {
         "editor.lineHighlightBackground": "#1073cf2d",
         "editor.lineHighlightBorder": "#9fced11f"
     },
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editorAssociations": {
+        "*.svg": "default"
+    },
+    "workbench.startupEditor": "newUntitledFile",
+
+    // ===== ウィンドウ設定 =====
+    "window.newWindowDimensions": "inherit",
+    "window.openFoldersInNewWindow": "on",
+    "window.zoomLevel": -1,
+
+    // ===== ターミナル設定 =====
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.defaultProfile.osx": "fish",
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
+    },
+    "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.profiles.osx": {
+        "bash": {
+            "args": ["-l"],
+            "icon": "terminal-bash",
+            "path": "bash"
+        },
+        "fish": {
+            "args": ["-l"],
+            "path": "fish"
+        },
+        "pwsh": {
+            "icon": "terminal-powershell",
+            "path": "pwsh"
+        },
+        "tmux": {
+            "icon": "terminal-tmux",
+            "path": "tmux"
+        },
+        "zsh": {
+            "args": ["-l"],
+            "path": "zsh"
+        }
+    },
+    "terminal.integrated.stickyScroll.enabled": true,
+    "terminal.integrated.stickyScroll.maxLineCount": 7,
+
+    // ===== Git設定 =====
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "git.ignoreRebaseWarning": true,
+
+    // ===== Diff Editor設定 =====
+    "diffEditor.experimental.useTrueInlineView": true,
     "diffEditor.wordWrap": "off",
-    "editor.guides.indentation": false,
-    "editor.guides.bracketPairs": false,
+
+    // ===== Explorer設定 =====
+    "explorer.confirmDelete": false,
+
+    // ===== セキュリティ設定 =====
+    "security.workspace.trust.untrustedFiles": "open",
+
+    // ===== Emmet設定 =====
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.variables": {
+        "lang": "ja"
+    },
+
+    // ===== 拡張機能: GitHub Copilot =====
+    "github.copilot.chat.codeGeneration.useInstructionFiles": false,
+    "github.copilot.chat.localeOverride": "ja",
+    "github.copilot.enable": {
+        "*": false,
+        "markdown": false,
+        "plaintext": false,
+        "scminput": false
+    },
+    "github.copilot.nextEditSuggestions.enabled": false,
+    "github.copilot.nextEditSuggestions.fixes": false,
+
+    // ===== 拡張機能: GitLens =====
+    "gitlens.views.scm.grouped.views": {
+        "branches": true,
+        "commits": true,
+        "contributors": true,
+        "fileHistory": true,
+        "launchpad": false,
+        "remotes": true,
+        "repositories": true,
+        "searchAndCompare": false,
+        "stashes": true,
+        "tags": true,
+        "worktrees": true
+    },
+
+    // ===== 拡張機能: Todo Tree =====
+    "todo-tree.general.tags": [
+        "ING",
+        "TODO",
+        "FIX",
+        "NOTE"
+    ],
+    "todo-tree.highlights.customHighlight": {
+        "FIX": {
+            "foreground": "#ff0000",
+            "icon": "flame",
+            "iconColour": "#ff0000"
+        },
+        "ING": {
+            "foreground": "#ffff00",
+            "icon": "thumbsup",
+            "iconColour": "#ffff00"
+        },
+        "NOTE": {
+            "foreground": "#87ceeb",
+            "icon": "note",
+            "iconColour": "#87ceeb"
+        },
+        "TODO": {
+            "foreground": "#ffa500",
+            "icon": "checkbox",
+            "iconColour": "#ffa500"
+        }
+    },
+    "todo-tree.highlights.defaultHighlight": {
+        "gutterIcon": true,
+        "type": "line"
+    },
+
+    // ===== 拡張機能: Stylelint =====
+    "stylelint.validate": ["css", "scss"],
+    "stylelint.snippet": ["css", "scss"],
+
+    // ===== 拡張機能: Code Spell Checker =====
     "cSpell.userWords": [
         "PDCA",
-        "ress",
         "Splide",
+        "Vogaro",
+        "iikenshimaneken",
+        "ress",
         "splidejs",
         "stylelint",
-        "thum",
-        "Vogaro"
+        "thum"
     ],
-    "githubPullRequests.createOnPublishBranch": "never",
-    "git.ignoreRebaseWarning": true,
-    "files.trimTrailingWhitespace": true,
-    "workbench.colorTheme": "Dracula Soft",
-    "vscode_custom_css.imports": [
-        "file:///Users/kenta_kanno/.vscode/extensions/ohaihfo.synthwave-x-fluoromachine-avant-noir-0.1.2/synthwave-x-fluoromachine-avant-noir.css"
-    ],
-    "window.zoomLevel": -2,
-    "typescript.updateImportsOnFileMove.enabled": "never",
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+
+    // ===== 拡張機能: その他 =====
+    "atlascode.bitbucket.enabled": true,
+    "chat.tools.terminal.autoApprove": {
+        "mv": true,
+        "node": true,
+        "npm run serve &": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "nvm": true
     },
-    "javascript.updateImportsOnFileMove.enabled": "never"
+    "containers.containerClient": "com.microsoft.visualstudio.containers.docker",
+    "docker.extension.enableComposeLanguageServer": false,
+    "redhat.telemetry.enabled": true,
+    "yaml.schemas": {
+        "file:///Users/kenta_kanno/.vscode/extensions/atlassian.atlascode-4.0.4/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "liveServer.settings.donotVerifyTags": true,
+    "workbench.activityBar.location": "bottom",
+    "workbench.iconTheme": "icons",
+    "workbench.colorTheme": "chalice-color-theme-dark",
+    "liveServer.settings.donotShowInfoMsg": true
 }
