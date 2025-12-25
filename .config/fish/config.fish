@@ -27,8 +27,18 @@ if command -v starship > /dev/null
     starship init fish | source
 end
 
+# fzf設定（キーバインド設定より前に読み込む）
+if test -f /opt/homebrew/opt/fzf/shell/key-bindings.fish
+    source /opt/homebrew/opt/fzf/shell/key-bindings.fish
+end
+
 # キーバインド設定
 function fish_user_key_bindings
+    # fzfのキーバインドを先に設定
+    if test -f /opt/homebrew/opt/fzf/shell/key-bindings.fish
+        fzf_key_bindings
+    end
+
     # ghq + peco でリポジトリ移動
     bind \cg '__ghq_repository_search'
 
@@ -37,13 +47,6 @@ function fish_user_key_bindings
     bind \ck peco_kill
     bind \cw 'peco_select_history (commandline -b)'
     bind \cp peco_recentd
-
-    # fzf キーバインド（利用可能な場合、競合しないキーを使用）
-    if command -v fzf > /dev/null
-        bind \ct fzf-file-widget
-        bind \cr fzf-history-widget
-        bind \ec fzf-cd-widget
-    end
 end
 
 # エイリアス設定
