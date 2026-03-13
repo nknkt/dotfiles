@@ -4,7 +4,7 @@
     "editor.fontFamily": "Hack Nerd Font Mono",
     "editor.fontSize": 14,
     "editor.formatOnType": true,
-    "editor.hover.enabled": false,
+    "editor.hover.enabled": "off",
     "editor.linkedEditing": true,
     "editor.minimap.enabled": false,
     "editor.renderControlCharacters": true,
@@ -14,6 +14,7 @@
     "editor.stickyScroll.enabled": true,
     "editor.stickyScroll.maxLineCount": 7,
     "editor.suggestSelection": "first",
+    "editor.tabSize": 2,
     "editor.wordWrap": "on",
 
     // ===== 言語別フォーマッタ設定 =====
@@ -70,15 +71,18 @@
     "files.trimTrailingWhitespace": true,
 
     // ===== ワークベンチ設定 =====
+    "workbench.activityBar.location": "bottom",
     "workbench.colorCustomizations": {
         "editor.lineHighlightBackground": "#1073cf2d",
         "editor.lineHighlightBorder": "#9fced11f"
     },
+    "workbench.colorTheme": "Iceberg",
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "workbench.editorAssociations": {
         "*.svg": "default"
     },
+    "workbench.iconTheme": "icons",
     "workbench.startupEditor": "newUntitledFile",
 
     // ===== ウィンドウ設定 =====
@@ -89,36 +93,38 @@
     // ===== ターミナル設定 =====
     "terminal.external.osxExec": "iTerm.app",
     "terminal.integrated.defaultProfile.osx": "fish",
-    "terminal.integrated.env.osx": {
-        "FIG_NEW_SESSION": "1"
-    },
     "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
     "terminal.integrated.fontSize": 13,
     "terminal.integrated.profiles.osx": {
         "bash": {
-            "args": ["-l"],
-            "icon": "terminal-bash",
-            "path": "bash"
-        },
-        "fish": {
-            "args": ["-l"],
-            "path": "fish"
-        },
-        "pwsh": {
-            "icon": "terminal-powershell",
-            "path": "pwsh"
-        },
-        "tmux": {
-            "icon": "terminal-tmux",
-            "path": "tmux"
+            "path": "bash",
+            "args": [
+                "-l"
+            ],
+            "icon": "terminal-bash"
         },
         "zsh": {
-            "args": ["-l"],
-            "path": "zsh"
+            "path": "zsh",
+            "args": [
+                "-l"
+            ]
+        },
+        "fish": {
+            "path": "/opt/homebrew/bin/fish"
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
         }
     },
     "terminal.integrated.stickyScroll.enabled": true,
     "terminal.integrated.stickyScroll.maxLineCount": 7,
+    "terminal.integrated.enablePersistentSessions": false,
+    "terminal.integrated.inheritEnv": false,
 
     // ===== Git設定 =====
     "git.autofetch": true,
@@ -143,8 +149,78 @@
         "lang": "ja"
     },
 
-    // ===== 拡張機能: GitHub Copilot =====
-    "github.copilot.chat.codeGeneration.useInstructionFiles": false,
+    // ===== GitHub Copilot設定 =====
+    "github.copilot.chat.codeGeneration.instructions": [
+        {
+            "text": "あなたはコピィと言う名前の女の子のアシスタントです、そのように振る舞ってください"
+        },
+        {
+            "text": "私は日本人です、基本的には日本語で回答してください"
+        },
+        {
+            "text": "フロントエンジニアでそれに関する質問を良くします"
+        },
+        {
+            "text": "cssを使う場合は基本scssでお願いします"
+        },
+        {
+            "text": "javascriptは最適化した状態で答えてください"
+        },
+        {
+            "text": "jsでは;は省略してください"
+        },
+        {
+            "text": "css,scssでは;は省略しない"
+        },
+        {
+            "text": "scssは&を使いclass名を省略したい"
+        },
+        {
+            "text": "jsを使う場合のみにjs-を接頭詞にした専用のクラスをhtmlで追加し、発火に利用すること"
+        },
+        {
+            "text": "見た目の装飾やレイアウトにはクラスにjs-の接頭詞は使わない"
+        },
+        {
+            "text": "CLIはfishを使用します"
+        },
+        {
+            "text": "モダンなcssスタイルを積極的に提案してください"
+        },
+        {
+            "text": "z-indexは1,10,100,1000のように管理します、なるべく複雑にしません"
+        },
+        {
+            "text": "jsを使わずにcssのみで実装できるものはそれを優先してください"
+        },
+        {
+            "text": "わからないことがある場合は、なるべく質問・確認して進めるようにしてください"
+        },
+        {
+            "text": "今のままでは実装が難しい場合は、変更の提案を行うようにしてください。無理やり進めて、見当違いの作業をしないようにしてください"
+        },
+        {
+            "text": "無理なことは早めに判断して伝えてください。やってみて、実は出来なかったということがあると時間を無駄にします"
+        },
+        {
+            "text": "質問を曲解する傾向があるので、額面通りにとらえて欲しい、例えば、これを理解するのは難しいか？と聞けば、出来るように努力するのではなく、難しいかそうではないかを答えて欲しい"
+        },
+        {
+            "text": "もしこれらのルールに読み取った既存のファイルのルールが違うと感じた場合は確認して欲しい、他者制作のプロジェクトでイレギュラーなルールを適用する可能性があります"
+        },
+        {
+            "text": "デザインを画像から再現する際は、同じくらいの日本語のダミーテキストに変換した上で実装してください"
+        },
+        {
+            "text": "新しいSCSSファイルを作成する際は、必ず同じディレクトリ内の既存ファイルを確認してから作成すること。特にmixin名、変数名、プロパティの記述順序は既存コードに厳密に従うこと"
+        },
+        {
+            "text": "overflow: hidden;ではなく、clipを使ってください"
+        },
+        {
+            "text": "同じファイルの複数箇所を変更する場合は、multi_replace_string_in_fileを使うこと。ファイル置換が失敗したら、即座にファイルを読み直して確認すること"
+        }
+    ],
     "github.copilot.chat.localeOverride": "ja",
     "github.copilot.enable": {
         "*": false,
@@ -156,6 +232,8 @@
     "github.copilot.nextEditSuggestions.fixes": false,
 
     // ===== 拡張機能: GitLens =====
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
     "gitlens.views.scm.grouped.views": {
         "branches": true,
         "commits": true,
@@ -220,8 +298,20 @@
         "thum"
     ],
 
+    // ===== 拡張機能: Live Server =====
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+
+    // ===== 拡張機能: Docker/Containers =====
+    "containers.containerClient": "com.microsoft.visualstudio.containers.docker",
+    "containers.orchestratorClient": "com.microsoft.visualstudio.orchestrators.dockercompose",
+    "docker.extension.enableComposeLanguageServer": false,
+
     // ===== 拡張機能: その他 =====
     "atlascode.bitbucket.enabled": true,
+    "redhat.telemetry.enabled": true,
+
+    // ===== Chat設定 =====
     "chat.tools.terminal.autoApprove": {
         "mv": true,
         "node": true,
@@ -231,17 +321,6 @@
         },
         "nvm": true
     },
-    "containers.containerClient": "com.microsoft.visualstudio.containers.docker",
-    "docker.extension.enableComposeLanguageServer": false,
-    "redhat.telemetry.enabled": true,
-    "yaml.schemas": {
-        "file:///Users/kenta_kanno/.vscode/extensions/atlassian.atlascode-4.0.4/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-    },
-    "gitlens.ai.model": "vscode",
-    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
-    "liveServer.settings.donotVerifyTags": true,
-    "workbench.activityBar.location": "bottom",
-    "workbench.iconTheme": "icons",
-    "workbench.colorTheme": "chalice-color-theme-dark",
-    "liveServer.settings.donotShowInfoMsg": true
+    "chat.viewSessions.orientation": "stacked",
+    "inlineChat.enableV2": true
 }
