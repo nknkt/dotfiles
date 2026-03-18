@@ -1,25 +1,27 @@
 # Dotfiles
 
-現代的なmacOS開発環境の設定ファイル群です。
+macOS開発環境の設定ファイル群です。
 
 ## 📋 含まれる設定
 
-### 🐚 シェル環境
-- **Fish Shell** - モダンで使いやすいインタラクティブシェル（メイン）
-- **Starship** - 高速でカスタマイズ可能なプロンプト
-- bash/zsh - 互換性のための最小限設定
+### 🎨 Adobe Creative Cloud
+- **Photoshop** - ショートカット、アクション、ワークスペース
+- **Illustrator** - ショートカット、カラー設定、ツールパネル
 
-### 🛠 開発ツール
-- **VS Code** - エディタ設定、キーバインド、スニペット
-- **Git** - エイリアス、LFS設定
-- **Node.js** - fnmによるバージョン管理
-- **Homebrew** - パッケージ管理
+### 💻 VS Code
+- エディタ設定（settings.json）
+- キーバインド（keybindings.json）
+- スニペット（HTML, CSS, SCSS, JavaScript, Markdown）
+- 拡張機能リスト（extensions.txt）
 
-### 🎨 アプリケーション
-- Adobe Creative Suite設定（Photoshop, Illustrator）
-- Clipy（クリップボード拡張）
-- Rectangle（ウィンドウ管理）
-- その他便利なmacOSアプリ
+### 🛠 ユーティリティ
+- **Clipy** - クリップボード拡張
+- **Rectangle** - ウィンドウ管理
+- **MassCode** - コードスニペット管理
+
+### 🔧 開発ツール
+- **Homebrew** - パッケージ管理（Fish, Starship, fnm, exa, bat, ripgrep等）
+- **Open With** - ブラウザからエディタを開く拡張機能のネイティブホスト
 
 ## 🚀 セットアップ
 
@@ -38,9 +40,6 @@ cd ~/dotfiles
 - Homebrewのインストール・更新
 - 必要なパッケージのインストール
 - シンボリックリンクの作成
-- Git設定
-- Fishシェルの設定
-- macOS設定の最適化
 
 ### 手動セットアップ
 
@@ -49,23 +48,19 @@ cd ~/dotfiles
 ./homebrew_install.sh
 ```
 
-#### 2. 設定ファイルのシンボリックリンク作成
+#### 2. VS Code設定
 ```bash
-# 必要に応じて既存ファイルをバックアップ
-mv ~/.gitconfig ~/.gitconfig.backup
-mv ~/.config ~/.config.backup
+# VS Code設定をシンボリックリンクで配置
+cd ~/Library/Application\ Support/Code/User
+ln -s ~/dotfiles/Code/settings.json settings.json
+ln -s ~/dotfiles/Code/keybindings.json keybindings.json
+ln -s ~/dotfiles/Code/snippets snippets
 
-# シンボリックリンクを作成
-ln -s ~/dotfiles/.gitconfig ~/.gitconfig
-ln -s ~/dotfiles/.config ~/.config
-ln -s ~/dotfiles/.zshrc ~/.zshrc
-ln -s ~/dotfiles/.bashrc ~/.bashrc
+# 拡張機能のインストール（オプション）
+cat ~/dotfiles/Code/extensions.txt | xargs -L 1 code --install-extension
 ```
 
-#### 3. VS Code設定
-VS Code設定は自動的にシンボリックリンクで管理されます。
-
-#### 4. デフォルトシェルをfishに変更
+#### 3. デフォルトシェルをfishに変更（オプション）
 ```bash
 # fishをログインシェルに追加
 echo $(which fish) | sudo tee -a /etc/shells
@@ -76,82 +71,116 @@ chsh -s $(which fish)
 
 ## 📦 主要パッケージ
 
-### 必須ツール
+### 必須ツール（homebrew_install.shでインストール）
 - `git` - バージョン管理
-- `fish` - メインシェル
+- `fish` - モダンなシェル
 - `starship` - プロンプト
 - `fnm` - Node.jsバージョン管理
 - `exa` - lsの代替
 - `bat` - catの代替
 - `ripgrep` - grepの代替
+- `fd` - findの代替
 - `fzf` - ファジーファインダー
 - `peco` - インタラクティブフィルタ
+- `ghq` - リポジトリ管理
+- `gh` - GitHub CLI
 
 ### アプリケーション
 - Google Chrome / Firefox
 - Visual Studio Code
 - iTerm2
 - Alfred
-- Rectangle（Spectacleの代替）
+- Rectangle
 - Clipy
+- Karabiner-Elements
 - DeepL
-- その他（詳細は `homebrew_install.sh` を参照）
+- その他（詳細は [homebrew_install.sh](homebrew_install.sh) を参照）
 
-## 🔧 Node.js環境の移行
+## 🎨 Adobe設定の適用
 
-nodebrewからfnmに移行する場合：
-
+### Photoshop
+設定ファイルを以下のディレクトリにコピー：
 ```bash
-# 移行ヘルパーを実行
-node-migrate
-
-# 現在のバージョンをfnmでインストール
-fnm install 18.17.0  # 例
-fnm use 18.17.0
-fnm default 18.17.0
-
-# 古いnodebrewを削除
-brew uninstall nodebrew
-rm -rf ~/.nodebrew
+~/Library/Preferences/Adobe Photoshop 2022 Settings/
 ```
+- アクション
+- ショートカット（knn.kys）
+- ワークスペース
 
-## ⚙️ macOS設定
-
-以下の設定を手動で適用できます：
-
+### Illustrator
+設定ファイルを以下のディレクトリにコピー：
 ```bash
-# マウススピード向上
-defaults write "Apple Global Domain" com.apple.mouse.scaling 10
-
-# キーリピート高速化
-defaults write -g InitialKeyRepeat -int 10
-defaults write -g KeyRepeat -int 1
-
-# Finderアニメーション無効化
-defaults write com.apple.finder DisableAllAnimations -boolean true
-killall Finder
-
-# 任意のアプリダウンロード許可
-sudo spctl --master-disable
+~/Library/Preferences/Adobe Illustrator 26 Settings/ja_JP/
 ```
+- ショートカット（mycustomshortcut.kys）
+- カラー設定
+- ツールパネルプリセット
+
+### Adobe Script（別リポジトリ）
+- [Photoshop Scripts](https://github.com/nknkt/photoshopScript)
+- [PS Rename Script](https://github.com/nknkt/ps-rename-script)
 
 ## 📱 アプリ個別設定
 
 ### Clipy
-スニペットを開く → インポート・エクスポート → `clipy/snippets.xml`
+1. Clipyを起動
+2. 環境設定 → スニペット
+3. インポート・エクスポート → [clipy/snippets.xml](clipy/snippets.xml) をインポート
 
 ### Rectangle
-Spectacleからの移行推奨。より活発にメンテナンスされています。
+1. Rectangleを起動
+2. 設定 → Import → [rectangle/RectangleConfig.json](rectangle/RectangleConfig.json) を選択
 
-### 手動インストール推奨アプリ
-- [Display Menu](https://apps.apple.com/jp/app/display-menu/id549083868)
-- [AltTab](https://alt-tab-macos.netlify.app/)（HyperSwitchの代替）
+または手動でショートカットを設定：
+- Left Half: `⌃⌥←`
+- Right Half: `⌃⌥→`
+- Top Half: `⌃⌥↑`
+- Bottom Half: `⌃⌥↓`
+- Maximize: `⌃⌥F`
+
+### MassCode
+スニペット管理ツール。[masscode/db.json](masscode/db.json) に設定が保存されています。
+
+**注意:** [v3.12.1](https://github.com/massCodeIO/massCode/releases/tag/v3.12.1) を使用しています。v4系は互換性の問題と起動の遅さがあるため、安定版の3系を継続利用しています。
+
+### Open With
+ブラウザからVS Codeなどのエディタを直接開く拡張機能のネイティブホスト。
+[open_with_mac.py](open_with_mac.py) がネイティブメッセージングホストとして機能します。
+
+## ⚙️ macOS設定
+
+### マウススピード向上
+```bash
+defaults write "Apple Global Domain" com.apple.mouse.scaling 10
+```
+
+### キーリピート高速化
+```bash
+defaults write -g InitialKeyRepeat -int 10
+defaults write -g KeyRepeat -int 1
+```
+
+### Finderアニメーション無効化
+```bash
+defaults write com.apple.finder DisableAllAnimations -boolean true
+killall Finder
+```
+
+### 解除する場合
+```bash
+defaults delete com.apple.finder DisableAllAnimations
+killall Finder
+```
+
+### アプリのダウンロード許可
+```bash
+sudo spctl --master-disable
+```
 
 ## 🔤 フォント
 
 推奨フォント：
-- [Fira Code](https://github.com/tonsky/FiraCode) - プログラミング用
-- [Hack Nerd Font](https://nerdfonts.com/) - ターミナル用
+- [Fira Code](https://github.com/tonsky/FiraCode) - プログラミング用リガチャフォント
 
 ```bash
 # Homebrew Caskでインストール可能
@@ -161,17 +190,12 @@ brew install --cask font-hack-nerd-font
 
 ## 🛟 トラブルシューティング
 
-### 設定を元に戻したい場合
-バックアップファイル（`.backup.YYYYMMDD_HHMMSS`）から復元：
-
-```bash
-rm ~/.gitconfig
-mv ~/.gitconfig.backup.20231210_143000 ~/.gitconfig
-```
-
 ### VS Code設定が反映されない場合
 ```bash
-# VS Code設定を再リンク
+# シンボリックリンクを確認
+ls -la ~/Library/Application\ Support/Code/User/settings.json
+
+# 再作成する場合
 cd ~/Library/Application\ Support/Code/User
 rm settings.json keybindings.json
 ln -s ~/dotfiles/Code/settings.json settings.json
@@ -187,141 +211,53 @@ cat /etc/shells | grep fish
 echo $(which fish) | sudo tee -a /etc/shells
 ```
 
-## 🤝 開発に関して
+## 📁 ディレクトリ構造
 
-### ディレクトリ構造
 ```
 dotfiles/
-├── .config/          # アプリ設定
-│   ├── fish/         # Fish Shell設定
-│   ├── git/          # Git設定
-│   └── starship.toml # Starship設定
-├── Code/             # VS Code設定
-├── adobe/            # Adobe製品設定
-├── clipy/            # Clipy設定
-├── install.sh        # 自動セットアップ
-├── homebrew_install.sh # Homebrew設定
-└── README.md         # このファイル
+├── adobe/                    # Adobe製品設定
+│   ├── Illustrator/          # Illustrator設定
+│   │   ├── ja_JP/           # 日本語設定
+│   │   │   ├── mycustomshortcut.kys
+│   │   │   ├── AI カラー設定
+│   │   │   ├── New Document Profiles/
+│   │   │   ├── ツール/
+│   │   │   └── 変更されたワークスペース/
+│   │   └── UserDictionaries/
+│   └── Photoshop/           # Photoshop設定
+│       ├── knn.kys          # カスタムショートカット
+│       ├── action/          # アクション
+│       └── WorkSpaces/      # ワークスペース
+├── clipy/                   # Clipy設定
+│   └── snippets.xml         # スニペット
+├── Code/                    # VS Code設定
+│   ├── settings.json        # エディタ設定
+│   ├── keybindings.json     # キーバインド
+│   ├── extensions.txt       # 拡張機能リスト
+│   └── snippets/            # スニペット
+│       ├── css.json
+│       ├── html.json
+│       ├── javascript.json
+│       ├── scss.json
+│       └── markdown.json
+├── masscode/                # MassCode設定
+│   └── db.json              # スニペットデータベース
+├── rectangle/               # Rectangle設定
+│   └── RectangleConfig.json # ウィンドウ管理設定
+├── imgs/                    # README用画像
+├── homebrew_install.sh      # Homebrewセットアップ
+├── install.sh               # 自動セットアップ
+├── open_with_mac.py         # Open With拡張機能ホスト
+└── README.md                # このファイル
 ```
 
-### 個別Adobe設定
-Adobe関連の設定は別リポジトリで管理：
-- [Photoshop Scripts](https://github.com/nknkt/photoshopScript)
-- [PS Rename Script](https://github.com/nknkt/ps-rename-script)
+## 🔗 手動インストール推奨アプリ
+
+- [Display Menu](https://apps.apple.com/jp/app/display-menu/id549083868) - ディスプレイ設定
+- [AltTab](https://alt-tab-macos.netlify.app/) - ウィンドウスイッチャー
+- [SCONE Diff](https://sconeapp.com/diff/) - Diffツール
 
 ## 📝 更新履歴
 
+- 2026-03: README構成を実際のディレクトリ構造に合わせて更新
 - 2024-12: 現代的な構成に全面リニューアル
-  - nodebrewからfnmに移行
-  - Spectacle → Rectangle
-  - 古いHomebrewコマンド修正
-  - VS Code設定最新化
-  - 自動セットアップスクリプト改善
-
-
-
-### adobe script
-
-別リポリトジで管理
-
-- https://github.com/nknkt/photoshopScript
-- https://github.com/nknkt/ps-rename-script
-
-
-
-## アプリ設定
-
-
-#### Clipy
-
-スニペットを開く→インポート・エクスポート
-
-
-
-#### HyperSwitch
-
-keyをoptionに（⌘+tabと使い分けるため）
-Run HyperSwitch in the backgroudにチェック
-
-![hyper-switch](/Users/kenta_kanno/dotfiles/imgs/hyper-switch.png)
-
-##### 代価候補
-
-[AltTab](https://alt-tab-macos.netlify.app/)
-
-
-
-#### Specatacle
-
-![specatacle](/Users/kenta_kanno/dotfiles/imgs/specatacle.png)
-
-
-
-#### 手動で落とすapp
-
-- [Display Menu](https://apps.apple.com/jp/app/display-menu/id549083868?mt=12)
-- [SCONE Diff](https://sconeapp.com/diff/)
-
-
-
-## font
-
-Google Font
-- [Fira Code](https://fonts.google.com/specimen/Fira+Code)
-  - [GitHub](https://github.com/tonsky/FiraCode)
-
-
-
-## vscode
-
-個人のGitHubアカウントで管理 ⌘,→基本設定→同期
-##### 同期できるもの
-
-- 設定
-- ショートカット
-- スニペット
-- プラグイン
-- UI
-
-
-
-## Mac自体の設定
-
-#### マウススピード
-
-```shell
-defaults write "Apple Global Domain" com.apple.mouse.scaling 10
-```
-
-
-
-#### キーリピート
-
-```shell
-defaults write -g InitialKeyRepeat -int 10
-defaults write -g KeyRepeat -int 1
-```
-
-
-
-#### Finderアニメ停止
-
-```shell
-defaults write com.apple.finder DisableAllAnimations -boolean true
-killall Finder
-```
-
-##### ※解除
-
-```shell
-defaults delete com.apple.finder DisableAllAnimations
-killall Finder
-```
-
-
-
-#### アプリのダウンロードの許可
-
-```shell
-sudo spctl --master-disable
-```
