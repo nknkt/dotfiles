@@ -1,31 +1,39 @@
 {
-  "header内aos読み込み": {
-    "prefix": "aos",
-    "body": [
-      "<!--「aos」CSSの読込-->",
-      "\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../common/css/aos.css\" media=\"only screen and (min-width: 960px)\" />",
-      "<!--「aos」JSの読込-->",
-      "\t<script src=\"//cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js\"></script>"
-    ],
-    "description": "header内aos読み込み"
-  },
-  "fadeup aos": {
-    "prefix": "aos",
-    "body": [
-      "data-aos=\"fade-up\""
-    ],
-    "description": "fadeで現れる"
-  },
-  "pic": {
+  "picture": {
     "prefix": "pic",
-    "description": "picture",
     "body": [
       "<picture>",
-      "  <source srcset=\"/assets/$2\" media=\"(min-width: 768px)\">",
-      "  <img src=\"/assets/$1\" alt=\"\">",
+      "  <source srcset=\"$1\" media=\"(min-width: 768px)\">",
+      "  <img src=\"$1\" alt=\"$2\" width=\"\" height=\"\" ${3|loading=\"lazy\" decoding=\"async\"|}$4",
       "</picture>"
-    ]
+    ],
+    "description": "picture"
   },
+
+  "img": {
+    "prefix": "img",
+    "body": [
+      "<img src=\"$1\" alt=\"$2\" width=\"\" height=\"\" ${3|loading=\"lazy\" decoding=\"async\"|}$4>"
+    ],
+    "description": "img with PageSpeed attributes"
+  },
+
+  "imgLCP": {
+    "prefix": "imglcp",
+    "body": [
+      "<img src=\"$1\" alt=\"$2\" width=\"\" height=\"\" fetchpriority=\"high\"$4>"
+    ],
+    "description": "img with PageSpeed attributes"
+  },
+
+  "script": {
+    "prefix": "script",
+    "body": [
+      "<script type=\"module\" src=\"$1\"$2></script>"
+    ],
+    "description": "script with defer"
+  },
+
   "placehold": {
     "prefix": "placehold",
     "description": "ダミー画像",

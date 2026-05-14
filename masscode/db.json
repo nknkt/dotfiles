@@ -3,7 +3,7 @@
     {
       "name": "css/sass",
       "parentId": "_GUj4iJR",
-      "isOpen": false,
+      "isOpen": true,
       "isSystem": false,
       "defaultLanguage": "plain_text",
       "id": "fsjGtTk4",
@@ -1185,12 +1185,12 @@
         {
           "label": "Fragment 1",
           "language": "sass",
-          "value": ".youtube {\n\tposition: relative;\n\twidth: 100%;\n\tpadding-top: 56.25%;\n\t\tiframe {\n\t\t\tposition: absolute;\n\t\t\ttop: 0;\n\t\t\tleft: 0;\n\t\t\twidth: 100%;\n\t\t\theight: 100%;\n\t\t}\n}"
+          "value": ".youtube {\n\tposition: relative;\n\twidth: 100%;\n\taspect-ratio: 16/9;\n\t\tiframe {\n\t\t\tposition: absolute;\n\t\t\ttop: 0;\n\t\t\tleft: 0;\n\t\t\twidth: 100%;\n\t\t\theight: 100%;\n\t\t}\n}"
         }
       ],
       "id": "HffG6c58",
       "createdAt": 1665657186817,
-      "updatedAt": 1665657200005
+      "updatedAt": 1768375372288
     },
     {
       "isDeleted": false,
@@ -2578,12 +2578,12 @@
         {
           "label": "Fragment 1",
           "language": "scss",
-          "value": "&__arrow {\n  position: relative;\n  width: 5.8rem;\n  height: 5.8rem;\n\n  &::before,\n  &::after {\n    content: \"\";\n    display: block;\n    width: 5.8rem;\n    height: 1px;\n    background: #fff;\n    position: absolute;\n  }\n\n  &::before {\n  \ttransform: rotate(45deg);\n\t  left: -35px;\n  }\n\n  &::after {\n    transform: rotate(135deg);\n    left: 8px;\n  }\n}"
+          "value": "&__arrow {\n  position: relative;\n\n  &::before,\n  &::after {\n    content: \"\";\n    display: block;\n    width: 5.8rem;\n    height: 1px;\n    background: #fff;\n    position: absolute;\n  }\n\n  &::before {\n  \ttransform: rotate(45deg);\n\t  left: -35px;\n  }\n\n  &::after {\n    transform: rotate(135deg);\n    left: 8px;\n  }\n}"
         }
       ],
       "id": "9Vh4irJY",
       "createdAt": 1698734300149,
-      "updatedAt": 1698735187976
+      "updatedAt": 1769665256635
     },
     {
       "isDeleted": false,
@@ -2992,7 +2992,7 @@
       "folderId": "RNdFy9Sh",
       "tagsIds": [],
       "description": null,
-      "name": "Untitled snippet",
+      "name": "figma ショートカット",
       "content": [
         {
           "label": "Fragment 1",
@@ -3002,7 +3002,7 @@
       ],
       "id": "fQN7qnvl",
       "createdAt": 1758697350077,
-      "updatedAt": 1758697368107
+      "updatedAt": 1764927668806
     },
     {
       "isDeleted": false,
@@ -3021,6 +3021,132 @@
       "id": "pOJDntg4",
       "createdAt": 1760073160887,
       "updatedAt": 1760073441020
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "Uuf6kA9F",
+      "tagsIds": [],
+      "description": null,
+      "name": "dev テスト",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "typescript",
+          "value": "https://dev.v5.vogaro.jp/\ndev\nh5YGC8nm"
+        }
+      ],
+      "id": "VAMpg8MC",
+      "createdAt": 1763110599943,
+      "updatedAt": 1763110619263
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "Uuf6kA9F",
+      "tagsIds": [],
+      "description": null,
+      "name": "2倍のpsdデータを作成する",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "typescript",
+          "value": "※持っていないフォントデータはどうしようもないので、デザイナーに依頼か等倍書き出しでお願いします。\n\n①Photoshopメニュー「イメージ」→「画像解像度」\n②チェーンマークが付いてるのを確認して、「幅：XXXX」を二倍に（例 1600px→3200px）→OK"
+        }
+      ],
+      "id": "aHUfP3Tu",
+      "createdAt": 1764557998185,
+      "updatedAt": 1764558015277
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "Uuf6kA9F",
+      "tagsIds": [],
+      "description": null,
+      "name": "todo tree",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "json",
+          "value": "\"todo-tree.highlights.customHighlight\": {\n        \"FIX\": {\n            \"foreground\": \"#ff0000\",\n            \"icon\": \"flame\",\n            \"iconColour\": \"#ff0000\"\n        },\n        \"ING\": {\n            \"foreground\": \"#ffff00\",\n            \"icon\": \"thumbsup\",\n            \"iconColour\": \"#ffff00\"\n        },\n        \"NOTE\": {\n            \"foreground\": \"#87ceeb\",\n            \"icon\": \"note\",\n            \"iconColour\": \"#87ceeb\"\n        },\n        \"TODO\": {\n            \"foreground\": \"#ffa500\",\n            \"icon\": \"checkbox\",\n            \"iconColour\": \"#ffa500\"\n        }\n},"
+        }
+      ],
+      "id": "DKR4sdY6",
+      "createdAt": 1769737748862,
+      "updatedAt": 1769737818145
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "RNdFy9Sh",
+      "tagsIds": [],
+      "description": null,
+      "name": "テスト 作成手順",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "ディレクトリを先に作る\n↓\n\nhttps://cp.kagoya.net/\nkir196426\nHesLsL#Ez7nTUfc\n↓\n\nwebサイト→ドメイン設定→独自ドメイン\n↓\n\nホスト\nリポジトリ名.v5\n.v5まで含む\n\nドメイン\nvogaro.jp\n↓\n\nwebサイト→アクセス制限→ユーザー管理\nアイパス作成\n企業名とか＋ランダムな文字列\nhttps://www.luft.co.jp/cgi/randam.php\n↓\n\nwebサイト→アクセス制限→ディレクトリ制限\n作ったディレクトリを選択→アイパスのユーザー（ID）を選択"
+        }
+      ],
+      "id": "sRfG1wmv",
+      "createdAt": 1773816823300,
+      "updatedAt": 1773817280783
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "4rgGaxbD",
+      "tagsIds": [],
+      "description": null,
+      "name": "元素材のない小さな画像を無理やり大きくする時きれいに見せる魔法",
+      "content": [
+        {
+          "label": "フラグメント 1",
+          "language": "plain_text",
+          "value": "filter: contrast(1.1) brightness(1.05) blur(0.3px);"
+        }
+      ],
+      "id": "5N8GeGY2",
+      "createdAt": 1775204993364,
+      "updatedAt": 1775526821819
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "RNdFy9Sh",
+      "tagsIds": [],
+      "description": null,
+      "name": "grid ruler テンプレ",
+      "content": [
+        {
+          "label": "フラグメント 1",
+          "language": "plain_text",
+          "value": "## ruler\n\n### 中央線\nx 50% w 1px\n\n\n## grid\n\n### 1160px 12col\ngu 4px w 1160px x center\nma 80px h 100% y 0"
+        }
+      ],
+      "id": "5NH0Gs3I",
+      "createdAt": 1775526839365,
+      "updatedAt": 1775526973056
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "Uuf6kA9F",
+      "tagsIds": [],
+      "description": null,
+      "name": "目のストレッチ",
+      "content": [
+        {
+          "label": "フラグメント 1",
+          "language": "typescript",
+          "value": "\t•\t上下左右体操: 顔を正面に向けたまま、目をゆっくり上下・左右に5秒ずつ動かします。眼球の筋肉を伸ばせます。\n\t•\tぐるぐる回し: 目を右回りに数回ゆっくり回転させ、次に左回り。終わりに寄り目で数秒キープ。\n\t•\tウインク体操: 左右交互にウインクを10回ずつ。最後に両目をぎゅっと閉じてパッと開きます。"
+        }
+      ],
+      "id": "x0dqjoiE",
+      "createdAt": 1778734290981,
+      "updatedAt": 1778734363883
     }
   ],
   "tags": [
@@ -3035,6 +3161,12 @@
       "id": "tiIZYTLp",
       "createdAt": 1693893299585,
       "updatedAt": 1693893299585
+    },
+    {
+      "name": ".json",
+      "id": "4dAhTPTZ",
+      "createdAt": 1769737762055,
+      "updatedAt": 1769737762055
     }
   ]
 }
