@@ -3147,6 +3147,24 @@
       "id": "x0dqjoiE",
       "createdAt": 1778734290981,
       "updatedAt": 1778734363883
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "Uuf6kA9F",
+      "tagsIds": [],
+      "description": null,
+      "name": "イラレ スライス",
+      "content": [
+        {
+          "label": "フラグメント 1",
+          "language": "typescript",
+          "value": "オブジェクト→スライス→作成"
+        }
+      ],
+      "id": "-B7KS3_g",
+      "createdAt": 1779409631710,
+      "updatedAt": 1779409650513
     }
   ],
   "tags": [
