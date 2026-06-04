@@ -82,6 +82,9 @@
         "*.svg": "default"
     },
     "workbench.startupEditor": "newUntitledFile",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Amber Logic Dark",
+    "workbench.externalBrowser": "default",
 
     // ===== ウィンドウ設定 =====
     "window.newWindowDimensions": "inherit",
@@ -147,17 +150,6 @@
         "lang": "ja"
     },
 
-    // ===== GitHub Copilot設定 =====
-    "github.copilot.chat.localeOverride": "ja",
-    "github.copilot.enable": {
-        "*": false,
-        "markdown": false,
-        "plaintext": false,
-        "scminput": false
-    },
-    "github.copilot.nextEditSuggestions.enabled": false,
-    "github.copilot.nextEditSuggestions.fixes": false,
-
     // ===== 拡張機能: GitLens =====
     "gitlens.ai.model": "vscode",
     "gitlens.ai.vscode.model": "copilot:gpt-4.1",
@@ -215,14 +207,15 @@
 
     // ===== 拡張機能: Code Spell Checker =====
     "cSpell.userWords": [
-        "PDCA",
-        "Splide",
-        "Vogaro",
+        "HABA",
         "iikenshimaneken",
+        "PDCA",
         "ress",
+        "Splide",
         "splidejs",
         "stylelint",
-        "thum"
+        "thum",
+        "Vogaro"
     ],
 
     // ===== 拡張機能: Docker/Containers =====
@@ -233,23 +226,4 @@
     // ===== 拡張機能: その他 =====
     "atlascode.bitbucket.enabled": true,
     "redhat.telemetry.enabled": true,
-
-    // ===== Chat設定 =====
-    "chat.tools.terminal.autoApprove": {
-        "mv": true,
-        "node": true,
-        "npm run serve &": {
-            "approve": true,
-            "matchCommandLine": true
-        },
-        "nvm": true
-    },
-    "chat.viewSessions.orientation": "stacked",
-    "inlineChat.enableV2": true,
-    "chat.tips.enabled": false,
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Amber Logic Dark",
-    "workbench.externalBrowser": "default",
-    "workbench.browser.openLocalhostLinks": false,
-    "workbench.editor.useModal": "some"
 }
