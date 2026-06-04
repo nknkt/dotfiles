@@ -225,10 +225,6 @@
         "thum"
     ],
 
-    // ===== 拡張機能: Live Server =====
-    "liveServer.settings.donotShowInfoMsg": true,
-    "liveServer.settings.donotVerifyTags": true,
-
     // ===== 拡張機能: Docker/Containers =====
     "containers.containerClient": "com.microsoft.visualstudio.containers.docker",
     "containers.orchestratorClient": "com.microsoft.visualstudio.orchestrators.dockercompose",

@@ -4,7 +4,7 @@
     "body": [
       "<picture>",
       "  <source srcset=\"$1\" media=\"(min-width: 768px)\">",
-      "  <img src=\"$1\" alt=\"$2\" width=\"\" height=\"\" ${3|loading=\"lazy\" decoding=\"async\"|}$4",
+      "  <img src=\"$1\" alt=\"$2\" width=\"\" height=\"\" ${3|loading=\"lazy\" decoding=\"async\"|}$4>",
       "</picture>"
     ],
     "description": "picture"
