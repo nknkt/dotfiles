@@ -114,6 +114,17 @@ for item in .??* */; do
     fi
 done
 
+# Cursor グローバルルールのシンボリックリンク
+CURSOR_RULES_DIR="$HOME/.cursor/rules"
+CURSOR_RULE_SOURCE="$DOTFILES_DIR/Code/prompts/japanese-tone.mdc"
+mkdir -p "$CURSOR_RULES_DIR"
+if [[ -f "$CURSOR_RULE_SOURCE" ]]; then
+    ln -sfn "$CURSOR_RULE_SOURCE" "$CURSOR_RULES_DIR/japanese-tone.mdc"
+    log_success "Cursor ルールをリンク: japanese-tone.mdc"
+else
+    log_warning "Cursor ルールのソースが見つかりません: $CURSOR_RULE_SOURCE"
+fi
+
 # 3. Git設定
 log_step "3. Git設定"
 if ! git config --global user.name &> /dev/null; then
