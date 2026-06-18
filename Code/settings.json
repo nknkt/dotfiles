@@ -226,4 +226,9 @@
     // ===== 拡張機能: その他 =====
     "atlascode.bitbucket.enabled": true,
     "redhat.telemetry.enabled": true,
+    "cursor.composer.editorConversationDensity": "detailed",
+    "cursor.composer.shouldChimeAfterChatFinishes": true,
+    "workbench.editor.editorActionsLocation": "titleBar",
+    "workbench.activityBar.orientation": "vertical",
+    "cursor.composer.queueMessageDefaultBehavior": "stop-and-send",
 }
