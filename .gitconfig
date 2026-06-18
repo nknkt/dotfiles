@@ -1,6 +1,6 @@
 [user]
-	name = kenta_kanno
-	email = kenta@example.com
+	name = vogaro-kanno
+	email = k.kanno@vogaro.co.jp
 [core]
 	editor = code --wait
 	autocrlf = input
@@ -8,8 +8,6 @@
 	precomposeunicode = true
 	ignorecase = false
 [user]
-	email = k.kanno@vogaro.co.jp
-	name = vogaro-kanno
 
 [init]
 	defaultBranch = main
@@ -62,6 +60,7 @@
 [push]
 	default = simple
 	autoSetupRemote = true
+	recurseSubmodules = check
 [pull]
 	rebase = false
 [fetch]
@@ -93,3 +92,11 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[commit]
+	gpgSign = false
+[gui]
+	pruneduringfetch = true
+[smartgit "submodule"]
+	fetchalways = false
+	update = true
+	initializenew = true
